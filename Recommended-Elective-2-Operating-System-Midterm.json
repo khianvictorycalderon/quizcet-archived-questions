@@ -1,0 +1,560 @@
+[
+  {
+    "name": "ITELEC202 Midterm Topic 1 - Platform Technologies",
+    "questions": [
+      {
+        "questionText": "In IT, any hardware or software used to host an application or service.",
+        "answer": "Platform"
+      },
+      {
+        "questionText": "Refers to the application of scientific knowledge, tools, methods, etc...",
+        "answer": "Technology"
+      },
+      {
+        "questionText": "Foundational systems, tools, frameworks, etc...",
+        "answer": "Platform Technologies"
+      },
+      {
+        "questionText": "Type of software that allow multiple operating system to run on the same physical machine.",
+        "answer": "Hypervisor"
+      },
+      {
+        "questionText": "Type of Hypervisor that runs directly on the physical hardware.",
+        "answer": "Type 1 Hypervisor"
+      },
+      {
+        "questionText": "Type of Hypervisor that runs as a software application on top of a host operating system.",
+        "answer": "Type 2 Hypervisor"
+      },
+      {
+        "questionText": "A compute resource that uses software instead of a physical computer to run programs and deploy apps.",
+        "answer": "Virtual Machine"
+      },
+      {
+        "questionText": "A type of virtual machine that allows a single process to run as an application on a host machine.",
+        "answer": "Process Virtual Machine"
+      },
+      {
+        "questionText": "A type of virtual machine that fully virtualized to substitute for a physical machine.",
+        "answer": "System Virtual Machine"
+      },
+      {
+        "questionText": "2 types of Virtual Machine.",
+        "answer": "Process Virtual Machine, System Virtual Machine"
+      },
+      {
+        "questionText": "Provides UI and App icon.",
+        "answer": "Application Software"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Midterm Topic 2 - Fundamentals of Operating System",
+    "questions": [
+      {
+        "questionText": "A system software that manages all the resources of the computing device and monitors the execution of all other programs.",
+        "answer": "Operating System"
+      },
+      {
+        "questionText": "As a platform for Application programs.",
+        "answer": "Operating System"
+      },
+      {
+        "questionText": "Can a hardware work without OS? (Yes or No)",
+        "answer": "Yes"
+      },
+      {
+        "questionText": "Uses of Operating System? (4 Items)",
+        "answer": "Managing Input-Output Unit, Multitasking, Manages Memory and Files, Provides Security"
+      },
+      {
+        "questionText": "The ______ is like a manager that controls and coordinates computer resources.",
+        "answer": "OS"
+      },
+      {
+        "questionText": "Functions of an OS? (5 Items)",
+        "answer": "Process Management, Memory Management, File Management, Device Management, User Interface"
+      },
+      {
+        "questionText": "Types of an Operating System? (10 Items)",
+        "answer": "Batch Operating System, Time-Sharing OS, Distributed Operating System, Network Operating System, Real-Time Operating System, Multiprocessing Operating System, Single-User Operating System, Multi-User Operating System, Embedded Operating System, Cluster Operating System"
+      },
+      {
+        "questionText": "Type of Operating System with maximum utilization of resources.",
+        "answer": "Time-Sharing OS"
+      },
+      {
+        "questionText": "Type of Operating system that manages a group of different computers.",
+        "answer": "Distributed Operating System"
+      },
+      {
+        "questionText": "Type of Operating System that runs on a server and provides the capability to manage data, users, groups, security, and so on...",
+        "answer": "Network Operating System"
+      },
+      {
+        "questionText": "Type of Operating System that serves a real-time system and the time interval required to process and respond to inputs is very small. The GAP between the input and output must not be far.",
+        "answer": "Real-Time Operating System"
+      },
+      {
+        "questionText": "Function of Operating System that:\nSecondary Memory -> Main Memory -> CPU",
+        "answer": "Process Management"
+      },
+      {
+        "questionText": "Function of Operating System that:\n(Process 1 & Process 2) -> OS -> (100 MB, 100MB)\n\n(Manage allocation for RAM and ROM)",
+        "answer": "Memory Management"
+      },
+      {
+        "questionText": "Function of Operating System that:\nroot -> (Directories -> /bin, /dev), (File Systems -> /usr, /temp)",
+        "answer": "File Management"
+      },
+      {
+        "questionText": "Function of Operating System that handles both input and output devices.",
+        "answer": "Device Management"
+      },
+      {
+        "questionText": "Function of Operating System that communicates with the user.",
+        "answer": "User Interface"
+      },
+      {
+        "questionText": "Type of Operating System that boosts performance of the multiple CPUs within the computer system. No Output devices, just passes the data to each other.",
+        "answer": "Multiprocessing Operating System"
+      },
+      {
+        "questionText": "Type of Operating System that allows only allows one user at a time.",
+        "answer": "Single-User Operating System"
+      },
+      {
+        "questionText": "Type of Operating System that supports multiple users simultaneously.",
+        "answer": "Multi-User Operating System"
+      },
+      {
+        "questionText": "Type of Operating System for limited resources and cannot add more features.",
+        "answer": "Embedded Operating System"
+      },
+      {
+        "questionText": "Type of Operating System that are designed to run on a group of computers to work together as a single system.",
+        "answer": "Cluster Operating System"
+      },
+      {
+        "questionText": "3 Components of Operating System.",
+        "answer": "Kernel, System Calls, Shell"
+      },
+      {
+        "questionText": "Component of an OS that acts like a kitchen, the heart of the operating system. Acts as a bridge between hardware and software.",
+        "answer": "Kernel"
+      },
+      {
+        "questionText": "Component of an OS that acts like the waiter and allows programs to request services from the OS (Instead of directly accessing hardware). They create a safe and controlled way for applications to interact with the system.",
+        "answer": "System Calls"
+      },
+      {
+        "questionText": "Component of an OS that is the interface that allows users to interact with the OS user commands and passes them to Kernel.",
+        "answer": "Shell"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Midterm Topic 3 - Introduction to Windows",
+    "questions": [
+      {
+        "questionText": "Most famous Operating System.",
+        "answer": "Windows"
+      },
+      {
+        "questionText": "A graphical operating system developed by Microsoft. It allows users to view and store files, run the software, play games, watch videos, and provides a way to connect to the internet. It was released for both home computing and professional works.",
+        "answer": "Windows"
+      },
+      {
+        "questionText": "3 Types of Windows.",
+        "answer": "Home, Pro, Enterprise"
+      },
+      {
+        "questionText": "Types of Windows that is the basic edition of windows operating system.",
+        "answer": "Windows Home"
+      },
+      {
+        "questionText": "A cross-platform browser developed by Microsoft that's installed by default on all new Windows devices.",
+        "answer": "Microsoft Edge"
+      },
+      {
+        "questionText": "The very first browser by windows and discontinued.",
+        "answer": "Internet Explorer"
+      },
+      {
+        "questionText": "A digital distribution platform and unified online marketplace operated by Microsoft for Windows 10/11, Windows Server, and Xbox.",
+        "answer": "Microsoft Store"
+      },
+      {
+        "questionText": "Types of Windows that is tailored for small businesses. It offers all the features of Windows Home, along with advanced tools such as BitLocker.",
+        "answer": "Windows Pro"
+      },
+      {
+        "questionText": "A security feature in Microsoft Windows that encrypts hard drives.",
+        "answer": "BitLocker"
+      },
+      {
+        "questionText": "Uses Microsoft Desktop Protocol (RDP) for remote connections. Users can manage these connections through te IP Address. Also known as Terminal Services Client.",
+        "answer": "Remote Desktop"
+      },
+      {
+        "questionText": "Offers centralized management across multiple forests in an organization.",
+        "answer": "Group Policy Management Console"
+      },
+      {
+        "questionText": "A Microsoft's hardware virtualization product that allows users to create and run virtual machines, which functions like complete computers with their own operating systems and programs.",
+        "answer": "Hyper-V"
+      },
+      {
+        "questionText": "Types of Windows that is designed for large organizations and corporations. It also has advanced features such as advanced threat protection, AppLocker, etc....",
+        "answer": "Windows Enterprise"
+      },
+      {
+        "questionText": "This helps enterprise networks prevents, detect, investigate, and respond to attacks by combining Windows 10 technologies with Microsoft's cloud services. It also uses threat intelligence.",
+        "answer": "Windows Defender Advanced Threat Protection"
+      },
+      {
+        "questionText": "An application whitelisting technology introduced with Microsoft's Windows 7 operating system. It allows restricting which programs users can execute based on the programs path.",
+        "answer": "App Locker"
+      },
+      {
+        "questionText": "Allows remote users to connect to organizational resource without using a traditional VPN. It keeps remote client computers always connected, eliminating the need to start or stop connections manually.",
+        "answer": "Direct Access"
+      },
+      {
+        "questionText": "Developed by Microsoft Corporation, a leading computer operating system for PCs, with around 90% market share. Launched in ____ as a GUI extension of MS-DOS, Windows introduced a visual desktop, allowing users to open files and folders with a mouse instead of typing commands.",
+        "answer": "1985"
+      },
+      {
+        "questionText": "An operating system that runs from a disk drives, such as hard disk or floppy disk. It manages files, controls hardware, and allows users to run programs.",
+        "answer": "Disk Operating System"
+      },
+      {
+        "questionText": "___ was widely used in early personal computers before graphical operating systems like Windows became popular.",
+        "answer": "DOS"
+      },
+      {
+        "questionText": "The dominant disk operating system for the personal computer (PC) throughout the 1980s. The acquisition and marketing of this were pivotal in the Microsoft Corporation's transition to software.",
+        "answer": "MS-DOS"
+      },
+      {
+        "questionText": "The very first operating system that was developed by General Motors for the IBM 1701.",
+        "answer": "GMOS"
+      },
+      {
+        "questionText": "What is the First Version of Windows?",
+        "answer": "Windows 1.0"
+      },
+      {
+        "questionText": "When was Windows 1.0 released?",
+        "answer": "November 20, 1985"
+      },
+      {
+        "questionText": "Version of Windows where you don't have to enter commands to use.",
+        "answer": "Windows 1.0"
+      },
+      {
+        "questionText": "The problem with Windows 1.0 wasn't ________ __________ by ________, who felt it was slow and too mouse focused.",
+        "answer": "Warmly Received, Critics"
+      },
+      {
+        "questionText": "When was Windows 2.0 released?",
+        "answer": "December 9, 1987"
+      },
+      {
+        "questionText": "This Windows version introduced desktop icons. Graphics were much improved.",
+        "answer": "Windows 2.0"
+      },
+      {
+        "questionText": "The issue with Windows 2.0 is ______ sued Microsoft.",
+        "answer": "Apple"
+      },
+      {
+        "questionText": "When was Windows 3.0 released?",
+        "answer": "May 22, 1990"
+      },
+      {
+        "questionText": "When was Windows 3.1 released?",
+        "answer": "March 1, 1992"
+      },
+      {
+        "questionText": "When was Windows 95 released?",
+        "answer": "August 24, 1995"
+      },
+      {
+        "questionText": "A version of Windows that introduced Start menu, which ended up being so popular that is absence in Windows 8.",
+        "answer": "Windows 95"
+      },
+      {
+        "questionText": "The first operating system that supports internet activities.",
+        "answer": "Windows 95"
+      },
+      {
+        "questionText": "Version of Windows that introduced a usable graphical interface with overlapping windows, improved memory management, and multitasking that made Windows commercially successful.",
+        "answer": "Windows 3.0"
+      },
+      {
+        "questionText": "Version of Windows that enhanced Windows 3.0 with TrueType fonts, multimedia support, and better stability.",
+        "answer": "Windows 3.1"
+      },
+      {
+        "questionText": "3 Problems with Windows 98.",
+        "answer": "Stability Issues, Memory Leaks, Poor Driver Support"
+      },
+      {
+        "questionText": "3 Problems with Windows ME.",
+        "answer": "Unstable and Buggy, Networking Problems, No Real DOS Mode"
+      },
+      {
+        "questionText": "2 Problems with Windows 2000.",
+        "answer": "Not for Home Users, Driver and Software Compatibility Issues"
+      },
+      {
+        "questionText": "Superstar of the lineup.",
+        "answer": "Windows XP"
+      },
+      {
+        "questionText": "When was Windows XP released?",
+        "answer": "October 25, 2001"
+      },
+      {
+        "questionText": "The titanic of Windows.",
+        "answer": "Windows Vista"
+      },
+      {
+        "questionText": "When was Windows Vista released?",
+        "answer": "January 30, 2007"
+      },
+      {
+        "questionText": "When was Windows 7 released?",
+        "answer": "October 22, 2009"
+      },
+      {
+        "questionText": "When was Windows 8 released?",
+        "answer": "October 26, 2012"
+      },
+      {
+        "questionText": "When was Windows 10 released?",
+        "answer": "July 29, 2015"
+      },
+      {
+        "questionText": "When was Windows 11 released?",
+        "answer": "October 5, 2021"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Midterm Topic 4 - Overview of Windows OS Architecture",
+    "questions": [
+      {
+        "questionText": "5 Types of OS Architecture.",
+        "answer": "Monolithic, Microkernel, Layered, Client-Server, Hybrid"
+      },
+      {
+        "questionText": "Types of OS Architecture that run in a single large kernel.",
+        "answer": "Monolithic Architecture"
+      },
+      {
+        "questionText": "Types of OS Architecture with minimal kernel, with most services running in user space.",
+        "answer": "Microkernel Architecture"
+      },
+      {
+        "questionText": "Windows uses a ___________ Architecure.",
+        "answer": "Hybrid"
+      },
+      {
+        "questionText": "______________ structure is nothing but just a combination of both monolithic-kernel structure and micro-kernel structure.",
+        "answer": "Hybrid-Kernel"
+      },
+      {
+        "questionText": "Types of OS Architecture that are organized into hierarchy.",
+        "answer": "Layered Architecture"
+      },
+      {
+        "questionText": "Types of OS Architecture where services are managed as separate processes.",
+        "answer": "Client-Server Architecture"
+      },
+      {
+        "questionText": "Types of OS Architecture that combines aspects of both monolithic and microkernel designs.",
+        "answer": "Hybrid Architecture"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Midterm Topic 5 - Understanding the Windows User Interface",
+    "questions": [
+      {
+        "questionText": "Windows 11 ushered in significant ___ ________, including windows with _________ ________, an updated Start menu, and icons in the middle of the taskbar.",
+        "answer": "UI Changes, Rounded Corners"
+      },
+      {
+        "questionText": "The ___________________________ is the visual image or solid color displayed on the desktop. Users can customize it with personal images, built-in Windows themes, or live wallpapers to enhance aesthetics and personalization.",
+        "answer": "Wallpaper and Desktop Background"
+      },
+      {
+        "questionText": "_____________________ are shortcuts to files, folders, applications, or system locations, such as \"This PC\" and \"Recycle Bin.\" They provide quick access to frequently used items and can be customized, moved, or deleted according to user preferences.",
+        "answer": "Desktop Icons"
+      },
+      {
+        "questionText": "___________ (formerly \"My Computer\") provides access to all storage devices connected to the computer, including internal hard drives, SSDs, USB drives, and network locations.",
+        "answer": "This PC"
+      },
+      {
+        "questionText": "The _________________ temporarily stores deleted files and folders, allowing users to restore them if needed. Files remain in the Recycle Bin until it is emptied manually or reaches its storage limit, at which point Windows automatically removes the oldest deleted items.",
+        "answer": "Recycle Bin"
+      },
+      {
+        "questionText": "The __________ icon provides access to the computer’s network settings and connected devices. It allows users to view available Wi-Fi networks, connected Ethernet devices, shared folders, and networked computers.",
+        "answer": "Network"
+      },
+      {
+        "questionText": "__________________ is a legacy system settings interface that allows users to configure advanced system settings, such as hardware devices, security settings, installed programs, and system preferences.",
+        "answer": "Control Panel"
+      },
+      {
+        "questionText": "______________ is the built-in file management application in Windows 11. It allows users to navigate through their computer's storage drives, organize files and folders, move or copy items, and access OneDrive cloud storage.",
+        "answer": "File Explorer"
+      },
+      {
+        "questionText": "This icon represents the user’s personal directory and provides quick access to folders.",
+        "answer": "Folder"
+      },
+      {
+        "questionText": "Folder icon represents the user’s personal directory and provides quick access to folders such as:\n1.) ____________ - Stores text files, reports, and saved documents.\n2.) ____________ - Holds files downloaded from the internet or email attachments.\n3.) ___________ - Contains saved images, screenshots, and imported photos.\n4.) ________ - Stores audio files and playlists.\n5.) ________ - Keeps video files and recorded clips.",
+        "answer": "Documents, Downloads, Pictures, Music, Videos"
+      },
+      {
+        "questionText": "____________ is the default web browser for Windows 11. It supports modern web standards, built-in security features, and integration with Microsoft services like Bing and OneDrive.",
+        "answer": "Microsoft Edge"
+      },
+      {
+        "questionText": "The ________________ is the official marketplace for downloading and updating applications, games, and digital content. It provides access to both free and paid software, including productivity tools, entertainment apps, and games. The Store is also used to update system apps and certain built-in Windows components.",
+        "answer": "Microsoft Store"
+      },
+      {
+        "questionText": "The __________ is a horizontal bar, usually at the bottom of the screen, that contains the Start button, pinned applications, running program icons, and system tray icons (such as volume, battery, Wi-Fi, and time). It allows users to switch between open applications easily and provides quick access to essential functions.",
+        "answer": "Taskbar"
+      },
+      {
+        "questionText": "The _____________ is the main gateway to applications, settings, and files. It features a search bar, pinned apps, recent files, and a \"Recommended\" section for quick access to frequently used items. It also includes a power menu for shutting down, restarting, or putting the computer to sleep.",
+        "answer": "Start Menu"
+      },
+      {
+        "questionText": "The ___________, integrated within the Start Menu or taskbar, allows users to quickly find apps, files, and settings on the computer or search the web. It supports natural language queries and provides instant results with suggestions.",
+        "answer": "Search Bar"
+      },
+      {
+        "questionText": "____________ is a feature that allows users to create and manage multiple virtual desktops. It helps in organizing different workspaces, making multitasking more efficient by separating apps and files into different screens without closing them.",
+        "answer": "Task View"
+      },
+      {
+        "questionText": "The _____________ is a customizable interface that provides at-a-glance information, such as news, weather, calendar events, stocks, and traffic updates. It is accessible via the taskbar and can be personalized to show relevant content.",
+        "answer": "Widgets Panel"
+      },
+      {
+        "questionText": "_______________ is an accessible panel that provides quick toggles for essential system functions like Wi-Fi, Bluetooth, Volume, Brightness, Battery Saver, and Airplane Mode. It can be opened by clicking on the system tray area in the taskbar.",
+        "answer": "Action Center"
+      },
+      {
+        "questionText": "The ________________ is a panel that displays notifications from system apps, third-party applications, and services. It also includes a built-in calendar view, allowing users to keep track of important dates and reminders.",
+        "answer": "Notification Center"
+      },
+      {
+        "questionText": "The ________________________ appears when a user right- clicks on an item, providing quick options such as \"Open, \" \"Copy, \" \"Rename, \" \"Properties, \" and \"Delete.\" In Windows 11, it features a modern design with simplified options and an \"Show More Options\" button for legacy menu items.",
+        "answer": "Right-Click Context Menu"
+      },
+      {
+        "questionText": "________________ is a feature that allows users to quickly arrange open windows into predefined layouts, improving multitasking. Snap Groups remembers sets of snapped windows, making it easy to switch between different tasks and maintain workflow efficiency.",
+        "answer": "Snap Layouts"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Midterm Topic 6 - Installing Windows",
+    "questions": [
+      {
+        "questionText": "The required specifications a device must have in order to use certain hardware or software.",
+        "answer": "System Requirements"
+      },
+      {
+        "questionText": "System Requirements is a specification a device must have in order to use certain _______ or ______.",
+        "answer": "Hardware, Software"
+      },
+      {
+        "questionText": "8 categories of system requirements.",
+        "answer": "Processor, Memory, Storage, System Firmware, Trusted Platform Module, Graphics Card, Display, Internet Connection"
+      },
+      {
+        "questionText": "Windows 11 requires at least ______ or faster with at least ________.",
+        "answer": "1 GHz, 2 Cores"
+      },
+      {
+        "questionText": "Windows 11 requires with a ______ processor or System on a chip (SoC).",
+        "answer": "64-Bit"
+      },
+      {
+        "questionText": "Windows 11 Home edition requires an __________ and a Microsoft account during setup.",
+        "answer": "Internet Connection"
+      },
+      {
+        "questionText": "Windows 11 requires at least _______ display that is _______ or larger 8-bit color.",
+        "answer": "720P, 9 Inches"
+      },
+      {
+        "questionText": "7 Considerations before installing Windows 11.",
+        "answer": "Compatibility Check, Backup Your Data, Choose Installation Type, Prepare Installation Media, Check Software and Driver Compatibility, Enable Secure Boot and TPM 2.0, Internet and Microsoft Account Requirement"
+      },
+      {
+        "questionText": "Use Microsoft's PC health check tool to verify if your device meets Windows 11 requirements.",
+        "answer": "Compatibility Check"
+      },
+      {
+        "questionText": "Save important files to an external drive or clod storage.",
+        "answer": "Backup Your Data"
+      },
+      {
+        "questionText": "Types of Windows 11 Installation.",
+        "answer": "Clean Install, Upgrade Install, Dual Boot"
+      },
+      {
+        "questionText": "Best for a fresh start, erase everything.",
+        "answer": "Clean Install"
+      },
+      {
+        "questionText": "Keeps files and apps but may carry over system issues.",
+        "answer": "Upgrade Install"
+      },
+      {
+        "questionText": "Allows running windows 11 alongside another OS.",
+        "answer": "Dual Boot"
+      },
+      {
+        "questionText": "When initial OS is the same that needs fixing, also known as IN-PLACE UPGRADE.",
+        "answer": "Repair Installation"
+      },
+      {
+        "questionText": "A software program that is responsible for management of the booting of the process of the computer.",
+        "answer": "Boot Manager"
+      },
+      {
+        "questionText": "A software program that is responsible for actually loading the operating system once the boot manager finished its work.",
+        "answer": "Boot Loader"
+      },
+      {
+        "questionText": "By loading OS, we mean __________ of the operating system.",
+        "answer": "Loading the Kernel"
+      },
+      {
+        "questionText": "Refers to a physical device (such as a USB flash drive or DVD) or a digital file (such as an ISO image) containing the necessary files, tools, and bootloader needed to install, reinstall, or repair an operating system or software.",
+        "answer": "Installation Media"
+      },
+      {
+        "questionText": "Refers to a crucial diagnostic routine initiated by a computer's firmware (BIOS/UEFI) immediately upon power on to ensure hardware essential for booting—such as CPU, RAM, and storage—is functional.",
+        "answer": "Power-On Self-Test"
+      },
+      {
+        "questionText": "Steps in preparing Installation Media.",
+        "answer": "Download ISO File, Create Bootable USB Using Rufus"
+      }
+    ]
+  }
+]
