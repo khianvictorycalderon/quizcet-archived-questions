@@ -1,0 +1,674 @@
+[
+  {
+    "name": "ITPS206 Midterm Topic 1 - Introduction to Computer Networking",
+    "questions": [
+      {
+        "questionText": "History of Long-Distance Communication? (7 Items)",
+        "answer": "Smoke Signals, Pigeon Courier, Semaphore Flags, Pony Express, Electrical Telegraph, Wireless Telegraphy, Telephone"
+      },
+      {
+        "questionText": "Who invented Semaphore Flags?",
+        "answer": "Claude Chappe"
+      },
+      {
+        "questionText": "Who invented Electrical Telegraph?",
+        "answer": "Samuel Morse, Alfred Vail"
+      },
+      {
+        "questionText": "Who invented Telephone?",
+        "answer": "Alexander Graham Bell"
+      },
+      {
+        "questionText": "Types of data that represents via sine wave.",
+        "answer": "Analog Data"
+      },
+      {
+        "questionText": "Types of data that represents via square wave.",
+        "answer": "Digital Data"
+      },
+      {
+        "questionText": "Analog data is represented via?",
+        "answer": "Sine Wave"
+      },
+      {
+        "questionText": "Digital Data is represented via?",
+        "answer": "Square Wave"
+      },
+      {
+        "questionText": "Who coined Information Theory?",
+        "answer": "Claude Shannon"
+      },
+      {
+        "questionText": "The one where the information came from.",
+        "answer": "Source"
+      },
+      {
+        "questionText": "It encodes the source's information.",
+        "answer": "Source Encoder"
+      },
+      {
+        "questionText": "Picks signal and send it.",
+        "answer": "Transmitter"
+      },
+      {
+        "questionText": "The path the message will traverse.",
+        "answer": "Channel"
+      },
+      {
+        "questionText": "Filters and receives message.",
+        "answer": "Receiver"
+      },
+      {
+        "questionText": "Decodes the receiver's message.",
+        "answer": "Source Decoder"
+      },
+      {
+        "questionText": "Destination of the message.",
+        "answer": "Sink"
+      },
+      {
+        "questionText": "Source or destination of a message. If the data starts or stops there, it's a _________________.",
+        "answer": "End Devices"
+      },
+      {
+        "questionText": "These connects the end devices to the network or connect multiple networks together. They ensure data flows efficiently across the infrastructure.",
+        "answer": "Intermediary Devices"
+      },
+      {
+        "questionText": "Gets the Internet, a.k.a, the ISP.",
+        "answer": "Modem"
+      },
+      {
+        "questionText": "A device that connects devices to the internet.",
+        "answer": "Router"
+      },
+      {
+        "questionText": "The ROAD or Channel over which the message travels.",
+        "answer": "Network Media"
+      },
+      {
+        "questionText": "Rules that software follow that makes communication possible.",
+        "answer": "Network Services and Protocols"
+      },
+      {
+        "questionText": "Components of a Network? (4 Items)",
+        "answer": "End Devices, Intermediary Devices, Network Media, Network Services and Protocols"
+      },
+      {
+        "questionText": "What does IEEE mean?",
+        "answer": "Institute of Electrical and Electronics Engineers"
+      },
+      {
+        "questionText": "Who decides ethernet cable needs specific radio waves, volts, and so on? (Acronym only)",
+        "answer": "IEEE"
+      },
+      {
+        "questionText": "What does IETF mean?",
+        "answer": "Internet Engineering Task Force"
+      },
+      {
+        "questionText": "An open international community of network designers, operators, and researchers? (Acronym only)",
+        "answer": "IETF"
+      },
+      {
+        "questionText": "These are the official documents of the IETF that define every protocol on the internet, from TCP/IP and HTTP to SMTP. (Acronym only)",
+        "answer": "RFC"
+      },
+      {
+        "questionText": "What does RFC mean?",
+        "answer": "Request for Comments"
+      },
+      {
+        "questionText": "A global federation of national standard bodies. (Acronym only)",
+        "answer": "ISO"
+      },
+      {
+        "questionText": "What does ISO mean?",
+        "answer": "International Organization for Standardization"
+      },
+      {
+        "questionText": "OSI Model from top to bottom. (7 Items)",
+        "answer": "Application, Presentation, Session, Transport, Network, Data-Link, Physical"
+      },
+      {
+        "questionText": "This organization focuses on global telecommunications. (Acronym only)",
+        "answer": "ITU"
+      },
+      {
+        "questionText": "What does ITU mean?",
+        "answer": "International Telecommunication Union"
+      },
+      {
+        "questionText": "2 organization that focuses on physical side of networking.",
+        "answer": "TIA/EIA"
+      },
+      {
+        "questionText": "What does TIA mean?",
+        "answer": "Telecommunications Industry Association"
+      },
+      {
+        "questionText": "What does EIA mean?",
+        "answer": "Electronic Industries Alliance"
+      },
+      {
+        "questionText": "5 Network Orgranizations? (Acronyms only)",
+        "answer": "IEEE, IETF, ISO, ITU, TIA/EIA"
+      },
+      {
+        "questionText": "Why standards matter? (3 items)",
+        "answer": "Lower Costs, Competition, Future-Proofing"
+      },
+      {
+        "questionText": "IEEE Standard for 802 family, version only. (3 Itmes)",
+        "answer": "802.3, 802.11, 802.15"
+      },
+      {
+        "questionText": "IEEE Standard 802 for Ethernet (Wired).",
+        "answer": "802.3"
+      },
+      {
+        "questionText": "IEEE Standard 802 for Wi-Fi (Wireless).",
+        "answer": "802.11"
+      },
+      {
+        "questionText": "IEEE Standard 802 for Bluetooth & WPAN (Wireless Personal Area Network).",
+        "answer": "802.15"
+      },
+      {
+        "questionText": "What does WAP mean?",
+        "answer": "Wireless Access Point"
+      },
+      {
+        "questionText": "The transmission of voice and data without cable or wires.",
+        "answer": "Wireless Transmission"
+      }
+    ]
+  },
+  {
+    "name": "ITPS206 Midterm Topic 2 - Network Types and Topologies",
+    "questions": [
+      {
+        "questionText": "Types of Computer Network that is usually owned by individual and very limited range of 10 meters.",
+        "answer": "Personal Area Network"
+      },
+      {
+        "questionText": "Types of Computer Network that uses wireless or wired connection within small Geographic Area, usually within the room.",
+        "answer": "Local Area Network"
+      },
+      {
+        "questionText": "Types of Computer Network that is composed of multiple LANs connections.",
+        "answer": "Campus Area Network"
+      },
+      {
+        "questionText": "Types of Computer Network within the city only.",
+        "answer": "Metropolitan Area Network"
+      },
+      {
+        "questionText": "Types of Computer Network around the world.",
+        "answer": "Wide Area Network"
+      },
+      {
+        "questionText": "Types of Common Computer Network. (5 Items, acronym only)",
+        "answer": "PAN, LAN, CAN, MAN, WAN"
+      },
+      {
+        "questionText": "Types of Computer Network acts as an interface for the storage and the user.",
+        "answer": "Storage Area Network"
+      },
+      {
+        "questionText": "Types of Computer Network for protection by hiding addresses, IPs, and so on...",
+        "answer": "Virtual Private Network"
+      },
+      {
+        "questionText": "Types of Computer Network that is wireless version of wired network for small area only.",
+        "answer": "Wireless Local Area Network"
+      },
+      {
+        "questionText": "Types of Specialized Computer Network? (3 Items acronym only)",
+        "answer": "SAN, VPN, WLAN"
+      },
+      {
+        "questionText": "A Network Architecture where there is a centralized node where other devices connect.",
+        "answer": "Client-Server Architecture"
+      },
+      {
+        "questionText": "A Network Architecture that directly connects devices to each other.",
+        "answer": "Peer-To-Peer Architecture"
+      },
+      {
+        "questionText": "2 Types of Network Architecture.",
+        "answer": "Client-Server Architecture, Peer-To-Peer Architecture"
+      },
+      {
+        "questionText": "Type of Network Topology of what the real-world layout.",
+        "answer": "Physical Topology"
+      },
+      {
+        "questionText": "Type of Network Topology of how data flows from one device to another.",
+        "answer": "Logical Topology"
+      },
+      {
+        "questionText": "2 Types of Network Topologies.",
+        "answer": "Physical Topology, Logical Topology"
+      },
+      {
+        "questionText": "Network Topology that directly connects 2 nodes or devices.",
+        "answer": "Point-To-Point Topology"
+      },
+      {
+        "questionText": "Network Topology that has a speaker and listener.",
+        "answer": "Point-To-Multipoint Topology"
+      },
+      {
+        "questionText": "Network Topology that has a master and slaves.",
+        "answer": "Multidrop Topology"
+      },
+      {
+        "questionText": "Network Topology where it needs to go from a middle node/s to go to the final node.",
+        "answer": "Bus Topology"
+      },
+      {
+        "questionText": "Network Topology that is closed loop version of Bus Topology.",
+        "answer": "Ring Topology"
+      },
+      {
+        "questionText": "Network Topology that is hierarchical. A combination of star and bus.",
+        "answer": "Tree Topology"
+      },
+      {
+        "questionText": "Network Topology where all notes connect to a central hub/switch.",
+        "answer": "Star Topology"
+      },
+      {
+        "questionText": "Network Topology where every node is connected to every node.",
+        "answer": "Mesh Topology"
+      },
+      {
+        "questionText": "Network Topologies, Not the Types (Physical and Logical). (8 Items without the word TOPOLOGY).",
+        "answer": "Point-To-Point, Point-To-Multipoint, Multidrop, Bus, Ring, Tree, Star, Mesh"
+      }
+    ]
+  },
+  {
+    "name": "ITPS206 Midterm Topic 3 - Network Model and Protocols",
+    "questions": [
+      {
+        "questionText": "A conceptual framework that describes how data moves from an application on one computer, through a network medium, to an application on another computer.",
+        "answer": "OSI Model"
+      },
+      {
+        "questionText": "Definition of OSI acronym.",
+        "answer": "Open System Interconnection"
+      },
+      {
+        "questionText": "OSI Model Layer that is the interface between the user and the network. It's where you interact with applications like Chrome, Outlook, or Skype.",
+        "answer": "Application Layer"
+      },
+      {
+        "questionText": "OSI Model Layer that presents data to the application layer. It handles data translation, encryption (for security), and compression.",
+        "answer": "Presentation Layer"
+      },
+      {
+        "questionText": "7 Open System Intercommunication layers.",
+        "answer": "Application, Presentation, Session, Transport, Network, Data-Link, Physical"
+      },
+      {
+        "questionText": "OSI Model Layer that manages the dialogue between two computers. It starts, maintains, and ends the communication session.",
+        "answer": "Session Layer"
+      },
+      {
+        "questionText": "OSI Model Layer that ensures the data is delivered correctly. It handles Error Recovery and Flow Control (making sure the sender doesn't send data faster than the receiver can handle).",
+        "answer": "Transport Layer"
+      },
+      {
+        "questionText": "Transport Layer that is fast.",
+        "answer": "UDP"
+      },
+      {
+        "questionText": "Transport Layer that is accurate and reliable.",
+        "answer": "TCP"
+      },
+      {
+        "questionText": "OSI Model Layer that handles routing. It finds the best path for data to travel across different networks using logical addresses (IP).",
+        "answer": "Network Layer"
+      },
+      {
+        "questionText": "A packet carries a __________.",
+        "answer": "Package"
+      },
+      {
+        "questionText": "A process of dividing the messages or data into smaller fragments.",
+        "answer": "Segmentation"
+      },
+      {
+        "questionText": "OSI Model Layer that handles communication between devices on the same local network. It uses MAC addresses (hardcoded on your network card).",
+        "answer": "Data-Link Layer"
+      },
+      {
+        "questionText": "The difference between Switch and Hub is that Hub ___________ to all devices while Switch only do it once then it doesn't need to do it again.",
+        "answer": "Broadcasts"
+      },
+      {
+        "questionText": "OSI Model Layer that is the actual hardware. It involves cables, radio waves (Wi-Fi), and electrical signals (bits: 1s and 0S).",
+        "answer": "Physical Layer"
+      },
+      {
+        "questionText": "4 Layers of TCP/IP model.",
+        "answer": "Application, Transport, Internet, Network Access"
+      },
+      {
+        "questionText": "Common Network Protocols (OSI Model) for Application Layer.",
+        "answer": "HTTP/HTTPS, DNS, SMTP, FTP"
+      },
+      {
+        "questionText": "Common Network Protocols (OSI Model) for Presentation Layer.",
+        "answer": "SSL/TLS, JPEG/GIF/PNG, MPEG/MP3"
+      },
+      {
+        "questionText": "Common Network Protocols (OSI Model) for Session Layer.",
+        "answer": "NetBIOS, RPC, PPTP"
+      },
+      {
+        "questionText": "Common Network Protocols (OSI Model) for Transport Layer.",
+        "answer": "TCP, UDP"
+      },
+      {
+        "questionText": "Common Network Protocols (OSI Model) for Network Layer.",
+        "answer": "IPv4/IPv6, ICMP, IPSec"
+      },
+      {
+        "questionText": "Common Network Protocols (OSI Model) for Data Link Layer.",
+        "answer": "Ethernet, Wi-Fi, ARP, PPP"
+      },
+      {
+        "questionText": "Governs how web browsers request and receive web pages.",
+        "answer": "HTTP/HTTPS"
+      },
+      {
+        "questionText": "Resolves human-readable names into IP addresses.",
+        "answer": "DNS"
+      },
+      {
+        "questionText": "The standard for sending electronic mail.",
+        "answer": "SMTP"
+      },
+      {
+        "questionText": "Used for the exchange of files between a client and a server.",
+        "answer": "FTP"
+      },
+      {
+        "questionText": "Manages encryption and decryption for secure data transfer.",
+        "answer": "SSL/TLS"
+      },
+      {
+        "questionText": "Standards for image formatting and compression",
+        "answer": "JPEG/GIF/PNG"
+      },
+      {
+        "questionText": "Standards for video and audio compression and coding.",
+        "answer": "MPEG/MP4"
+      },
+      {
+        "questionText": "Allows applications on separate computers to communicate over a LAN.",
+        "answer": "NetBIOS"
+      },
+      {
+        "questionText": "Allows a program to cause a subroutine to execute in another address space (commonly on another computer).",
+        "answer": "RPC"
+      },
+      {
+        "questionText": "A method for implementing virtual private networks.",
+        "answer": "PPTP"
+      },
+      {
+        "questionText": "A connection-oriented protocol that ensures data arrives in order and without errors through \"acknowledgments.\"",
+        "answer": "TCP"
+      },
+      {
+        "questionText": "A connectionless protocol used for speed. It does not check for errors or arrival (used in VoIP and gaming).",
+        "answer": "UDP"
+      },
+      {
+        "questionText": "The primary protocols responsible for logical addressing and routing.",
+        "answer": "IPv4/IPv6"
+      },
+      {
+        "questionText": "Used by network devices to send error messages (e.g., the requested service is unavailable)",
+        "answer": "ICMP"
+      },
+      {
+        "questionText": "A suite of protocols for securing IP communications by authenticating and encrypting each IP packet.",
+        "answer": "IPSec"
+      },
+      {
+        "questionText": "The most widely used wired LAN technology.",
+        "answer": "Ethernet"
+      },
+      {
+        "questionText": "The standard for wireless local area networking.",
+        "answer": "Wi-Fi"
+      },
+      {
+        "questionText": "Resolves a known IP address to a physical MAC address.",
+        "answer": "ARP"
+      },
+      {
+        "questionText": "Used to establish a direct connection between two nodes (like your router to your ISP).",
+        "answer": "PPTP"
+      },
+      {
+        "questionText": "A short-range wireless technology standard.",
+        "answer": "Bluetooth"
+      },
+      {
+        "questionText": "Technology used to transmit digital data over telephone lines.",
+        "answer": "DSL"
+      },
+      {
+        "questionText": "The technical standard for Gigabit Ethernet over copper wiring.",
+        "answer": "1000Base-T"
+      }
+    ]
+  },
+  {
+    "name": "ITPS206 Midterm Topic 4 - Networking Devices",
+    "questions": [
+      {
+        "questionText": "A hardware component, typically a circuit board or chip, that allows a computer to connect to a network. It serves as the middleman between your device and the data cables or wireless signals that carry information.",
+        "answer": "Network Interface Card"
+      },
+      {
+        "questionText": "Key characteristics of NIC.",
+        "answer": "Translator, Passport, Data Buffering"
+      },
+      {
+        "questionText": "It takes the digital data from your computer (parallel data) and converts it into electrical, optical, or radio signals (serial data) that can travel over a wire or through the air.",
+        "answer": "The Translator"
+      },
+      {
+        "questionText": "Every NIC has a unique, permanent identification number burned into it at the factory, known as a MAC Address (Media Access Control).",
+        "answer": "The Passport (MAC Address)"
+      },
+      {
+        "questionText": "It manages the speed of data. If the network is sending data faster than your computer can process it, the NIC holds that data in a small onboard memory buffer until the CPU is ready.",
+        "answer": "Data Buffering"
+      },
+      {
+        "questionText": "Types of NIC.",
+        "answer": "Wired, Wireless, USB"
+      },
+      {
+        "questionText": "Features an RJ-45 port where you plug in an Ethernet cable. These are known for being very stable and fast.",
+        "answer": "Wired NIC"
+      },
+      {
+        "questionText": "Uses antenna to receive radio waves. This is the Wi-Fi card found inside almost every modern laptop and smartphone.",
+        "answer": "Wireless NIC"
+      },
+      {
+        "questionText": "An external adapter that plugs into a USB port to give a device network capability (common for modern laptops that are too thin for a standard Ethernet port).",
+        "answer": "USB NIC"
+      },
+      {
+        "questionText": "00-00-00-11-11-11. What is the meaning of the 0s?",
+        "answer": "Organization Unique Identifier"
+      },
+      {
+        "questionText": "00-00-00-11-11-11. What is the meaning of the 1s?",
+        "answer": "Device Unique Identifier"
+      },
+      {
+        "questionText": "A basic networking device used to connect multiple computers or devices together in a Local Area Network (LAN).",
+        "answer": "Hub"
+      },
+      {
+        "questionText": "Key characteristics of Hub.",
+        "answer": "Shared Bandwidth, Half-Duplex Communication, Single Collision Domain, Layer 1 Device"
+      },
+      {
+        "questionText": "If a hub has a speed of 100 Mbps and 10 computers are talking at once, they all have to share that 100 Mbps. It gets slower as more devices are added.",
+        "answer": "Shared Bandwidth"
+      },
+      {
+        "questionText": "Devices on a hub cannot talk and listen at the exact same time. It's like a Walkie-Talkie; if two people try to speak at once, a collision occurs, and the data is corrupted.",
+        "answer": "Half-Duplex Communication"
+      },
+      {
+        "questionText": "Because everyone is on the same wire logically, only one person can successfully send data at a time.",
+        "answer": "Single Collision Domain"
+      },
+      {
+        "questionText": "In the OSI model, a hub exists only at the Physical Layer. It just moves electrical bits; it doesn't understand MAC addresses or IP addresses.",
+        "answer": "Layer 1 Device"
+      },
+      {
+        "questionText": "A high-speed networking device that connects multiple devices (computers, printers, servers) within a Local Area Network.",
+        "answer": "Switch"
+      },
+      {
+        "questionText": "Key characteristics of Switch.",
+        "answer": "Full-Duplex Communication, Dedicated Bandwidth, Collision-Free, Layer 2 Device"
+      },
+      {
+        "questionText": "Allows devices to send and receive data at the same time. It's like a Telephone rather than a Walkie-Talkie.",
+        "answer": "Full-Duplex Communication"
+      },
+      {
+        "questionText": "If you have a 1 Gbps switch, every single port gets the full 1 Gbps speed. They don't have to share it like they do on a hub.",
+        "answer": "Dedicated Bandwidth"
+      },
+      {
+        "questionText": "Because the switch creates a dedicated path between the ports, they never crash into each other.",
+        "answer": "Collision-Free"
+      },
+      {
+        "questionText": "In the OSI model, a switch operates at the Data Link Layer because it makes decisions based on MAC Address.",
+        "answer": "Layer 2 Device"
+      },
+      {
+        "questionText": "A sophisticated networking device that connects different networks together. While a switch connects devices inside a house or office (a LAN), it connects that entire house to the outside world (the Internet/WAN).",
+        "answer": "Router"
+      },
+      {
+        "questionText": "Key characteristics of Router.",
+        "answer": "Layer 3 Device, Boundary Device, Network Address Translation"
+      },
+      {
+        "questionText": "The router acts as a GATEAWAY. It is the security guard that sits between your private home network and the scary public internet.",
+        "answer": "Boundary Device"
+      },
+      {
+        "questionText": "This is a special MAGIC TRICK your home router does. It takes the one IP address your ISP gives you and shares it among your phone, laptop, etc...",
+        "answer": "Network Address Translation"
+      },
+      {
+        "questionText": "A network administrator manually types the paths into the router's configuration.",
+        "answer": "Static Routing"
+      },
+      {
+        "questionText": "Routers use protocols (like ESPF or EIGRP) to talk to each other. They GOSSIP about the networks they know.",
+        "answer": "Dynamic Routing"
+      },
+      {
+        "questionText": "2 Types of routing.",
+        "answer": "Static Routing, Dynamic Routing"
+      },
+      {
+        "questionText": "The physical paths used to carry data.",
+        "answer": "Transmission Media"
+      },
+      {
+        "questionText": "Guided transmission media are ________.",
+        "answer": "Wired"
+      },
+      {
+        "questionText": "Unguided transmission media are ______.",
+        "answer": "Wireless"
+      },
+      {
+        "questionText": "Most common for LANs. It uses electrical pulses, pairs of copper wires are twisted together to form a single communication link.",
+        "answer": "Twisted Pair Cable (Copper)"
+      },
+      {
+        "questionText": "Twisted pair cable is twisted due to __________.",
+        "answer": "Electromagnetic Inteferences"
+      },
+      {
+        "questionText": "Two main types of Twisted Pair of Cables.",
+        "answer": "Unshielded Twisted Pair, Shielded Twisted Pair"
+      },
+      {
+        "questionText": "This is the standard cable used in almost all homes and offices. It consists of color-coded copper wires with no extra shielding between the wires and the outer plastic jacket.",
+        "answer": "Unshielded Twisted Pair"
+      },
+      {
+        "questionText": "Pros of Unshielded Twisted Pair.",
+        "answer": "Cheap, Flexible, Easy to Install"
+      },
+      {
+        "questionText": "Cons of Unshielded Twisted Pair.",
+        "answer": "Susceptible to Outside Interference"
+      },
+      {
+        "questionText": "This version includes a metal foil or braided mesh casing around each pair (or the entire bundle).",
+        "answer": "Shielded Twisted Pair"
+      },
+      {
+        "questionText": "Pros of Shielded Twisted Pair cable.",
+        "answer": "Much Better Blocking Interference"
+      },
+      {
+        "questionText": "Cons of Shielded Twisted Pair cable.",
+        "answer": "More Expensive, Thicker, Harder to Bend"
+      },
+      {
+        "questionText": "Heavy-duty veteran of the cable world.",
+        "answer": "Coaxial Cable"
+      },
+      {
+        "questionText": "Uses pulses of light sent through glass or plastic strands.",
+        "answer": "Fiber Optic"
+      },
+      {
+        "questionText": "Data is converted into electromagnetic waves and sent in all directions.",
+        "answer": "Radiowaves"
+      },
+      {
+        "questionText": "Your router uses radio waves to send internet data to your phone.",
+        "answer": "Wi-Fi"
+      },
+      {
+        "questionText": "Unlike radio waves that scatter everywhere, this are unidirectional. They travel in a very narrow straight beam.",
+        "answer": "Microwaves"
+      },
+      {
+        "questionText": "Essentially a microwave relay station in space. It solves the problem of mountains and the Earth's curvature by moving the tower thousands of miles into the sky.",
+        "answer": "Satellite Communication"
+      },
+      {
+        "questionText": "Uses high-frequency light waves that are just below the visible red-light spectrum. Because these waves have very short wavelengths, they behave more like light than radio waves.",
+        "answer": "Infrared"
+      }
+    ]
+  }
+]
