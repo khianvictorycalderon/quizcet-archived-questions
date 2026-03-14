@@ -339,6 +339,18 @@
       {
         "questionText": "When was Windows 11 released?",
         "answer": "October 5, 2021"
+      },
+      {
+        "questionText": "When was Windows 98 released?",
+        "answer": "June 25, 1998"
+      },
+      {
+        "questionText": "When was Windows 2000 released?",
+        "answer": "February 17, 2000"
+      },
+      {
+        "questionText": "When was Windows ME released?",
+        "answer": "September 14, 2000"
       }
     ]
   },
