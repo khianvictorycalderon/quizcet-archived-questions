@@ -1,0 +1,208 @@
+[
+  {
+    "name": "ITPS205 Midterm Topic 1 - HTML & CSS Recap",
+    "questions": [
+      {
+        "questionText": "What are the Big 3 in Web Development?",
+        "answer": "HTML, CSS, JavaScript"
+      },
+      {
+        "questionText": "In CSS, what do you call x?\n\nx { property: value }",
+        "answer": "Selector"
+      },
+      {
+        "questionText": "In CSS, what do you call x?\n\nselector { x: value }",
+        "answer": "Property"
+      },
+      {
+        "questionText": "In CSS, what do you call x?\n\nselector { property: x }",
+        "answer": "Value"
+      },
+      {
+        "questionText": "What model in HTML and CSS has padding, margin to combined spacing?",
+        "answer": "Box Model"
+      },
+      {
+        "questionText": "Tags that clearly describe their meaning or purpose both to the browser and to the developer.",
+        "answer": "Semantic Tags"
+      }
+    ]
+  },
+  {
+    "name": "ITPS205 Midterm Topic 2 - Introduction to JavaScript",
+    "questions": [
+      {
+        "questionText": "Programming Language of the Web.",
+        "answer": "JavaScript"
+      },
+      {
+        "questionText": "4 Methods to generate output in JavaScript.",
+        "answer": "innerHTML, document.write(), alert(), console.log()"
+      },
+      {
+        "questionText": "What is the official name of JavaScript?",
+        "answer": "ECMAScript"
+      },
+      {
+        "questionText": "JavaScript is an extension of Java? (True or False)",
+        "answer": "False"
+      },
+      {
+        "questionText": "JavaScript Statements are composed of what? (5 Items)",
+        "answer": "Values, Operators, Expressions, Keywords, Comments"
+      },
+      {
+        "questionText": "What can JavaScript do? (5 Items)",
+        "answer": "Change HTML Content, Change Attribute Values, Change CSS, Hide HTML Element, Show HTML Element"
+      }
+    ]
+  },
+  {
+    "name": "ITPS205 Midterm Topic 3 - JavaScript Syntax & Structure",
+    "questions": [
+      {
+        "questionText": "Rules how programs must be constructed.",
+        "answer": "Syntax"
+      },
+      {
+        "questionText": "Refers to how code is organized in a program.",
+        "answer": "Structure"
+      },
+      {
+        "questionText": "2 Types of Values.",
+        "answer": "Literals, Variables"
+      },
+      {
+        "questionText": "Types of value that are fixed.",
+        "answer": "Literals"
+      },
+      {
+        "questionText": "Types of value that are containers for storing data values.",
+        "answer": "Variables"
+      },
+      {
+        "questionText": "4 ways to declare variables in JavaScript.",
+        "answer": "Let, Const, Var, Automatic"
+      },
+      {
+        "questionText": "2 modern ways to declare JavaScript variables.",
+        "answer": "Let, Const"
+      },
+      {
+        "questionText": "2 older ways to declare JavaScript variables.",
+        "answer": "Var, Automatic"
+      },
+      {
+        "questionText": "Variables must be identified with _________ names.",
+        "answer": "Unique"
+      },
+      {
+        "questionText": "Used to add descriptive text within the code that is not executed by the browser.",
+        "answer": "Comments"
+      },
+      {
+        "questionText": "3 types of JavaScript comments.",
+        "answer": "Single-Line, Multi-Line, Documentation"
+      },
+      {
+        "questionText": "Specify the kind of value a variable can hold.",
+        "answer": "Data Types"
+      },
+      {
+        "questionText": "An operator that returns the type of variable or an expression.",
+        "answer": "typeof Operator"
+      },
+      {
+        "questionText": "Symbols or keywords used to perform operations on values and variables.",
+        "answer": "Operators"
+      },
+      {
+        "questionText": "Operators that perform mathematical calculations like addition, subtraction, etc...",
+        "answer": "Arithmetic Operators"
+      },
+      {
+        "questionText": "Operators that compare two values and return a Boolean value.",
+        "answer": "Comparison Operators"
+      },
+      {
+        "questionText": "Operators that are mainly used to perform the logical operations that determine the equality or difference between the values.",
+        "answer": "Logical Operators"
+      },
+      {
+        "questionText": "Operators that perform operations on binary representation of numbers.",
+        "answer": "Bitwise Operators"
+      },
+      {
+        "questionText": "Operator that is shorthand for conditional statements.",
+        "answer": "Ternary Operator"
+      },
+      {
+        "questionText": "Operators that combine the rightmost operand.",
+        "answer": "Comma Operator"
+      },
+      {
+        "questionText": "Operate on a single operand.",
+        "answer": "Unary Operator"
+      },
+      {
+        "questionText": "Used to compare its operands and determine the relationship between them.",
+        "answer": "Relational Operators"
+      },
+      {
+        "questionText": "Operators that allow calculations with numbers beyond the safe integer range.",
+        "answer": "BigInt Operators"
+      },
+      {
+        "questionText": "Operator that includes concatenation and concatenation assignment.",
+        "answer": "String Operators"
+      }
+    ]
+  },
+  {
+    "name": "ITPS205 Midterm Topic 4 - Arrays and Objects",
+    "questions": [
+      {
+        "questionText": "Used to store multiple values in a single variable, instead of declaring separate variables for each value.",
+        "answer": "Array"
+      }
+    ]
+  },
+  {
+    "name": "ITPS205 Midterm Topic 5 - Conditional Statements",
+    "questions": [
+      {
+        "questionText": "Used to make decisions in a program based on a given conditions.",
+        "answer": "Conditional Statements"
+      },
+      {
+        "questionText": "A control structure that allows a program to make a decision.",
+        "answer": "If Statement"
+      },
+      {
+        "questionText": "A control structure used together with an if statement.",
+        "answer": "Else Statement"
+      },
+      {
+        "questionText": "A conditional control flow mechanism used to perform different actions based on the value of a single expression.",
+        "answer": "Switch Statement"
+      },
+      {
+        "questionText": "Switch uses ______ ________ of matching the same type.",
+        "answer": "Strict Comparison"
+      }
+    ]
+  },
+  {
+    "name": "ITPS205 Midterm Topic 6 - JavaScript Essentials",
+    "questions": [
+      {
+        "questionText": "In JavaScript, ________________ are variables that belong to an object and store information about that object.",
+        "answer": "Properties"
+      },
+      {
+        "questionText": "___________ are functions that belong to an object and define actions the object can perform.",
+        "answer": "Methods"
+      }
+    ]
+  }
+]
