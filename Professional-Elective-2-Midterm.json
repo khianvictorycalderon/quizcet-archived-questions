@@ -1,0 +1,146 @@
+[
+  {
+    "name": "PELEC202 Midterm Topic 1 - Introduction to Web App Frameworks",
+    "questions": [
+      {
+        "questionText": "Sets of resources and tools for software developers to build and manage web applications.",
+        "answer": "Web Development Framework"
+      },
+      {
+        "questionText": "2 types of Frameworks.",
+        "answer": "Front-End Framework, Back-End Framework"
+      },
+      {
+        "questionText": "A type of Framework that is user-side, client-side.",
+        "answer": "Front-End Framework"
+      },
+      {
+        "questionText": "A type of framework also known as server-side framework.",
+        "answer": "Back-End Framework"
+      },
+      {
+        "questionText": "An architecture that runs on web server.",
+        "answer": "Web Application Architecture"
+      },
+      {
+        "questionText": "What kind of model is common in web development?",
+        "answer": "Client-Server Model"
+      },
+      {
+        "questionText": "CSM layer that is created through JavaScript.",
+        "answer": "Presentation Layer"
+      },
+      {
+        "questionText": "CSM layer that includes rules, business logic, and so on...",
+        "answer": "Business Layer"
+      },
+      {
+        "questionText": "CSM layer that is responsible for operations.",
+        "answer": "Data Access Layer"
+      },
+      {
+        "questionText": "CSM layer that safeguard the data.",
+        "answer": "Data Service Layer"
+      },
+      {
+        "questionText": "5 Web App Architecture.",
+        "answer": "SPA, MPA, MA, PWA, SA"
+      }
+    ]
+  },
+  {
+    "name": "PELEC202 Midterm Topic 2 - Introduction to ReactJS",
+    "questions": [
+      {
+        "questionText": "A free, open-source JavaScript library for building User Interfaces.",
+        "answer": "ReactJS"
+      },
+      {
+        "questionText": "Who was the lead developer of ReactJS?",
+        "answer": "Jordan Walke"
+      },
+      {
+        "questionText": "Which company developed ReactJS? (New company name)",
+        "answer": "Meta"
+      },
+      {
+        "questionText": "Which feature was ReactJS was first used?",
+        "answer": "Newsfeed"
+      },
+      {
+        "questionText": "One key benefit of react that makes it rank 1 in search engine.",
+        "answer": "SEO-Friendly"
+      },
+      {
+        "questionText": "Which year does React first introduced?",
+        "answer": "2011"
+      },
+      {
+        "questionText": "One main benefit of ReactJS is It offers developers an easy way to create applications with a lot of functionality at once? (True or False)",
+        "answer": "True"
+      },
+      {
+        "questionText": "8 Key Benefits of ReactJS.",
+        "answer": "Virtual DOM, Components, JSX, One-Way Data Binding, Large Community Support, Easy to Understand, SEO-Friendly Framework, Mobile Development"
+      },
+      {
+        "questionText": "In ReactJS, ____________ only modifies the specific components that have been changed.",
+        "answer": "Virtual DOM"
+      },
+      {
+        "questionText": "ReactJS allows developers to create reusable __________ that can be easily integrated into other parts of the application.",
+        "answer": "Components"
+      },
+      {
+        "questionText": "In ReactJS, _____ allows developers to define components in a simple and intuitive way. It also makes it easier for developers to understand the component hierarchy and makes the code more readable.",
+        "answer": "JSX"
+      },
+      {
+        "questionText": "In ReactJS, ______ means that the state of a component can only be modified in one direction. This makes it easier for developers to manage the state of components and reduces the likelihood of unintended changes.",
+        "answer": "One-Way Data Binding"
+      }
+    ]
+  },
+  {
+    "name": "PELEC202 Midterm Topic 3 - Introduction to APIs",
+    "questions": [
+      {
+        "questionText": "A way for different software applications to communicate with each other by following a set of rules. (Acronym only).",
+        "answer": "API"
+      },
+      {
+        "questionText": "What does API mean? (Acronym meaning).",
+        "answer": "Application Programming Interface"
+      },
+      {
+        "questionText": "3 Principles of RESTful APIs.",
+        "answer": "Stateless, Resource-Based URLs, Uses HTTP Methods"
+      },
+      {
+        "questionText": "Define the type of action a client wants to perform on a server when making an API request. These specify whether the request is meant to retrieve data, create new data, update existing data, or delete data.",
+        "answer": "HTTP Methods"
+      }
+    ]
+  },
+  {
+    "name": "PELEC202 Midterm Topic 4 - APIs",
+    "questions": [
+      {
+        "questionText": "3 status of Promises.",
+        "answer": "Pending, Fulfilled, Rejected"
+      },
+      {
+        "questionText": "Tasks that take time to complete and do not block the rest of the program while waiting for the result.",
+        "answer": "Asynchronous Operations"
+      },
+      {
+        "questionText": "A JavaScript object that represents the result of an operation that has not yet completed but is expected in the future.",
+        "answer": "Promises"
+      },
+      {
+        "questionText": "Are modern JavaScript keywords that simplify working with Promises by allowing asynchronous code to look and behave like synchronous code.",
+        "answer": "Async and Await"
+      }
+    ]
+  }
+]
