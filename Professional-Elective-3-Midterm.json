@@ -1,0 +1,133 @@
+[
+  {
+    "name": "PELEC203 Midterm Topic 1 - Android Versions",
+    "questions": [
+      {
+        "questionText": "Which version of android?\n\n- Initial release, laid the foundation for the mobile OS.\n- Include basic features like email, web browsing, and contact management.",
+        "answer": "1.0"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Introduce on-screen keyboard, widgets, and support for uploading videos to YouTube.",
+        "answer": "1.5 Cupcake"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Improved camera and text-to-speech.\n- Enhanced support for different screen sizes.",
+        "answer": "1.6 Donut"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Introduced support for multiple accounts (Gmail, Exchange), improved camera features (autofocus, scene modes), and faster performance.",
+        "answer": "2.0 Eclair"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Significant performance boost with faster startup times and smoother operation.\n- Introduced Wi-Fi hotspot functionality.",
+        "answer": "2.2 Froyo"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Improved support for gaming, better copy-paste functionality, and enhanced support for voice calling.",
+        "answer": "2.3 Gingerbread"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Designed specifically for tablets.\n- Featuring a redesigned user interface optimized for larger screens.",
+        "answer": "3.0 Honeycomb"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Unified the smartphone and tablet experiences, introducing a refined user interface and improved camera features.",
+        "answer": "4.0 Ice Cream Sandwich"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Introduced Project Butter, significantly improving performance and smoothness.\n- Added Google Now, a personalized assistant.",
+        "answer": "4.1 Jelly Bean"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Optimized for lower-end devices, requiring less RAM.\n- Introduced wireless printing capabilities.",
+        "answer": "4.4 Kitkat"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Material Design introduced, significantly revamping the visual appearance of the OS.\n- Improved batter life with Project Volta.",
+        "answer": "5.0 Lollipop"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Introduced Doze mode for improved battery life in idle states.\n- Enhanced app permissions with runtime requests.",
+        "answer": "6.0 Marshmallow"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Introduced multi-window support, allowing users to run two apps side-by-side.\n- Enhanced notifications with improved grouping and reply options.",
+        "answer": "7.0 Nougat"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Introduced Picture-in-Picture mode.\n- Enhanced notification channels for better control app notifications.",
+        "answer": "8.0 Oreo"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Introduced gesture navigation.\n- Enhanced AI-powered features like app actions and suggestions.",
+        "answer": "9.0 Pie"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Dark Mode introduced system-wide.\n- Improved privacy and security features.",
+        "answer": "10"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Introduced conversation bubbles for improved messaging experiences.\n- Enhanced media controls and improved privacy features.",
+        "answer": "11"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Major redesign with a focus on Material You, a dynamic theming system.\n- Improved privacy features with approximate location sharing.",
+        "answer": "12"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Enhanced customization options, including per-app language settings.\n- Improved media playback controls.",
+        "answer": "13"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Focus on privacy and security enhancements.\n- Improved compatibility with larger screens.",
+        "answer": "14"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Private Space: This feature allows you to create a separate, secure space on your phone to store sensitive apps and data, providing an extra layer of privacy and security.",
+        "answer": "15"
+      },
+      {
+        "questionText": "Which version of android?\n\n- Larger screen & foldable improvements.\n- Bundled/organized notifications.\n- Enhanced security & advanced permission behavior.\n- UI refinements with Material design evolution.",
+        "answer": "16"
+      }
+    ]
+  },
+  {
+    "name": "PELEC203 Midterm Topic 2 - Introduction to Mobile Development",
+    "questions": [
+      {
+        "questionText": "Who are the 4 founders behind android development?",
+        "answer": "Andy Rubin, Rich Miner, Nick Sears, Chris White"
+      },
+      {
+        "questionText": "Who is known as the founder of android?",
+        "answer": "Andy Rubin"
+      },
+      {
+        "questionText": "Who is the co-founder of android who is a telecommunication expert?",
+        "answer": "Rich Miner"
+      },
+      {
+        "questionText": "Who is the co-founder of android who is a former president of T-Mobile?",
+        "answer": "Nick Sears"
+      },
+      {
+        "questionText": "Who is the co-founder of android development that is the head of UI designing?",
+        "answer": "Chris White"
+      }
+    ]
+  },
+  {
+    "name": "PELEC203 Midterm Topic 3 - React Native",
+    "questions": [
+      {
+        "questionText": "Advantage of React Native (5 Items)",
+        "answer": "Cross-Platform Development, Fast Development, Large Community and Ecosystem, Native Performance, Cost-Effectiveness"
+      },
+      {
+        "questionText": "Disadvantages of React Native (3 Items)",
+        "answer": "Evolving Framework, Breaking Changes, Stability Issues"
+      }
+    ]
+  }
+]
