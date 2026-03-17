@@ -1,0 +1,438 @@
+[
+  {
+    "name": "ITCS205 Midterm Topic 1 - Introduction to Database",
+    "questions": [
+      {
+        "questionText": "It is a raw fact, cannot be derived conclusion from.",
+        "answer": "Data"
+      },
+      {
+        "questionText": "A processed data.",
+        "answer": "Information"
+      },
+      {
+        "questionText": "A shared, integrated computer structure that houses a collection of related data.",
+        "answer": "Database"
+      },
+      {
+        "questionText": "2 Types of data in Database?",
+        "answer": "End-User Data, Metadata"
+      },
+      {
+        "questionText": "Type of data that is about users.",
+        "answer": "End-User Data"
+      },
+      {
+        "questionText": "A data about a data.",
+        "answer": "Metadata"
+      },
+      {
+        "questionText": "Type of database that is meant for one user only.",
+        "answer": "Single-User Database"
+      },
+      {
+        "questionText": "Type of database for single-user that is for personal use.",
+        "answer": "Desktop Database"
+      },
+      {
+        "questionText": "Type of database that is meant for multiple users.",
+        "answer": "Multiuser Database"
+      },
+      {
+        "questionText": "Type of database that is meant for a specific group of employees.",
+        "answer": "Workgroup Database"
+      },
+      {
+        "questionText": "Type of database that is meant for large companies.",
+        "answer": "Enterprise Database"
+      },
+      {
+        "questionText": "Type of database that is everywhere where each has its own, acts as one.",
+        "answer": "Distributed Database"
+      },
+      {
+        "questionText": "Type of database that is based on the internet.",
+        "answer": "Cloud Database"
+      },
+      {
+        "questionText": "Type of database that has no specific purpose, has no discipline.",
+        "answer": "General-Purpose Database"
+      },
+      {
+        "questionText": "Type of database that is meant for specific purpose like engineering, nurse, etc...",
+        "answer": "Discipline-Specific Database"
+      },
+      {
+        "questionText": "Type of database that is for everyday life.",
+        "answer": "Operational Database"
+      },
+      {
+        "questionText": "Type of database that helps make better business decision.",
+        "answer": "Analytical Database"
+      },
+      {
+        "questionText": "Type of database where all data is stored in one place.",
+        "answer": "Centralized Database"
+      },
+      {
+        "questionText": "A collection of programs that manages the database structure and controls access to the data stored in the database.",
+        "answer": "Database Management System"
+      },
+      {
+        "questionText": "Focuses on how the database structure will be used to store and manage end-user data.",
+        "answer": "Database Design"
+      },
+      {
+        "questionText": "Advantage of DBMS? (7 Items)",
+        "answer": "Improved Data Sharing, Improved Data Security, Better Data Integration, Minimized Data Inconsistency, Improved Data Access, Improved Decision Making, Increased End-User Productivity"
+      }
+    ]
+  },
+  {
+    "name": "ITCS205 Midterm Topic 2 - Data Model",
+    "questions": [
+      {
+        "questionText": "Focuses on how database structure will be used to store and manage end-user data.",
+        "answer": "Database Design"
+      },
+      {
+        "questionText": "The first step in designing a database, refers to the process of creating a specific this kind of thing for a determined problem domain.",
+        "answer": "Data Modeling"
+      },
+      {
+        "questionText": "A relatively simple representation, usually graphical, of more complex real-world data structures.",
+        "answer": "Data Model"
+      },
+      {
+        "questionText": "Data models can facilitate interaction among the _______, the ___________ _____________, and the _____ _______.",
+        "answer": "Designer, Applications Programmer, End User"
+      },
+      {
+        "questionText": "The importance of data modeling cannot be ___________.",
+        "answer": "Overstated"
+      },
+      {
+        "questionText": "Applications are created to manage data and to help transform ____ into __________, but data is viewed in different ways by different people.",
+        "answer": "Data, Information"
+      },
+      {
+        "questionText": "3 basic building blocks of data model.",
+        "answer": "Entity, Attribute, Relationship"
+      },
+      {
+        "questionText": "3 Types of relationship in data model.",
+        "answer": "One to One, One to Many, Many to Many"
+      },
+      {
+        "questionText": "3 levels of data abstraction.",
+        "answer": "External, Conceptual, Internal"
+      },
+      {
+        "questionText": "It is the user's view of the data environment. Refers to people who use the application programs to manipulate the data and generate information.",
+        "answer": "External Model"
+      },
+      {
+        "questionText": "It represents a global view of the entire database by the entire organization. It is the basis for the identification and high-level description of the main data objects.",
+        "answer": "Conceptual Model"
+      },
+      {
+        "questionText": "It is the representation of the database as SEEN by the DBMS. It requires the designer to match the conceptual model's characteristics and constraints to those of the selected implementation model.",
+        "answer": "Internal Model"
+      },
+      {
+        "questionText": "Depicts a specific representation of an internal model, using the database constructs supported by the chosen database.",
+        "answer": "Internal Schema"
+      },
+      {
+        "questionText": "It operates at the lowest level of abstraction, describing the way data is saved on storage media such as magnetic, solid state, or optical media.",
+        "answer": "Physical Model"
+      },
+      {
+        "questionText": "It was developed in the 1960s to manage large amounts of data for complex manufacturing projects.",
+        "answer": "Hierarchical Model"
+      },
+      {
+        "questionText": "The equivalent of a file system's record type.",
+        "answer": "Segment"
+      },
+      {
+        "questionText": "It was created to represent complex relationships more effectively to improve database performance, and impose a database standard.",
+        "answer": "Network Model"
+      },
+      {
+        "questionText": "The ________ database model is generally used today, the standard database concepts that emerged with the network model are still used by modern data models.",
+        "answer": "Network"
+      },
+      {
+        "questionText": "The conceptual organization of the entire database as viewed by the database administrator.",
+        "answer": "Schema"
+      },
+      {
+        "questionText": "It defines the portion of the database by the application programs that actually produce the desired information from the data in the database.",
+        "answer": "Subschema"
+      },
+      {
+        "questionText": "It defines the environment in which data can be managed.",
+        "answer": "Data Manipulation Language"
+      },
+      {
+        "questionText": "It allows the database administrator to define schema components.",
+        "answer": "Data Definition Language"
+      },
+      {
+        "questionText": "The foundation of mathematical concept is known as relation. Represented a major breakthrough for both users and designers.",
+        "answer": "Relational Model"
+      },
+      {
+        "questionText": "It was introduced in 1976 by Peter Chen. The graphical representation of entities and their relationships in a database structure quickly became popular, because it complemented the relational data model concepts.",
+        "answer": "Entity Relationship Model"
+      },
+      {
+        "questionText": "Both data and its relationship are contained in a single structure known as an Object.",
+        "answer": "Object-Oriented Model"
+      },
+      {
+        "questionText": "A metalanguage used to represent and manipulate data elements. Unlike other markup languages, this permits the manipulation a document's data elements.",
+        "answer": "Extensible Markup Language"
+      },
+      {
+        "questionText": "A movement focused on managing large-scale web and sensor data to extract business insights efficiently and cost-effectively.",
+        "answer": "Big Data"
+      },
+      {
+        "questionText": "It refers to the amounts of data being stored.",
+        "answer": "Volume"
+      },
+      {
+        "questionText": "It refers not only to the speed with which data grows but also to the need to process this data quickly in order to generate information insight.",
+        "answer": "Velocity"
+      },
+      {
+        "questionText": "It refers to the fact that the data collected in multiple different data formats.",
+        "answer": "Variety"
+      },
+      {
+        "questionText": "3 Characteristics of Big Data.",
+        "answer": "Volume, Velocity, Variety"
+      },
+      {
+        "questionText": "It is a large-scale distributed database system that stores structured and unstructured data in efficient ways.",
+        "answer": "NoSQL"
+      },
+      {
+        "questionText": "Who uses NoSQL? (4 Companies)",
+        "answer": "Amazon, Facebook, YouTube, Google Maps"
+      }
+    ]
+  },
+  {
+    "name": "ITCS205 Midterm Topic 3 - Information Management",
+    "questions": [
+      {
+        "questionText": "The relational model was introduced by ____________ in _____.",
+        "answer": "Edgar F. Codd, 1970"
+      },
+      {
+        "questionText": "The relational model was based on _________________ and ____________.",
+        "answer": "Predicate Logic, Set Theory"
+      },
+      {
+        "questionText": "__________________ is used extensively in mathematics to provide a framework in which an assertion (statement of fact) can be verified as either true or false.",
+        "answer": "Predicate Logic"
+      },
+      {
+        "questionText": "_________________ is a part of mathematical science that deals with sets, or groups of things, and is used as the basis for data manipulation in the relational model.",
+        "answer": "Set Theory"
+      },
+      {
+        "questionText": "A __________ is a two-dimensional structure composed of rows and columns.",
+        "answer": "Table / Relation"
+      },
+      {
+        "questionText": "3 components of relational model:\n\n1. A logical data structure represented by _________.\n2. A set of ________________ to enforce that the data is consistent and remains consistent over time.\n3. A set of operations that defines how data is __________.",
+        "answer": "Relations, Integrity Rules, Manipulated"
+      },
+      {
+        "questionText": "Each table ____________ represents data about an entity.",
+        "answer": "Row / Tuple"
+      },
+      {
+        "questionText": "Each table column represents an __________.",
+        "answer": "Attribute"
+      },
+      {
+        "questionText": "All values in a column must conform to the same data format. Each column has a specific range of values known as the attribute ________.",
+        "answer": "Domain"
+      },
+      {
+        "questionText": "The order of the rows and columns is important in a DBMS. (True or False).",
+        "answer": "False"
+      },
+      {
+        "questionText": "The order of the rows and columns is NOT important in a DBMS. (True or False).",
+        "answer": "True"
+      },
+      {
+        "questionText": "A ______ is an attribute or group of attributes that determines the values of other attributes. For example, an invoice number identifies all of the invoice attributes, such as the invoice date and the customer name.",
+        "answer": "Key"
+      },
+      {
+        "questionText": "Is the state in which knowing the value of an attribute makes it possible to determine the value of another. It is based on the relationships among the attributes.",
+        "answer": "Determination"
+      },
+      {
+        "questionText": "Means that the value of one or more attributes determines the value of one or more other attributes.",
+        "answer": "Functional Dependence"
+      },
+      {
+        "questionText": "The attribute whose value determines another is called the __________ or the ______. The attribute whose value is determined by the other attribute is called the _________.",
+        "answer": "Determinant, Key, Dependent"
+      },
+      {
+        "questionText": "______________________ can involve a determinant that multiple attributes.",
+        "answer": "Functional Dependence"
+      },
+      {
+        "questionText": "A key that is composed more than one attribute.",
+        "answer": "Composite Key"
+      },
+      {
+        "questionText": "An attribute that is a part of a key.",
+        "answer": "Key Attribute"
+      },
+      {
+        "questionText": "An attribute or combination of attributes that uniquely identifies any row in the table.",
+        "answer": "Super Key"
+      },
+      {
+        "questionText": "A super key without any unnecessary attributes.",
+        "answer": "Candidate Key"
+      },
+      {
+        "questionText": "A candidate key selected to uniquely identify all other attribute values in any given row, cannot contain null entries.",
+        "answer": "Primary Key"
+      },
+      {
+        "questionText": "An attribute or combination of attributes in one table whose values must either match the primary key in another table or be null.",
+        "answer": "Foreign Key"
+      },
+      {
+        "questionText": "An attribute or combination of attributes used strictly for data retrieval purposes.",
+        "answer": "Secondary Key"
+      },
+      {
+        "questionText": "2 Integrity rules.",
+        "answer": "Entity Integrity, Referential Integrity"
+      },
+      {
+        "questionText": "________________ is the condition in which each row in a table has its own unique identity.",
+        "answer": "Entity Integrity"
+      },
+      {
+        "questionText": "___________________ is the conditional in which every reference to an entity instance by another entity instance is valid.",
+        "answer": "Referential Integrity"
+      },
+      {
+        "questionText": "Integrity rules are followed to maintain a good database design. (True or False).",
+        "answer": "True"
+      },
+      {
+        "questionText": "Integrity rules are optional to maintain a good database design. (True or False).",
+        "answer": "False"
+      },
+      {
+        "questionText": "To avoid nulls, special called _____ are used to indicate the absence of some value.",
+        "answer": "Flags"
+      },
+      {
+        "questionText": "Data can be manipulated to generate _________________.",
+        "answer": "Useful Information"
+      },
+      {
+        "questionText": "The use of relational algebra operators on existing tables produces new result.",
+        "answer": "Closure"
+      },
+      {
+        "questionText": "The condition to be evaluated is also known as __________.",
+        "answer": "Predicate"
+      },
+      {
+        "questionText": "8 Fundamentals relational operators.",
+        "answer": "Select, Project, Union, Intersect, Difference, Product, Join, Divide"
+      },
+      {
+        "questionText": "Merges two compatible tables into a new table, dropping the duplicate rows.",
+        "answer": "Union"
+      },
+      {
+        "questionText": "Retrieve rows that are common to two union-compatible tables.",
+        "answer": "Intersect"
+      },
+      {
+        "questionText": "Retrieve rows from one table that are not found in another union compatible table.",
+        "answer": "Difference"
+      },
+      {
+        "questionText": "Retrieve possible pairs of rows from two tables cartesian.",
+        "answer": "Product"
+      },
+      {
+        "questionText": "Retrieves rows from tables based on criteria (Ex. Rows with common values in their common attribute).",
+        "answer": "Join / Divide"
+      }
+    ]
+  },
+  {
+    "name": "ITCS205 Midterm Topic 4 - Entity Relationship Model",
+    "questions": [
+      {
+        "questionText": "A data model that describes relationships among entities at the conceptual level with the help of ER diagrams.",
+        "answer": "Entity Relationship Model"
+      },
+      {
+        "questionText": "A diagram that depicts an entity relationship model's entities, attributes, and relations.",
+        "answer": "Entity Relationship Diagram"
+      },
+      {
+        "questionText": "An entity is represented in the ERD by a ________, also known as an entity box. The name of the entity, a noun, is written in the center of the rectangle.",
+        "answer": "Rectangle"
+      },
+      {
+        "questionText": "The entity name is generally written __________ and ___________.",
+        "answer": "Capital Letters, Singular Form"
+      },
+      {
+        "questionText": "Each row in the relational table is known as an ________ or _______ in the ER model.",
+        "answer": "Entity Instance, Entity Occurrence"
+      },
+      {
+        "questionText": "2 types of ER diagram notation.",
+        "answer": "Chen Notation, Crow's Foot Notation"
+      },
+      {
+        "questionText": "Relationships that are represented by a diamond connected to the related entities through a relationship line. The relationship name is written inside the diamond.",
+        "answer": "Chen Notation"
+      },
+      {
+        "questionText": "Entities are connected by lines, and symbols at either end describe the cardinality of the relationship between the entities.",
+        "answer": "Crow's Foot Notation"
+      },
+      {
+        "questionText": "Each entity consists of a set __________ that describes particular characteristics of the entity.",
+        "answer": "Attributes"
+      },
+      {
+        "questionText": "In Chen notation, attributes are represented by ______ and are connected to the entity rectangle with a line. Each contains the name of the attribute it represents. The entity identifier is mapped as the table's primary key and is underlined.",
+        "answer": "Ovals"
+      },
+      {
+        "questionText": "In Crow's Foot notation, the attributes are written in the attribute box below the _________. Required attributes are in boldface. PK and FK are used to mark the primary key and foreign keys.",
+        "answer": "Entity Rectangle"
+      },
+      {
+        "questionText": "In Crow's Foot, a non-null column is characterized by ______.",
+        "answer": "Bold"
+      }
+    ]
+  }
+]
