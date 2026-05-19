@@ -1,0 +1,76 @@
+[
+  {
+    "name": "ITPS205 Finals Topic 1 - Introduction to ReactJS",
+    "questions": [
+      {
+        "questionText": "A JavaScript library used for building fast and interactive user interfaces, particularly for single-page applications, by breaking the interface into small, reusable components that manage their own structure and behavior.",
+        "answer": "ReactJS"
+      },
+      {
+        "questionText": "Instead of manually manipulating the DOM like in traditional JavaScript, React uses ____________ to efficiently update only the parts of the page that change, making applications more organized, scalable, and easier to maintain as they grow in complexity.",
+        "answer": "Virtual DOM"
+      },
+      {
+        "questionText": "React was created by ____________, a software engineer at Facebook (now Meta Platforms) in 2011. It was first used internally on Facebook's News Feed.",
+        "answer": "Jordan Walke"
+      },
+      {
+        "questionText": "Why was ReactJS created?\n- Facebook UI was becoming __________________.\n- _________________ were slow.\n- ________ was hard to ________________.",
+        "answer": "Too Complex, DOM Updates, Code, Maintain"
+      },
+      {
+        "questionText": "In 2013, React was released as open source. Today it is used by 3 companies, which are those?",
+        "answer": "Netflix, Airbnb, Instagram"
+      },
+      {
+        "questionText": "Refers to the collection of tools, libraries, and technologies that work alongside React to build full applications, including routing libraries for navigation, state management tools for handling complex data, development tools for debugging, and build tools that optimize the application for production.",
+        "answer": "React Ecosystem"
+      },
+      {
+        "questionText": "React = UI only:\n\nTo build full app, we use:\n- ________________ (navigation)\n- _______ (API calls)\n- ______ (State management)\n- ______ (Backend)",
+        "answer": "React Router, Axios, Redux, NodeJS"
+      },
+      {
+        "questionText": "A tool developed by the React team that allows developers to quickly set up a new React project without manually configuring complex tools like Webpack or Babel, as it automatically prepares the project structure, development server, etc...",
+        "answer": "Create React App"
+      },
+      {
+        "questionText": "A reusable and independent piece of the user interface that contains its own structure, logic, and styling, allowing developers to divide complex applications into smaller, manageable parts.",
+        "answer": "Component"
+      },
+      {
+        "questionText": "A component written using JavaScript class syntax that extends React.",
+        "answer": "Class Components"
+      }
+    ]
+  },
+  {
+    "name": "ITPS205 Finals Topic 2 - State Management In ReactJS",
+    "questions": [
+      {
+        "questionText": "In React, it refers to a built-in object that allows components to store and manage dynamic data that can change over time, enabling the user interface to automatically update whenever that data changes.",
+        "answer": "State"
+      },
+      {
+        "questionText": "Unlike _____, which are passed from parent components and remain read-only, state is controlled within the component itself, making it essential for handling user interactions, form inputs, and real-time updates, ultimately allowing applications to become interactive and responsive without manually manipulating the DOM.",
+        "answer": "Props"
+      },
+      {
+        "questionText": "The _________________ is a function in React that allows functional components to create and manage state variables, enabling them to store values that can change and trigger re-rendering of the component whenever updated.",
+        "answer": "useState Hook"
+      },
+      {
+        "questionText": "_________________ in React refers to the process of responding to user interactions such as clicks, typing, or form submissions by attaching event handlers to elements, allowing developers to define what should happen when a specific action occurs.",
+        "answer": "Handling Events"
+      },
+      {
+        "questionText": "_______________ in React refers to connecting a function to an event handler on a JSX element so that it executes when the event occurs.",
+        "answer": "Event Binding"
+      },
+      {
+        "questionText": "_____________________ in React is a technique used to display different content or components based on certain conditions or states, allowing developers to control what the user sees depending on data or interactions.",
+        "answer": "Conditional Rendering"
+      }
+    ]
+  }
+]
