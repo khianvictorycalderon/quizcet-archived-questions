@@ -1,0 +1,44 @@
+[
+  {
+    "name": "PELEC202 Finals Topic 2 - State Management and Redux Basics",
+    "questions": [
+      {
+        "questionText": "Refers to the process of handling and controlling of data that changes over time and affects what users see on the screen.",
+        "answer": "State Management"
+      },
+      {
+        "questionText": "In simple applications, ______ is usually managed locally within components, but as the application grows and multiple components need access to the same data, managing state becomes more complex.",
+        "answer": "State"
+      },
+      {
+        "questionText": "State management tools like _____ provide a centralized way to store data and update data.",
+        "answer": "Redux"
+      },
+      {
+        "questionText": "A state management library that helps manage and store applications data in a single centralized location called the store.",
+        "answer": "Redux"
+      },
+      {
+        "questionText": "Instead of components directly changing data, Redux uses a structure flow where ________ describe what would happen, _______ define how the state changes, and the ________ holds the updated state.",
+        "answer": "Actions, Reducers, Store"
+      }
+    ]
+  },
+  {
+    "name": "PELEC202 Finals Topic 1 - Third-Party API Integration",
+    "questions": [
+      {
+        "questionText": "Is the process of connecting your application to an external service provided by another company in order to use its features or data.",
+        "answer": "Third-Party API Integration"
+      },
+      {
+        "questionText": "Instead of building complex systems like weather forecasting, mapping services, or payment processing from scratch, developers send requests to these ___________.",
+        "answer": "External API"
+      },
+      {
+        "questionText": "A restriction imposed by API providers that limits the number of requests an application can make within a specific period of time.\n\nThis prevents abuse, reduces server overload, and ensure fair usage among users.",
+        "answer": "Rate Limiting"
+      }
+    ]
+  }
+]
