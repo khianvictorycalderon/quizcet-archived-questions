@@ -1,0 +1,76 @@
+[
+  {
+    "name": "ITCS205 Finals Topic 2 - Fundamentals of SQL",
+    "questions": [
+      {
+        "questionText": "What does the SQL mean?",
+        "answer": "Structured Query Language"
+      },
+      {
+        "questionText": "SQL data types for exact numeric.",
+        "answer": "bigint, bit, decimal, int, money, numeric"
+      },
+      {
+        "questionText": "SQL data types for approximate numeric.",
+        "answer": "float, real"
+      },
+      {
+        "questionText": "SQL data types for date and time.",
+        "answer": "date, datetime, time"
+      },
+      {
+        "questionText": "4 operators in SQL.",
+        "answer": "Arithmetic, Comparison, Compound, Logical"
+      }
+    ]
+  },
+  {
+    "name": "ITCS205 Finals Topic 1 - Database Normalization",
+    "questions": [
+      {
+        "questionText": "A process that assigns attributes to entities so that data redundancies are reduced or eliminated.",
+        "answer": "Normalization"
+      },
+      {
+        "questionText": "5 Common forms.",
+        "answer": "1NF, 2NF, 3NF, BCNF, 4NF"
+      },
+      {
+        "questionText": "BCNF acronym meaning.",
+        "answer": "Boyce-Codd Normal Form"
+      },
+      {
+        "questionText": "Objectives of Normalization:\n- Each table/relation represents a ________________.",
+        "answer": "Single Subject"
+      },
+      {
+        "questionText": "Objectives of Normalization:\n- Each row/column intersection contains only __________ and not a _____________.",
+        "answer": "One Value, Group of Values"
+      },
+      {
+        "questionText": "Objectives of Normalization:\n- No data item will be __________________ in more than one table.",
+        "answer": "Unnecessarily Stored"
+      },
+      {
+        "questionText": "In 1NF, the first step is Removing _________ and ____________.",
+        "answer": "Group Values, Null Values"
+      },
+      {
+        "questionText": "Usually in tables with a multiple-field primary key (composite key).",
+        "answer": "Second Normal Form"
+      },
+      {
+        "questionText": "In 2NF, the main focus is _______________.",
+        "answer": "Removing Data Redundancy"
+      },
+      {
+        "questionText": "Usually used in tables with a single-field primary key. Records do not have fields that depend on other non-key fields, everything depends only on the main ID.",
+        "answer": "Third Normal Form"
+      },
+      {
+        "questionText": "Usually used to split into single values in each cell and no duplicate rows.",
+        "answer": "First Normal Form"
+      }
+    ]
+  }
+]
