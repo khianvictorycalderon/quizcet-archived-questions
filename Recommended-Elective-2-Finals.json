@@ -1,0 +1,417 @@
+[
+  {
+    "name": "ITELEC202 Finals Topic 1A - Post-OS Installation Configuration",
+    "questions": [
+      {
+        "questionText": "___________________________ is the essential step after installing an operating system. It ensures the system is secure, functional, and ready for use.",
+        "answer": "Post-Installation Configuration"
+      },
+      {
+        "questionText": "Refers to the process of setting up and customizing an operating system after it has been installed.",
+        "answer": "Post-OS Installation Configuration"
+      },
+      {
+        "questionText": "Refers to individual profiles created on a computer that grants access to the system's resources.",
+        "answer": "User Accounts"
+      },
+      {
+        "questionText": "Each _________________ can have different levels of permissions, ranging from basic access to advanced administrative privileges.",
+        "answer": "User Account"
+      },
+      {
+        "questionText": "Each user account can have different levels of permissions, ranging from ______________ to ____________________________.",
+        "answer": "Basic Access, Advanced Administrative Privileges"
+      },
+      {
+        "questionText": "Types of User Accounts.",
+        "answer": "Administrator Account, Standard User Account, Guest Account"
+      },
+      {
+        "questionText": "Has full control over the computer and can make system-wide changes, such as installing software and changing security settings.",
+        "answer": "Administrator Account"
+      },
+      {
+        "questionText": "Restricted permissions, suitable for daily tasks. It cannot modify system settings or install software that affect other users.",
+        "answer": "Standard User Account"
+      },
+      {
+        "questionText": "Temporary access with limited permissions, typically used for sharing the system with someone who does not need to have their own profile. This account is often disabled by default for security.",
+        "answer": "Guest Account"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Finals Topic 1C - Network Profiles",
+    "questions": [
+      {
+        "questionText": "In Windows, it defines how your computer treats the network it is connected to.",
+        "answer": "Network Profile"
+      },
+      {
+        "questionText": "Your PC is hidden from other devices. Best for untrusted networks like cafes, airports, or public Wi-Fi. File and printer sharing is turned off",
+        "answer": "Public Network"
+      },
+      {
+        "questionText": "Your PC is discoverable by other trusted devices. Ideal for home or office networks. File and printer sharing can be enabled.",
+        "answer": "Private Network"
+      },
+      {
+        "questionText": "Is a unique number assigned to every device on a network. It works like a home address, allowing device to find and communicate with each other.",
+        "answer": "IP Address"
+      },
+      {
+        "questionText": "It helps your computer send and receive data over the network or the internet.",
+        "answer": "IP Address"
+      },
+      {
+        "questionText": "A service that automatically assigns an IP address to your device from the router.",
+        "answer": "Dynamic Host Configuration Protocol"
+      },
+      {
+        "questionText": "A manually assigned IP address that does not change.",
+        "answer": "Static IP"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Finals Topic 1B - Network Configuration",
+    "questions": [
+      {
+        "questionText": "Refers to the process of setting up and managing how the operating system connects to a local network or the internet.",
+        "answer": "Network Configuration"
+      },
+      {
+        "questionText": "It involves selecting the correct network adapter, assigning IP Address (automatically via DHCP or manually), configuring DNS servers, and setting connection properties to ensure stable, reliable, and secure network activity.",
+        "answer": "Network Configuration"
+      },
+      {
+        "questionText": "If using an ________________, Windows usually connects automatically.",
+        "answer": "Ethernet Cable"
+      },
+      {
+        "questionText": "A hardware component (or sometimes a virtual one) that allows a computer to connect to a network.",
+        "answer": "Network Adapters"
+      },
+      {
+        "questionText": "Network adapters can be built into computer (like a ______ or _____________) or added externally (like a _______________________).",
+        "answer": "Wi-Fi, Ethernet Port, USB Network Dongle"
+      },
+      {
+        "questionText": "In Windows, the ________________ handles sending and receiving data between the computer and the internet or other devices on the same network.",
+        "answer": "Network Adapter"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Finals Topic 3 - Security Settings",
+    "questions": [
+      {
+        "questionText": "A security system, either software, hardware, or both that monitors and controls incoming and outgoing network traffic based on a set of predefined rules.",
+        "answer": "Firewall"
+      },
+      {
+        "questionText": "Command: netsh ___________ set allprofiles state on.",
+        "answer": "Advfirewall"
+      },
+      {
+        "questionText": "A security software designed to detect, prevent and remove malicious software (also known as malware) from your computer or device.",
+        "answer": "Anti-Virus"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Finals Topic 1D - Driver Installation & System Sub Optimization",
+    "questions": [
+      {
+        "questionText": "Are small software programs that allow your operating system (like Windows) to communicate with hardware devices.",
+        "answer": "Drivers"
+      },
+      {
+        "questionText": "Think of Drivers are ___________ between the OS and your computer's components, without the hardware like your printer, graphics card, network adapter, or speakers wouldn't function properly.",
+        "answer": "Translators"
+      },
+      {
+        "questionText": "A process of improving a computer's performance, speed, and efficiency by adjusting settings, removing unnecessary programs, and managing resources effectively.",
+        "answer": "System Optimization"
+      },
+      {
+        "questionText": "Refers to pre-installed or unnecessary software that comes with na new Windows installation or device (especially laptops and branded PCs).",
+        "answer": "Bloatware"
+      },
+      {
+        "questionText": "Apps that automatically run when your computer boots up.",
+        "answer": "Startup Applications"
+      },
+      {
+        "questionText": "The process of creating a copy of your system's important data, settings, or even the entire operating system so that you can restore it in case of data loss, hardware failure, or system corruption.",
+        "answer": "System Backup"
+      },
+      {
+        "questionText": "Monitor system changes and save the system state as a restore point. If a system problem develops as a result of a system change, the user can return the system to a previous state using the data from a restore point.",
+        "answer": "System Restore"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Finals Topic 4A - Introduction to Linux",
+    "questions": [
+      {
+        "questionText": "An operating system modeled on UNIX, created by Linus Torvalds in 1991 while he was a student at the University of Helsinki.",
+        "answer": "Linux"
+      },
+      {
+        "questionText": "He invited other programmers to collaborate on creating an open-source operating system for modern computers.",
+        "answer": "Linus Torvalds"
+      },
+      {
+        "questionText": "He created Linux.",
+        "answer": "Linus Torvalds"
+      },
+      {
+        "questionText": "Linux was developed using the _____ programming language and the GNU C Compiler (GCC), a free tool from the GNU project.",
+        "answer": "C"
+      },
+      {
+        "questionText": "Linux  is the foundation of many technologies, including ________, ______________________, and ______________ (Android).",
+        "answer": "Servers, Cloud Computing, Smartphones"
+      },
+      {
+        "questionText": "________ is free to use, and its source code is open, meaning you can contribute to the project, learn how it works, or even create your own version.",
+        "answer": "Linux"
+      },
+      {
+        "questionText": "Unlike GUI, the ____ requires more precision.",
+        "answer": "CLI"
+      },
+      {
+        "questionText": "GUIs allow users to select graphical objects, which buffers users from the precision needed. The ____ does not offer this buffer, requiring exact instructions.",
+        "answer": "CLI"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Finals Topic 4B - History of Linux",
+    "questions": [
+      {
+        "questionText": "A developer at Bell Labs, was criticized for playing a computer game on company equipment.",
+        "answer": "Ken Thompson"
+      },
+      {
+        "questionText": "To continue his work, he wrote an operating system to run his game on an unused computer.",
+        "answer": "Ken Thompson"
+      },
+      {
+        "questionText": "The _____ organization was created to develop a free, UNIX-like operating system called ____ in 1984.",
+        "answer": "GNU, GNU"
+      },
+      {
+        "questionText": "GNU meaning.",
+        "answer": "GNU's Not Unix"
+      },
+      {
+        "questionText": "GNU developed several applications for _____ and _______.",
+        "answer": "Linux, UNIX"
+      },
+      {
+        "questionText": "In _____, a conflict known as the \"UNIX wars\" took place. The Open System Foundation (OSF) was formed by UNIX license to advocate for an open version of UNIX.",
+        "answer": "1988"
+      },
+      {
+        "questionText": "In ______, Linus Torvals wanted to create a better, open-source version of MINIX, a UNIX-like operating system.",
+        "answer": "1991"
+      },
+      {
+        "questionText": "Linus developed Linux as an ___________  OS, meaning the source code OS, meaning the source code was freely available for anyone to view, modify, and distribute.",
+        "answer": "Open-Source"
+      },
+      {
+        "questionText": "By _____, the open-source nature of Linux allowed individuals and companies to modify the kernel and create their own distributions.",
+        "answer": "1994"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Finals Topic 4C - Distribution of Linux",
+    "questions": [
+      {
+        "questionText": "When you buy or download a version of Linux you get a ________, sometimes called a \"distro\", that includes the Linux kernel and a whole set of programs that work together to make a functional version of Linux",
+        "answer": "Distribution"
+      },
+      {
+        "questionText": "Released in 2000, commercial-grade OS with enterprise support. Used by many companies in data centers and known for stability and long-term support",
+        "answer": "RHEL"
+      },
+      {
+        "questionText": "Released in 2021, rolling-release preview of the next RHEL verison. Community-based but backed by Red Hat.",
+        "answer": "CentOS Stream"
+      },
+      {
+        "questionText": "Released in 2021, created as a replacement for CentOS. Binary-compatible with RHEL.",
+        "answer": "Rocky Linux"
+      },
+      {
+        "questionText": "Known for unmatched stability and commonly used for web servers, mail servers, and infastructure.",
+        "answer": "Debian"
+      },
+      {
+        "questionText": "Released in 2004, beginner-friendly and widely used based on Debian. Large community support, deai for desktops, deducation, and cloud computing.",
+        "answer": "Ubuntu"
+      },
+      {
+        "questionText": "Released in 2006, based on Ubuntu. Designed for users switching from windows. Comes with multimedia codecs and a familiar interface.",
+        "answer": "Linux Mint"
+      },
+      {
+        "questionText": "Released in 1993, one of the oldest and most stable linux distributions.",
+        "answer": "Debian"
+      },
+      {
+        "questionText": "Released in 2003, sponsored by Red Hat. Features the latest Linux technologies.",
+        "answer": "Fedora"
+      },
+      {
+        "questionText": "Released in 2011 based on Arch Linux.",
+        "answer": "Manjaro"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Finals Topic 4D - Benefits of Using Linux",
+    "questions": [
+      {
+        "questionText": "Linux is _____________ because many distributions are free to download.",
+        "answer": "Cost-Effective"
+      },
+      {
+        "questionText": "Linux distributions are often available as __________ for easy installation.",
+        "answer": "ISO Images"
+      },
+      {
+        "questionText": "You can also buy prepackage _______ versions online at a low cost.",
+        "answer": "Linux"
+      },
+      {
+        "questionText": "__________ is a popular Linux distribution developed by Canonical.",
+        "answer": "Ubuntu"
+      },
+      {
+        "questionText": "Canonical keeps Ubuntu updated and funds its work through ____________________.",
+        "answer": "Consulting Services"
+      },
+      {
+        "questionText": "Linux can run on ___________________.",
+        "answer": "Old Equipment"
+      },
+      {
+        "questionText": "Example system requirements for Ubuntu Desktop includes __ GHz dual-core processor or faster, __ GB RAM, __ GB of free storage, a DVD drive or USB port for installation.",
+        "answer": "2, 4, 25"
+      },
+      {
+        "questionText": "BASH meaning.",
+        "answer": "Bourne-Again Shell"
+      },
+      {
+        "questionText": "_____ is the default shell in most Linux systems and was written for the GNU project.",
+        "answer": "BASH"
+      },
+      {
+        "questionText": "Linux code is well-written, which enhances its _____ and ________.",
+        "answer": "Speed, Stability"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Finals Topic 4E - Drawbacks of Linux",
+    "questions": [
+      {
+        "questionText": "No system is ___________, but Apple and Microsoft offer extensive documentation, service packs, and frequent updates to fix vulnerabilities.",
+        "answer": "100% Secure"
+      },
+      {
+        "questionText": "Linux lacks ________________, meaning documentation can be inconsistent.",
+        "answer": "Centralized Support"
+      },
+      {
+        "questionText": "The variety of ____ in Linux can be confusing for users used to Windows or MacOS.",
+        "answer": "GUIs"
+      },
+      {
+        "questionText": "Working in Linux requires some __________ and ___________.",
+        "answer": "Exploration, Self-Training"
+      },
+      {
+        "questionText": "Some ______________ for Windows are not available on Linux.",
+        "answer": "Important Apps"
+      },
+      {
+        "questionText": "Not all ____________________ are compatible with Linux, but this is improving.",
+        "answer": "Hardware Products"
+      },
+      {
+        "questionText": "Linux's command shell remains __________, especially for advanced tasks.",
+        "answer": "Complex"
+      },
+      {
+        "questionText": "Linux assumes users know what they are doing and understand the consequences of their ____________.",
+        "answer": "Commands"
+      },
+      {
+        "questionText": "Despite improved GUIs, Linux is still not as ______________ as other common operating systems.",
+        "answer": "User-Friendly"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC202 Finals Topic 5A - Exploring Ubuntu  Desktop",
+    "questions": [
+      {
+        "questionText": "One of the most user-friendly versions of Linux.",
+        "answer": "Ubuntu"
+      },
+      {
+        "questionText": "The ___ of Ubuntu is the visual desktop environment that lets users interact with the system through windows, icons, menus, and pointers instead of typing commands.",
+        "answer": "GUI"
+      },
+      {
+        "questionText": "Ubuntu uses _______ GUI.",
+        "answer": "GNOME"
+      },
+      {
+        "questionText": "What does GNOME mean?",
+        "answer": "GNU Network Object Model Environment"
+      },
+      {
+        "questionText": "GNOME is formerly known as ______.",
+        "answer": "Unity"
+      },
+      {
+        "questionText": "Always at the very top of the screen. It serves as a central control panel for system status notifications.",
+        "answer": "Top Bar"
+      },
+      {
+        "questionText": "Activated by clicking \"Activities\" on the top bar or by moving your mouse to the top-left corner.",
+        "answer": "Activities Button"
+      },
+      {
+        "questionText": "Shows time, and clicking it shows full calendar and activities.",
+        "answer": "Notification and Message Center"
+      },
+      {
+        "questionText": "Found at the top-right of the Top Bar. Provides quick access to Wi-Fi, volume controls, etc...",
+        "answer": "System Menu"
+      },
+      {
+        "questionText": "A vertical panel on the left side (by default). You can add or remove apps easily.",
+        "answer": "Dock / Dash"
+      },
+      {
+        "questionText": "Accessible via the Activities Overview. It's a full-screen launcher that shows all installed applications in a neat grid layout.",
+        "answer": "Application Grid"
+      },
+      {
+        "questionText": "Is the control center for your Ubuntu (or GNOME) system. It gives you a simple, organized way to manage how your computer behaves, looks, and connects to other devices, all without needing any commands.",
+        "answer": "System Settings"
+      }
+    ]
+  }
+]
