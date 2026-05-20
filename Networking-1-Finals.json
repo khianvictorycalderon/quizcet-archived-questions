@@ -1,0 +1,243 @@
+[
+  {
+    "name": "ITPS206 Finals Topic 1A - IPv4 Address",
+    "questions": [
+      {
+        "questionText": "Defines how devices are uniquely identified and how data is routed across a network. It is the most widely used addressing scheme in modern networking.",
+        "answer": "IPv4 Addressing"
+      },
+      {
+        "questionText": "An IPv4 is ___-bit.",
+        "answer": "32"
+      },
+      {
+        "questionText": "The 32 bits are divided into four 8-bit sections. Each can have a decimal value ranging from 0 to 255.",
+        "answer": "Octets"
+      },
+      {
+        "questionText": "For computers to process the address, each decimal number is converted into 8-bits of binary.",
+        "answer": "Binary Representation"
+      },
+      {
+        "questionText": "Designed for massive organizations like governments or global ISPs.\n\n- First octet range: 1 - 126\n- Default subnet mask: 255.0.0.0",
+        "answer": "Class A: Large Network"
+      },
+      {
+        "questionText": "Designed for large companies or universities.\n\n- First octet range: 128 - 191\n- Default subnet mask: 255.255.0.0\n- Supports about 16,000 networks and 65,534 host networks.",
+        "answer": "Class B: Medium Network"
+      },
+      {
+        "questionText": "127 is used for _________.",
+        "answer": "Testing"
+      },
+      {
+        "questionText": "Designed to connect small networks, such as homes or offices, allowing up to 254 devices to communicate.\n\n- First octet range: 192 - 223\n- Default subnet mask: 255.255.255.0\n- Supports over 2 million networks, but only 254 hosts per network.",
+        "answer": "Class C: Small Network"
+      },
+      {
+        "questionText": "This class is not assigned to specific hosts. Instead, it is used for sending data from source to a specific group of recipients simultaneously",
+        "answer": "Class D: Multicast"
+      },
+      {
+        "questionText": "Reserved by the IETF for research, testing, or future use. You will almost never see these in a live production environment.",
+        "answer": "Class E: Experimental"
+      },
+      {
+        "questionText": "Refers to a 32-bit number that works side-by-side with an IP address to determine which part of the address belong to the network and which part belongs to the host (the specific device).",
+        "answer": "Subnet Mask"
+      },
+      {
+        "questionText": "An IP like 192.168.1.0/26, the /26 tells you that the first 26 bits are ___________ (set to 1).",
+        "answer": "Turned On"
+      }
+    ]
+  },
+  {
+    "name": "ITPS206 Finals Topic 1B - Network Configuration",
+    "questions": [
+      {
+        "questionText": "Every device needs a unique _____________.",
+        "answer": "IP Address"
+      },
+      {
+        "questionText": "Manually typed in by an administrator (common for servers and printers).",
+        "answer": "Static IP"
+      },
+      {
+        "questionText": "Automatically assigned by a router when a device joins the network.",
+        "answer": "Dynamic IP (DHCP)"
+      },
+      {
+        "questionText": "_________________________ is the IP address of the router interface that connects your local network to the outside world (the internet).",
+        "answer": "Default Gateway"
+      },
+      {
+        "questionText": "If a computer wants to send data to an IP that is not in its own subnet, it sends that data to the Default Gateway.",
+        "answer": "The Rule"
+      },
+      {
+        "questionText": "Computers only understand numbers (e.g. 142.250.190.47). Translates it into human readable text.",
+        "answer": "Domain Name System"
+      },
+      {
+        "questionText": "Allows a network administrator to take on physical switch and chop into multiple, private VIRTUAL switches.",
+        "answer": "Virtual LANs"
+      }
+    ]
+  },
+  {
+    "name": "ITPS206 Finals Topic 2B - Network Troubleshooting",
+    "questions": [
+      {
+        "questionText": "3 Approach in trouble-shooting in network faults.",
+        "answer": "Bottom-Up, Top-Down, Divide and Conquer"
+      },
+      {
+        "questionText": "Start at Layer 1 (Cables) and move up to Layer 7. When you suspect a hardware or wiring issue.",
+        "answer": "Bottom-Up Approach"
+      },
+      {
+        "questionText": "Start at Layer 7 (Apps) and move down to Layer 1. When only one specific app (like CHrome) isn't working.",
+        "answer": "Top-Down Approach"
+      },
+      {
+        "questionText": "Start at Layer 3 or 4 (Ping/Traceroute). To quickly see if the problem is hardware or software.",
+        "answer": "Divide and Conquer Approach"
+      }
+    ]
+  },
+  {
+    "name": "ITPS206 Finals Topic 2C - Diagnostic Tools",
+    "questions": [
+      {
+        "questionText": "Software tools:\n- Ping (_________)\n- Traceroute (____________)\n- Ipconfig / all",
+        "answer": "ICMP, Tracert"
+      },
+      {
+        "questionText": "Hardware tools:\n- ___________ Plug\n- Tone ___________ and Probe (Fax and Hound)",
+        "answer": "Loopback, Generator"
+      },
+      {
+        "questionText": "7 Step troubleshooting process.\n\nProfessional engineers follow this strict cycle to ensure they don't make the problem worse:\n\n1. Identify the ______________.\n2. Establish a ____________.\n3. Test the _____________.\n4. Establish a ___________.\n5. Implement a ___________.\n6. Verify _____________.\n7. Document ___________.",
+        "answer": "Problem, Theory, Theory, Plan, Solution, Functionality, Findings"
+      }
+    ]
+  },
+  {
+    "name": "ITPS206 Finals Topic 3A - Network Security",
+    "questions": [
+      {
+        "questionText": "The CIA Triad.",
+        "answer": "Confidentiality, Integrity, Availability"
+      },
+      {
+        "questionText": "Software specifically designed to disrupt, damage, or gain unauthorized access to a computer system.",
+        "answer": "Malware"
+      },
+      {
+        "questionText": "The art of manipulating people into giving up confidential information.",
+        "answer": "Social Engineering"
+      },
+      {
+        "questionText": "The discovery and mapping of systems, services, or vulnerabilities.",
+        "answer": "Reconnaissance Attacks"
+      },
+      {
+        "questionText": "Attempts to gain unauthorized access to accounts or data.",
+        "answer": "Access Attacks"
+      },
+      {
+        "questionText": "An attack meant to shut down a machine or network, making it inaccessible to users.",
+        "answer": "Denial of Service"
+      }
+    ]
+  },
+  {
+    "name": "ITPS206 Finals Topic 3B - Basic Protection Techniques",
+    "questions": [
+      {
+        "questionText": "Only the intended recipient should be able to read the data. This is achieved through encryption, access controls, and hiding data.",
+        "answer": "Confidentiality (Privacy)"
+      },
+      {
+        "questionText": "Data must remain 'clean' and unchanged from the moment it is sent to the moment it is received.",
+        "answer": "Integrity (Accuracy)"
+      },
+      {
+        "questionText": "Systems must be \"up\" whenever they are needed. This involves redundancy (having backups) and maintenance.",
+        "answer": "Availability (Uptime)"
+      }
+    ]
+  },
+  {
+    "name": "ITPS206 Finals Topic 3C - Network Threats",
+    "questions": [
+      {
+        "questionText": "Protecting the devices at the edge (laptops, phones, tablets). This includes Antivirus and Host-based firewalls.",
+        "answer": "Endpoint Security"
+      },
+      {
+        "questionText": "Making a device as secure as possible by removing unnecessary features.",
+        "answer": "Device Hardening"
+      },
+      {
+        "questionText": "The __________ is a common model that forms the basis for the development of security systems. They are used for finding vulnerabilities and methods for creating solutions.",
+        "answer": "CIA Triad"
+      },
+      {
+        "questionText": "Refer to any potential danger to network integrity, confidentiality, or availability. These threats manifest as unauthorized access attempts, data interception, service disruptions, or infrastructure compromises.",
+        "answer": "Network Security Threats"
+      },
+      {
+        "questionText": "____________________ range from opportunistic cybercriminals to state-sponsored groups with advanced capabilities and resources.",
+        "answer": "Threat Actors"
+      },
+      {
+        "questionText": "A set of \"IF/THEN\" rules on a router if traffic comes from the Student VLAN and if it's trying to go to the Server Room, then Block it.",
+        "answer": "Access Control Lists"
+      },
+      {
+        "questionText": "A barrier between your \"Trusted\" internal network and the \"Untrusted\" internet. It inspects every packet.",
+        "answer": "Firewall"
+      },
+      {
+        "questionText": "It creates an encrypted \"tunnel\" over the public internet, making a remote user appear as if they are sitting in the office.",
+        "answer": "Virtual Private Network"
+      }
+    ]
+  },
+  {
+    "name": "ITPS206 Finals Topic 4A - Ethernet Standards",
+    "questions": [
+      {
+        "questionText": "The baseline for modern networking. It supports speeds up to 1 Gbps at 100 MHz.",
+        "answer": "Cat 5e"
+      },
+      {
+        "questionText": "Features tighter twists and often a plastic separator (spline) to reduce crosstalk. It supports 10 Gbps for distances up to 55 meters.",
+        "answer": "Cat 6"
+      },
+      {
+        "questionText": "Designed to support 10Gbps over the full 100-meter cable length by increasing frequency to 500 MHz.",
+        "answer": "Cat 6a"
+      }
+    ]
+  },
+  {
+    "name": "ITPS206 Finals Topic 4B - Cable Types and Pinouts",
+    "questions": [
+      {
+        "questionText": "Both ends of the cable use the same wiring standard (usually T568B to T568B).",
+        "answer": "Straight Through Cable"
+      },
+      {
+        "questionText": "One end is T658A and the other is T568B.",
+        "answer": "Crossover Cable"
+      },
+      {
+        "questionText": "One end is T658B and the other is T568A.",
+        "answer": "Crossover Cable"
+      }
+    ]
+  }
+]
