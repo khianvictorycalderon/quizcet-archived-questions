@@ -1,0 +1,226 @@
+[
+  {
+    "name": "PELEC304 Midterm Topic 4 - Philosophies of Django",
+    "questions": [
+      {
+        "questionText": "A philosophy of Django that means components work independently with minimal dependency on each other.",
+        "answer": "Loose Coupling"
+      },
+      {
+        "questionText": "Each part of Django has specific responsibility:\n__________ -> Displays data (don't know about requests or databases)\n________ -> Handle data (don't know how data is displayed)\n_______ -> Handle logic (don't depend on a specific system)",
+        "answer": "Templates, Models, Views"
+      },
+      {
+        "questionText": "A philosophy of Django that means app should use as little code as possible; they should lack boilerplate. Django should take full advantage of Python's dynamic capabilities, such as Introspection.",
+        "answer": "Less Code"
+      },
+      {
+        "questionText": "Django takes full advantage of Python's dynamic capabilities, such as _______________.",
+        "answer": "Introspection"
+      },
+      {
+        "questionText": "It should be as fast as possible. All framework code surrounding it should be kept to the absolute minimum, especially for get() operations.",
+        "answer": "Cache Framework"
+      },
+      {
+        "questionText": "A philosophy of Django where the point of a web framework is to make the tedious aspects of web development fast.",
+        "answer": "Quick Development"
+      },
+      {
+        "questionText": "Django's quick development:\n- ________ Development\n- Reusable ____________\n- Built-In ____________________________",
+        "answer": "Rapid, Components, Productivity Tools"
+      },
+      {
+        "questionText": "A philosophy of Django where this is a core python principle listed in PEP 20, and it means Django shouldn't do too much 'magic'.",
+        "answer": "Explicit is better than Implicit"
+      },
+      {
+        "questionText": "In Django, it means that something is clearly stated or written.",
+        "answer": "Explicit"
+      },
+      {
+        "questionText": "In Django, it means that something is assumed or that it happens automatically without being clearly shown.",
+        "answer": "Implicit"
+      },
+      {
+        "questionText": "A philosophy of Django where it follows the principle of 'Don't repeat yourself', reducing repetitive code and helping developers build applications faster.",
+        "answer": "Simplicity"
+      }
+    ]
+  },
+  {
+    "name": "PELEC304 Midterm Topic 3 - Milestones in Django's Development",
+    "questions": [
+      {
+        "questionText": "Django is maintained by the Django Software Foundation and is widely used for its ______________________, ____________, _________, and _______________________, making it a popular framework for modern web applications.",
+        "answer": "Rapid Development, Security, Scalability, Clean Code"
+      },
+      {
+        "questionText": "The Django core development team, led by co-founder Jacob Kaplan-Moss, together with Adrian Holovaty, Simmon Willison, and Wilson Miner, officially published this version in September 2008.",
+        "answer": "Django 1.0"
+      },
+      {
+        "questionText": "When was Django 1.0 released?",
+        "answer": "September 3, 2008"
+      },
+      {
+        "questionText": "MySQL default isolation changed to Read Committed, Oracle 11.2 support dropped, requires oracle 12.1+m and QuerySet iterator now support chunk_size parameter.",
+        "answer": "Django 2.0"
+      },
+      {
+        "questionText": "When was Django 2.0 released?",
+        "answer": "December 2, 2017"
+      },
+      {
+        "questionText": "Introduced ASGI (Asynchronous Server Gateway Interface) support for handling asynchronous applications, along with official MariaDB support and new model field choices.",
+        "answer": "Django 3.0"
+      },
+      {
+        "questionText": "When was Django 3.0 released?",
+        "answer": "December 2, 2019"
+      },
+      {
+        "questionText": "Became a Long-Terms Support (LTS) release with automatic AppConfig discover, BigAutoField as the default primary key, functional database indexes, and long-term security updates.",
+        "answer": "Django 3.2 (LTS)"
+      },
+      {
+        "questionText": "When was Django 3.2 (LTS) released?",
+        "answer": "April 6, 2021"
+      },
+      {
+        "questionText": "It marked an important milestone by introducing support for Python 3.10 and adding a built-in Redis cache backend, making caching easier and more efficient. The release improved security, performance, and accessibility, removed deprecated features, and modernized the framework for future improvements.",
+        "answer": "Django 4.0"
+      },
+      {
+        "questionText": "When was Django 4.0 released?",
+        "answer": "December 7, 2021"
+      },
+      {
+        "questionText": "It was a significant release because it introduced asynchronous support for many QuerySet operations, allowing developers to perform database task more efficiently in asynchronous applications. The release improved forms, templates, testing, and performance, making Django more flexible for modern web applications.",
+        "answer": "Django 4.1"
+      },
+      {
+        "questionText": "When was Django 4.1 released?",
+        "answer": "August 3, 2022"
+      },
+      {
+        "questionText": "A long-term support release that focuses on stability, reliability, and long-term maintenance. It introduced improvements to database features, testing tools, security, and performance, while enhancing the developer experience. Its long-term support made it a popular choice for production projects.",
+        "answer": "Django 4.2 (LTS)"
+      },
+      {
+        "questionText": "When was Django 4.2 released?",
+        "answer": "April 3, 2023"
+      },
+      {
+        "questionText": "It continued the framework's modernization by adding support for newer Python versions and introducing improvements to forms, models, database operations, and the admin interface. The release removed deprecated features from earlier versions, improving performance, security, and overall usability.",
+        "answer": "Django 5.0"
+      },
+      {
+        "questionText": "When was Django 5.0 released?",
+        "answer": "December 4, 2023"
+      },
+      {
+        "questionText": "It expanded asynchronous capabilities by adding more async support across different parts of the framework. It also improved the Object-Relational Mapper (ORM), templates, forms, and developer tools, making Django more efficient, easier to use, and better suited for high-performance web applications.",
+        "answer": "Django 5.1"
+      },
+      {
+        "questionText": "When was Django 5.1 released?",
+        "answer": "August 7, 2024"
+      },
+      {
+        "questionText": "The latest (as of August 2026) long-term support release and represents another major milestone in the framework's development. It focuses on greater stability, stronger security, better performance, and compatibility with modern Python versions. The release also includes new features and refinements for building reliable, scalable, and maintainable web applications.",
+        "answer": "Django 5.2 (LTS)"
+      },
+      {
+        "questionText": "When was Django 5.2 (LTS) release?",
+        "answer": "April 2, 2025"
+      }
+    ]
+  },
+  {
+    "name": "PELEC304 Midterm Topic 2 - History of Django",
+    "questions": [
+      {
+        "questionText": "Web developers Adrian Holovaty and Simon Willison began building Django internally while working at The Lawrence Journal-World, a newspaper in Lawrence, Kansas, Jacob Kaplan-Moss joined the core team shortly after.",
+        "answer": "Creation (Autumn 2003)"
+      },
+      {
+        "questionText": "Web developers Adrian Holovaty and Simon Willison began building Django internally while working at The Lawrence Journal-World, a newspaper in Lawrence, Kansas, ________ _____-____  joined the core team shortly after.",
+        "answer": "Jacob Kaplan-moss"
+      },
+      {
+        "questionText": "Django was named after the legendary ___________________________ Django Reinhardt.",
+        "answer": "Romani-French Jazz Guitarist"
+      },
+      {
+        "questionText": "Who was the lead developer of Django?",
+        "answer": "Adrian Holovaty"
+      },
+      {
+        "questionText": "The newspaper's digital team faced relentless deadline, needing to design, build, and deploy ____________ web application (election results, local business directories, community portals) in hours rather than weeks.",
+        "answer": "Data-Driven"
+      },
+      {
+        "questionText": "The world company (parent company of the Lawrence Journal-World) officially released Django under the _______________ open-source license.",
+        "answer": "3-Clause BSD"
+      },
+      {
+        "questionText": "When was Django Software Foundation (DSF) established?",
+        "answer": "June 17, 2008"
+      },
+      {
+        "questionText": "When was Django 1.0 released?",
+        "answer": "September 3, 2008"
+      },
+      {
+        "questionText": "Marked the framework's official maturity, establishing backwards compatibility guarantees, improved form handling, and a stable ORM.",
+        "answer": "Django 1.0"
+      }
+    ]
+  },
+  {
+    "name": "PELEC304 Midterm Topic 1 - Introduction to Evolution of Django",
+    "questions": [
+      {
+        "questionText": "When was Django developed?",
+        "answer": "2003"
+      },
+      {
+        "questionText": "Who are the developers of Django?",
+        "answer": "Adrian Holovaty, Simon Willison"
+      },
+      {
+        "questionText": "Where was Django created?",
+        "answer": "Lawrence Journal-World Newspaper"
+      },
+      {
+        "questionText": "Its purpose is to quickly build content-rich, database-driven websites.",
+        "answer": "Django"
+      },
+      {
+        "questionText": "When was Django open-sourced?",
+        "answer": "July 2005"
+      },
+      {
+        "questionText": "What is the inspiration of Django?",
+        "answer": "Django Reinhardt"
+      },
+      {
+        "questionText": "Django's Quote.",
+        "answer": "The web framework for perfectionists with deadlines"
+      },
+      {
+        "questionText": "Who among the developer of Django is involved in AI and Machine Learning?",
+        "answer": "Simon Willison"
+      },
+      {
+        "questionText": "Who among the developer of Django is a jazz musician?",
+        "answer": "Adrian Holovaty"
+      },
+      {
+        "questionText": "How many working fingers on his left hand has Django Reinhardt had?",
+        "answer": "2"
+      }
+    ]
+  }
+]
