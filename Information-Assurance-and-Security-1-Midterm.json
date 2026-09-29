@@ -1,0 +1,141 @@
+[
+  {
+    "name": "ITPS310 Midterm Topic 3 - Information Assets",
+    "questions": [
+      {
+        "questionText": "Is information or a resource that has value to an organization and therefore requires protection.",
+        "answer": "Information Asset"
+      },
+      {
+        "questionText": "Examples of information asset:\n- _________ __________\n- Grades\n- Payroll records\n- Source code\n- Databases\n- Servers\n- Applications\n- Network infrastructure\n- Cloud accounts",
+        "answer": "Student Records"
+      },
+      {
+        "questionText": "Examples of information asset:\n- Student records\n- ______\n- Payroll records\n- Source code\n- Databases\n- Servers\n- Applications\n- Network infrastructure\n- Cloud accounts",
+        "answer": "Grades"
+      },
+      {
+        "questionText": "Examples of information asset:\n- Student records\n- Grades\n- ________ _________\n- Source code\n- Databases\n- Servers\n- Applications\n- Network infrastructure\n- Cloud accounts",
+        "answer": "Payroll Records"
+      },
+      {
+        "questionText": "Examples of information asset:\n- Student records\n- Grades\n- Payroll records\n- _________ _____\n- Databases\n- Servers\n- Applications\n- Network infrastructure\n- Cloud accounts",
+        "answer": "Source Code"
+      },
+      {
+        "questionText": "Examples of information asset:\n- Student records\n- Grades\n- Payroll records\n- Source code\n- _________\n- Servers\n- Applications\n- Network infrastructure\n- Cloud accounts",
+        "answer": "Databases"
+      },
+      {
+        "questionText": "Examples of information asset:\n- Student records\n- Grades\n- Payroll records\n- Source code\n- Databases\n- _______\n- Applications\n- Network infrastructure\n- Cloud accounts",
+        "answer": "Servers"
+      },
+      {
+        "questionText": "Examples of information asset:\n- Student records\n- Grades\n- Payroll records\n- Source code\n- Databases\n- Servers\n- ____________\n- Network infrastructure\n- Cloud accounts",
+        "answer": "Applications"
+      },
+      {
+        "questionText": "Examples of information asset:\n- Student records\n- Grades\n- Payroll records\n- Source code\n- Databases\n- Servers\n- Applications\n- ___________ ________________\n- Cloud accounts",
+        "answer": "Network Infrastructure"
+      },
+      {
+        "questionText": "Examples of information asset:\n- Student records\n- Grades\n- Payroll records\n- Source code\n- Databases\n- Servers\n- Applications\n- Network infrastructure\n- _______ ___________",
+        "answer": "Cloud Accounts"
+      },
+      {
+        "questionText": "A simple model:\n_______ -> _________ -> ______________ -> ___________",
+        "answer": "Public, Internal, Confidential, Restricted"
+      },
+      {
+        "questionText": "University classification example:\n- School announcements\n- _________ ____________\n\nInternal:\n- ___________ _____________\n- Department communications\n\nConfidential:\n- ________ _________\n- Faculty records\n\nRestricted:\n- ____________ ___________ ____________\n- Passwords and authentication credentials",
+        "answer": "Published Programs, Internal Procedures, Student Records, Student Medical Records"
+      },
+      {
+        "questionText": "A potential cause of harm to an asset.",
+        "answer": "Threat"
+      },
+      {
+        "questionText": "A weakness that can be exploited.",
+        "answer": "Vulnerability"
+      },
+      {
+        "questionText": "A person, group, or entity capable of carrying out or causing a threat.",
+        "answer": "Threat Actors"
+      }
+    ]
+  },
+  {
+    "name": "ITPS310 Midterm Topic 2 - Foundations of Information Security and Cybersecurity",
+    "questions": [
+      {
+        "questionText": "The practice of protecting information from unauthorized access.",
+        "answer": "Information Security"
+      },
+      {
+        "questionText": "The practice of protecting computers, networks, applications, online accounts, and digital information from cyber threats.",
+        "answer": "Cybersecurity"
+      },
+      {
+        "questionText": "It means ensuring that information is only accessed by authorized people.",
+        "answer": "Confidentiality"
+      }
+    ]
+  },
+  {
+    "name": "ITPS310 Midterm Topic 1 - Foundations of Information Assurance and Security",
+    "questions": [
+      {
+        "questionText": "Information is accessible only to authorized people, systems, or processes.",
+        "answer": "Confidentiality"
+      },
+      {
+        "questionText": "Information remains accurate, complete and protected against unauthorized modification.",
+        "answer": "Integrity"
+      },
+      {
+        "questionText": "Information and services are accessible to authorized users when required.",
+        "answer": "Availability"
+      },
+      {
+        "questionText": "Actions can be reliably traced to the responsible person or system.",
+        "answer": "Non-Repudiation"
+      },
+      {
+        "questionText": "Users, devices, and systems are verified to be genuinely who or what they claim to be.",
+        "answer": "Authentication"
+      },
+      {
+        "questionText": "Operations can be continued or be stored quickly after disruption.",
+        "answer": "Resilience and Restoration"
+      },
+      {
+        "questionText": "These are the trained employees, security professionals, and informed users.",
+        "answer": "People"
+      },
+      {
+        "questionText": "Clear rules for how information must be handled.",
+        "answer": "Policies and Procedure"
+      },
+      {
+        "questionText": "Firewalls, encryption, access controls, and monitoring systems.",
+        "answer": "Technology"
+      },
+      {
+        "questionText": "Leadership commitment and clear accountability structures.",
+        "answer": "Governance"
+      },
+      {
+        "questionText": "Systematic identification of threats and vulnerabilitlies.",
+        "answer": "Risk Management"
+      },
+      {
+        "questionText": "Plans to maintain or restore critical operations.",
+        "answer": "Business Continuity"
+      },
+      {
+        "questionText": "Continuous testing, auditing, and improvement.",
+        "answer": "Monitoring and Evaluation"
+      }
+    ]
+  }
+]
