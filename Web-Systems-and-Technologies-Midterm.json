@@ -1,0 +1,256 @@
+[
+  {
+    "name": "ITPS309 Midterm Topic 6 - Forms & User Input Processing",
+    "questions": [
+      {
+        "questionText": "An interface for users to send data to the server.",
+        "answer": "Form"
+      },
+      {
+        "questionText": "Analogy: Think of a form like an ___ ______ _____ or a command-line prompt.",
+        "answer": "API Input Field"
+      },
+      {
+        "questionText": "A form handles how data is __________, ___________, and ___________.",
+        "answer": "Collected, Validated, Processed"
+      },
+      {
+        "questionText": "It ensures the right data reaches your database.",
+        "answer": "Forms"
+      },
+      {
+        "questionText": "Forms ensure the ______ _____ reaches your database.",
+        "answer": "Right Data"
+      },
+      {
+        "questionText": "Django has a built-in library called _____________ that helps:\n- Create HTML forms automatically\n- Handle user-submitted data\n- Validate data types and requirements",
+        "answer": "django.forms"
+      },
+      {
+        "questionText": "Think of it like:\nA form builder that not only creates your forms but also checks your inputs for you.",
+        "answer": "django.forms"
+      },
+      {
+        "questionText": "2 types of forms in django.",
+        "answer": "Regular Forms, Model Forms"
+      },
+      {
+        "questionText": "- Built manually using forms.Form class.\n- Define fields one by one.\n- You manually decide how to handle the data afterwards.\n\nUse Case: Great for simple forms that are not tied to a database (like a search form).",
+        "answer": "Regular Forms"
+      },
+      {
+        "questionText": "- Built using forms.ModelForm class.\n- Connected directly to your database models.\n- Django automatucally generates fields based no your model.\n\nUse Case: Perfect for CRUD operations (Create, Read, Update, Delete).",
+        "answer": "Model Forms"
+      },
+      {
+        "questionText": "It prevents malicious sites from submitting forms on behalf of a user.",
+        "answer": "Cross-Site Request Forgery"
+      },
+      {
+        "questionText": "Django escapes harmful HTML/JS code in user input. It prevents Cross-Site Scripting attacks.",
+        "answer": "Input Sanitization"
+      },
+      {
+        "questionText": "Ensures users can't inject SQL commands through forms. Django ORM handles this automatically.",
+        "answer": "Data Validation"
+      }
+    ]
+  },
+  {
+    "name": "ITPS309 Midterm Topic 5 - Django Templates and Views",
+    "questions": [
+      {
+        "questionText": "The brain of your web app.",
+        "answer": "Views"
+      },
+      {
+        "questionText": "Django views accepts ____ ________, processes them, and return ___ _________.",
+        "answer": "HTTP Requests, HTTP Responses"
+      },
+      {
+        "questionText": "Django views can return ____ _______, ____ ____ (API), or even a ____ __________.",
+        "answer": "HTML Page, JSON Data, File Download"
+      },
+      {
+        "questionText": "They are like routers in networking: they decide where the request goes.",
+        "answer": "Django Views"
+      },
+      {
+        "questionText": "Django views are like _______ in networking: they decide where the request goes.",
+        "answer": "Routers"
+      },
+      {
+        "questionText": "Defined as Python Functions. Used for small, straightforward logic.",
+        "answer": "Function-Based Views"
+      },
+      {
+        "questionText": "Defined as Python Classes. Best for larger apps with lots of logic.",
+        "answer": "Class-Based Views"
+      },
+      {
+        "questionText": "Response Generation. Responses can be:\n- ____ ______ (rendered templates)\n- ____ ________ (for APIs)\n- ___________ (login -> dashboard)",
+        "answer": "HTML Pages, JSON Responses, Redirects"
+      },
+      {
+        "questionText": "Analogy:\n- _______ = IT support ticket submitted\n- ____ = Support engineer assigned\n- ________ = The ticket solution delivered",
+        "answer": "Request, View, Response"
+      },
+      {
+        "questionText": "Django allows reusable templates with base.html",
+        "answer": "Template Inheritance"
+      },
+      {
+        "questionText": "Avoids repeating HTML structures.",
+        "answer": "Template Inheritance"
+      }
+    ]
+  },
+  {
+    "name": "ITPS309 Midterm Topic 4 - Theories",
+    "questions": [
+      {
+        "questionText": "ORM meaning.",
+        "answer": "Object-Relational Mapping"
+      },
+      {
+        "questionText": "Analogy:\n\nORM = ___________ ____________\nPython speaks English, Database speaks SQL -> ORM Translates automatically.",
+        "answer": "Google Translate"
+      },
+      {
+        "questionText": "Why ORM matters?\n- Easier and faster than writing ___ ____.\n- Secure (prevents ___ __________).\n- Works across databases (SQLite for dev, PostgreSQL/MySQL for production)\n- Allows devs to think in Python _____",
+        "answer": "Raw SQL, SQL Injection, Objects"
+      },
+      {
+        "questionText": "Defining models and fields:\n_______ => A table in database.\n______ => A column in the table.",
+        "answer": "Model, Field"
+      },
+      {
+        "questionText": "Common fields in django models.",
+        "answer": "CharField, IntegerField, EmailField, DateTimeField, BooleanField"
+      },
+      {
+        "questionText": "class Product(models.Model):\n   name = models.CharField(max_length=100)\n   price = models.DecimalField(max_digits=3, decimal_places=2)\n   stock = models.IntegerField()\n   create_at = models.DateTimeField(auto_now_add=True)\n\n_______ = Table (Product)\n__________ = Columns (name, price, stocks, etc...)",
+        "answer": "Class, Attributes"
+      },
+      {
+        "questionText": "It syncs between models and database.",
+        "answer": "Migration"
+      },
+      {
+        "questionText": "Migration analogy:\n______ = Building design (blueprint).\n_________ = Updating the actual building based on blueprint changes.",
+        "answer": "Models, Migrations"
+      },
+      {
+        "questionText": "Database relationships.",
+        "answer": "One-to-One, One-to-Many, Many-to-Many"
+      },
+      {
+        "questionText": "Database relationships:\n\n1. One-to-One\n   - Example: User <-> UserProfile\n   - Analogy: 1 __________ <-> 1 __ ____\n\n2. One-to-Many:\n   - Example: Category <-> Products\n   - Analogy: 1 ____________ <-> Many ____________\n\n3. Many-to-Many:\n   - Example: Students <-> Courses\n   - Analogy: Many ________ <-> Many ____________",
+        "answer": "Student, ID Card, Teacher, Students, Actors, Movies"
+      }
+    ]
+  },
+  {
+    "name": "ITPS309 Midterm Topic 3 - Django Project Structure",
+    "questions": [
+      {
+        "questionText": "The entire web application environment (like a container for all apps).",
+        "answer": "Django Project"
+      },
+      {
+        "questionText": "A specific module or feature.",
+        "answer": "Django App"
+      },
+      {
+        "questionText": "Django security & settings:\n- Keep _____________ hidden.\n- Never set ___________________ in production.\n- Use ___________________________ for sensitive data.",
+        "answer": "SECRET_KEY, Debug = True, Environmental Variables"
+      },
+      {
+        "questionText": "Small units of code that process requests/responses globally.",
+        "answer": "Middleware"
+      },
+      {
+        "questionText": "2 types of default middlewares in Django.",
+        "answer": "SecurityMiddleware, AuthenticationMiddleware"
+      }
+    ]
+  },
+  {
+    "name": "ITPS309 Midterm Topic 2 - Introduction to Django",
+    "questions": [
+      {
+        "questionText": "A python-based full-stack web framework used by instagram, pinterest, mozzila, and more.",
+        "answer": "Django"
+      },
+      {
+        "questionText": "Why Django? (3 reasons)",
+        "answer": "Fast Development, Secure by Default, Batteries-Included"
+      },
+      {
+        "questionText": "It handles both Frontend (Templates) and Backend (Python logic).",
+        "answer": "Django"
+      },
+      {
+        "questionText": "Django comes with:\n- _______ panel\n- ORM (_____________________________)\n- ___ Routing\n- ____________ system\n- Template ________",
+        "answer": "Admin, Object Relational Mapper, URL, Authentication, Engine"
+      },
+      {
+        "questionText": "Why learn Django?\n- ______________ in the job market\n- ______________ for big apps\n- Works well with ____, _______________, and ___________ frameworks",
+        "answer": "High Demand, Scales Well, APIs, Mobile Apps, Frontend"
+      }
+    ]
+  },
+  {
+    "name": "ITPS309 Midterm Topic 1 - Introduction to Web Systems",
+    "questions": [
+      {
+        "questionText": "A collection of tools, software, and services that enable dynamic websites and web applications.",
+        "answer": "Web Systems"
+      },
+      {
+        "questionText": "3 example of web system.\n- Online _______ system\n- ____________ websites\n- _______________ platforms",
+        "answer": "Banking, E-Commerce, Social Media"
+      },
+      {
+        "questionText": "Components of a Web System.",
+        "answer": "Frontend, Backend, Database"
+      },
+      {
+        "questionText": "A component of a web system of what the user sees.",
+        "answer": "Frontend"
+      },
+      {
+        "questionText": "A component of a web system with logic, database handling, and APIs.",
+        "answer": "Backend"
+      },
+      {
+        "questionText": "A component of a web system stores data like user accounts.",
+        "answer": "Database"
+      },
+      {
+        "questionText": "2 web architecture.",
+        "answer": "Monolithic, Microservices"
+      },
+      {
+        "questionText": "Web architecture where everything is bundled together.",
+        "answer": "Monolithic"
+      },
+      {
+        "questionText": "Web architecture where each service is independent.",
+        "answer": "Microservices"
+      },
+      {
+        "questionText": "It is a computing architecture where tasks are divided between providers (servers) and requesters (clients).",
+        "answer": "Client-Server Model"
+      },
+      {
+        "questionText": "Client requests services or resources from servers, which then respond by providing the requested information or fulfilling request.",
+        "answer": "Client-Server Model"
+      },
+      {
+        "questionText": "This model is widely used in various applications like web browsing, email, and online gaming.",
+        "answer": "Client-Server Model"
+      }
+    ]
+  }
+]
