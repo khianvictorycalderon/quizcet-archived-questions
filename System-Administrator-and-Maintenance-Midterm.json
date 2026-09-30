@@ -1,0 +1,373 @@
+[
+  {
+    "name": "ITPS308 Midterm Topic 1 - Introduction to System Administrator and Maintenance",
+    "questions": [
+      {
+        "questionText": "The process of managing and maintaining a computer system or network.",
+        "answer": "System Administration"
+      },
+      {
+        "questionText": "System Administration is the process of managing and maintaining a computer system or network. This includes tasks such as:\n\n- Installing and __________ hardware and software.\n- _________ user accounts and permissions.\n- ___________ system performance and security.\n- ___________ and resolving problems.\n- Planning for and ____________ system upgrades and changes.",
+        "answer": "Configuring, Managing, Monitoring, Troubleshoot, Implementing"
+      },
+      {
+        "questionText": "This command scans the integrity of our files and OS.",
+        "answer": "sfc /scannow"
+      },
+      {
+        "questionText": "This command gives a more detailed view of what is happening with your system right now.",
+        "answer": "resmon"
+      },
+      {
+        "questionText": "This command is a more advanced, long-term monitoring tool.",
+        "answer": "perfmon"
+      },
+      {
+        "questionText": "Why system administration is important?\n\n- System administration is important because it ensures that computer systems and networks are _______, ________, and ____________.\n- Without system administrators, businesses and organizations would not be able to rely on their IT systems to operate _________ and ___________.",
+        "answer": "Reliable, Secure, Performant, Smoothly, Efficiently"
+      },
+      {
+        "questionText": "Challenges of system administration:\n- Keeping up with _____________________.\n- Managing a diverse range of _________ and ___________.\n- Dealing with unexpected ________ and _________.\n- Meeting the demands of ________ and ______________.",
+        "answer": "Latest Technologies, Systems, Applications, Problems, Outages, Users, Management"
+      },
+      {
+        "questionText": "Best practices for system administration (6 items).",
+        "answer": "Documentation, Monitoring, Backups, Security, Automation, Training"
+      },
+      {
+        "questionText": "A type of network administration that manages the computer networks of an organization, these tasks include:\n- Designing\n- Installing\n- Configuring\n- Troubleshooting Networks",
+        "answer": "Network Administration"
+      },
+      {
+        "questionText": "A type of network administration that manages the computer systems of an organization, these includes tasks such as:\n- Installing\n- Configuring Operating Systems\n- Software Applications\n- Hardware",
+        "answer": "System Administration"
+      },
+      {
+        "questionText": "A type of network administration that manages the database of an organization, these includes tasks such as:\n- Designing\n- Installing\n- Configuring Databases\n- As well as Managing User Accounts and Permissions",
+        "answer": "Database Administration"
+      },
+      {
+        "questionText": "A type of network administration that manages the web servers and websites of an organization, these includes tasks such as:\n- Installing and configuring web servers.\n- As well as creating and maintaining websites.",
+        "answer": "Web Administration"
+      },
+      {
+        "questionText": "Technologies that system administrator uses (4 items).",
+        "answer": "Operating System, Software Applications, Hardware, Networking Equipment"
+      },
+      {
+        "questionText": "The process of collecting and analyzing data about the performance of a computer system. This data can be used to identify and troubleshoot performance bottlenecks, improve system efficiency, and ensure that systems are meeting the needs of their users.",
+        "answer": "System Performance Monitoring"
+      },
+      {
+        "questionText": "8 system performance metrics:\n1. ____ usage\n2. ________ usage\n3. _____ I/O\n4. __________ bandwidth\n5. ________________ response time\n6. _______________ throughput\n7. Number of ________________________\n8. Number of ___________.",
+        "answer": "CPU, Memory, Disk, Network, Application, Database, Active Users, Errors"
+      }
+    ]
+  },
+  {
+    "name": "ITPS308 Midterm Topic 2 - Cybersecurity",
+    "questions": [
+      {
+        "questionText": "Is the ongoing effort to protect individuals, organizations and governments from digital attacks by protecting networked system and data from unauthorized attacks.",
+        "answer": "Cybersecurity"
+      },
+      {
+        "questionText": "On this protection level, you need to safeguard your identity, your data, and your computing devices.",
+        "answer": "Personal Level"
+      },
+      {
+        "questionText": "Is the real-life persona that you present on a daily basis at home, at school, or at work. As a result, family and friends know details about your personal life, including your full name, age and address.",
+        "answer": "Offline Identity"
+      },
+      {
+        "questionText": "It's not just a name. It's who you are and how you present yourself to others in the digital world. It includes the username or alias you user for your accounts, as well as the social identity you estbalish and portray on online communities and websites.",
+        "answer": "Online Identity"
+      },
+      {
+        "questionText": "On this protection level, it is everyone's responsibility to protect the organization's reputation, data and customers.",
+        "answer": "Organizational Level"
+      },
+      {
+        "questionText": "On this protection level, is as more digital information is being gathered and shared, its protection becomes even more vital at the government level, where national security, economic stability and the safety and well-being of citizens are at stake.",
+        "answer": "Governmental Level"
+      },
+      {
+        "questionText": "Many people think that if they don't have any social media or online accounts set up, then they don't have an online identity. This is not the case. If you use the ___, you have an online identity.",
+        "answer": "Web"
+      },
+      {
+        "questionText": "Personal data describes any information about you, including your name, social security number, driver license number, date and place of birth, your mother's maiden name, and even pictures or messages that you exchange with family and friends.",
+        "answer": "Your Data"
+      },
+      {
+        "questionText": "______________ can use this sensitive information to identify and impersonate you, infringing on your privacy and potentially causing serious damage to your reputation.",
+        "answer": "Cybercriminals"
+      },
+      {
+        "questionText": "3 ways hackers get their hands on your personal data.",
+        "answer": "Medical Records, Educational Records, Employment and Financial Records"
+      },
+      {
+        "questionText": "Every time you visit the doctor, personal information regarding your physical and mental health and well-being is added to your electronic health records (EHRs). Since the majority of these records are saved online, you need to be aware of the medical information that you share.",
+        "answer": "Medical Records"
+      },
+      {
+        "questionText": "Many of these collects large amounts of clinical data such as your heart rate, blood pressure and blood sugar levels, which is transferred, store and displayed via the cloud.",
+        "answer": "Fitness Trackers"
+      },
+      {
+        "questionText": "It contains information about your academic qualifications and achievements.",
+        "answer": "Educational Records"
+      },
+      {
+        "questionText": "__________________________ can be valuable to hackers if they gather information your past employment, or even your current performance reviews.",
+        "answer": "Employment Data"
+      },
+      {
+        "questionText": "Your _______________________ may include information about your income and expenditure. Your tax records may include paychecks, credit card, statements, your credit rating and your bank account details.",
+        "answer": "Financial Records"
+      },
+      {
+        "questionText": "All of this data, if not safeguarded properly, can compromise your privacy and enable cybercriminals to use your information for their own gain.",
+        "answer": "Employment and Financial Records"
+      },
+      {
+        "questionText": "Wearable technologies such as ________________ and activity trackers collect your data for clinical research, patient, health monitoring, and fitness and well-being. As the global fitness tracker market grows, so also does the risk to your personal data.",
+        "answer": "Smartwatches"
+      },
+      {
+        "questionText": "Cybercriminals are certainly very ________________ when it comes to gainin access to your money. But that's not all they are after, they could also steal your _____________ and _____ your life.",
+        "answer": "Imaginative, Identity, Ruin"
+      },
+      {
+        "questionText": "Who else wants your data?",
+        "answer": "ISP, Advertiser, Search Engine and Social Media Platform, Website You Visit"
+      },
+      {
+        "questionText": "They tracks your online activity and, in some countries, they can sell this data to advertisers for a profit.",
+        "answer": "Internet Service Provider"
+      },
+      {
+        "questionText": "Targeted advertising is part of the Internet experience. They monitor and track your online activities such as shopping habits and personal preferences and sent targeted ads your way.",
+        "answer": "Advertiser"
+      },
+      {
+        "questionText": "These platforms gather information about your gender, geolocation, phone number and political and relogious ideologies based on your search histories and online identity.",
+        "answer": "Search Engine and Social Media Platform"
+      },
+      {
+        "questionText": "Website use cookies to track your activities in order to provide a more spersonalized experience.",
+        "answer": "Website You Visit"
+      },
+      {
+        "questionText": "Types of Organizational Data.",
+        "answer": "Transactional Data, Intellectual Property, Financial Data"
+      },
+      {
+        "questionText": "This type of organizational data such as details relating to buying and selling, production activities and basic organizational operations such as any information used to make employment decisions.",
+        "answer": "Transactional Data"
+      },
+      {
+        "questionText": "This type of organizational data such as patents, trademarks and new product plans, which allows an organization to gain economic advantage over its competitors.",
+        "answer": "Intellectual Property"
+      },
+      {
+        "questionText": "This type of organizational data such as income statements, balance sheets and cash flow statements, which provide insight into the health of a company.",
+        "answer": "Financial Data"
+      },
+      {
+        "questionText": "The foundational principles for protecting information.",
+        "answer": "The Cube"
+      },
+      {
+        "questionText": "Methods to ensure confidentiality includes:\n- _______________________\n- ____________________\n- _______________________",
+        "answer": "Data Encryption, Identity Proofing, Two Factor Authentication"
+      },
+      {
+        "questionText": "It ensures that system information or processes are protected from intentional accidental modification.",
+        "answer": "Integrity"
+      },
+      {
+        "questionText": "One way to ensure integrity is to use a ____________________ or ___________.",
+        "answer": "Hash Function, Checksum"
+      },
+      {
+        "questionText": "It means that authorized users are able to access systems and data when and where needed and those that do not meet established conditions, are not.",
+        "answer": "Availability"
+      },
+      {
+        "questionText": "This can be achieved by maintaining equipment, performing hardware repairs, keeping operating systems and software up to date, and creating backups.",
+        "answer": "Availability"
+      },
+      {
+        "questionText": "Refers to data that use being used to perform an operation such as updating a database record (data in process).",
+        "answer": "Processing"
+      },
+      {
+        "questionText": "Refers to data stored in memory or on a permanent storage device such as a hard drive, solid-state drive or USB drive (data at rest).",
+        "answer": "Storage"
+      },
+      {
+        "questionText": "Refers to data travelling between information systems (data in transit).",
+        "answer": "Transmission"
+      },
+      {
+        "questionText": "DIKW pyramid meaning.",
+        "answer": "Data, Information, Knowledge, Wisdom"
+      },
+      {
+        "questionText": "The measures put in place by an organization to ensure that users are knowledgeable about security threats and the actions they can take to protect information systems.",
+        "answer": "Awareness & Training & Education"
+      },
+      {
+        "questionText": "Refers to the software and hardware based solutions designed to protect information systems such as firewalls, which continuoisly monitor your network in search of possible malicious incidents.",
+        "answer": "Technology"
+      },
+      {
+        "questionText": "Refers to the administrative controls that provide a foundation for how an organization implements information assurance, such as incident response plans and best practice guidelines.",
+        "answer": "Policy and Procedure"
+      },
+      {
+        "questionText": "In 2017, an Internet of Things botnet, Persirai targeted over 1,000 different models of Internet Protocols (IP) cameras, accessing open ports to inject a command that forced the cameras to connect to a site which installed malware on them. Once the malware was downloaded and executed, it deleted itself and was therefore able to run in memory to avoid detection.",
+        "answer": "Persirai Botnet"
+      },
+      {
+        "questionText": "In September 2017, a consumer credit reporting agency in the US, publicly announced a data breach event. Attackers had been able to exploit a vulnerability in its web application software to gain access to the sensitive personal data of millions of customers.",
+        "answer": "Equifax Inc."
+      },
+      {
+        "questionText": "A security breach can have a negative long-term impact on an organization's reputation that has taken years to build.",
+        "answer": "Reputational Damage"
+      },
+      {
+        "questionText": "A hacker or hacking group may vandalize an organization's website by posting untrue information. They might even just make a few minors edits to your organization's phone number or address, which can be tricker to detect.",
+        "answer": "Vandalism"
+      },
+      {
+        "questionText": "A data breach often involves an incident where sensitive personal data has been stolen. Cybercriminals can make this information public or exploit it to steal an individual's money or identity.",
+        "answer": "Theft"
+      },
+      {
+        "questionText": "The financial impact of a security breach can be devastating. For example, hackers can take down an organization's website, preventing it from doing business online.",
+        "answer": "Loss of Revenue"
+      },
+      {
+        "questionText": "A security breach could also have a devastating impact on the comptitiveness of an organization, particularly if hackers are able to get their hands on confidential documents, trade and secrets and intellectual property.",
+        "answer": "Damage to Intellectual Property"
+      },
+      {
+        "questionText": "The term 'script kiddies' emerged in the 1990s and refers to amateur or inexperienced hackers who use existing tools or instructions found on the Internet to launch attacks.",
+        "answer": "Amateurs"
+      },
+      {
+        "questionText": "Group of attackers break into computer systems or networks to gain access.",
+        "answer": "Hackers"
+      },
+      {
+        "questionText": "They make political statements to create awareness about issues that are important to them.",
+        "answer": "Hacktivists"
+      },
+      {
+        "questionText": "They gather intelligence or commit sabotage on behalf of their government.",
+        "answer": "State-Sponsored Attackers"
+      },
+      {
+        "questionText": "Types of threats.",
+        "answer": "Internal Threats, External Threats"
+      },
+      {
+        "questionText": "As its name suggests, is the use of technology to penetrate and attack another nation's computer systems and networks in an effort to cause damage or disrupt services, such as shutting down a power grid.",
+        "answer": "Cyberwarfare"
+      },
+      {
+        "questionText": "Types of malware.",
+        "answer": "Spyware, Adware, Backdoor, Ransomware, Scareware, Rootkit, Virus, Trojan Horse, Worms"
+      },
+      {
+        "questionText": "Designed to track and spy on you, spyware monitors your online activity and can log every key you press on your keyboard, as well as capture almost any of your data, including sensitive personal information such as your online banking details.",
+        "answer": "Spyware"
+      },
+      {
+        "questionText": "Is often installed with some versions of software and is designed to automatically deliver advertisements to a user, most often on a web browser. You know it when you see it! It's hard to ignore when you're faced with constant pop-up ads on your screen.",
+        "answer": "Adware"
+      },
+      {
+        "questionText": "Used to gain unauthorized access by bypassing the normal authentication procedures to access a system. As a result, hackers can gain remote access to resources within an application and issue remote system commands.",
+        "answer": "Backdoor"
+      },
+      {
+        "questionText": "They are designed to hold a computer system or the data it contains captive until payment is made. Ransomware usually works by encrypting your data so that you can't access it.",
+        "answer": "Ransomware"
+      },
+      {
+        "questionText": "It uses 'scare' tactics to trick you into taking a specific action. Scareware mainly consists of operating system style windows that pop-up to warn you that your system is at risk and needs to run a specific program for it to return to normal operation.",
+        "answer": "Scareware"
+      },
+      {
+        "questionText": "It is designed to modify the operating system to create a backdoor, which attackers can then use to access your computer remotely. Most rootkits take advantage of software vulnerabilities to gain access to resources that normally shouldn't be accessible (privilege escalation) and modify system files.",
+        "answer": "Rootkits"
+      },
+      {
+        "questionText": "When executed, it replicates and attaches itself to other executable files, such as a document, by inserting its own code. Most viruses require end-user interaction to initiate activation and can be written to act on a specific date or time.",
+        "answer": "Virus"
+      },
+      {
+        "questionText": "It carries out malicious operations by masking its true intent. It might appear legitimate but is, in fact, very dangerous. It exploit your user privileges and are most often found in image files, audio files or games.",
+        "answer": "Trojan Horse"
+      },
+      {
+        "questionText": "It replicates itself in order to spread from one computer to another. Unlike a virus, which requires a host program to run, worms can run by themselves.",
+        "answer": "Worms"
+      },
+      {
+        "questionText": "Symptoms of Malware:\n- An increase in ___ usage, which slows down your device.\n- Your computer freezing or ___________ often.\n- A decrease in your _____________________ speed.\n- Unexplainable problems with your _________________________.",
+        "answer": "CPU, Crashing, Web Browsing, Network Connections"
+      }
+    ]
+  },
+  {
+    "name": "ITPS308 Midterm Topic 3 - Windows Server R2: Core Features & Enterprise Applications",
+    "questions": [
+      {
+        "questionText": "The __ suffix marks the second release of a Windows Server generation, not a full rebuild, but a meaningful leap forward in capabilities, stability, and enterprise readiness.",
+        "answer": "R2"
+      },
+      {
+        "questionText": "Key innovation in Windows Server 2008 R2: Foundation era:\nIntoroduced the __________ virtualization platform, transforming enterprise datacenter economics.",
+        "answer": "Hyper-V"
+      },
+      {
+        "questionText": "Core Features: Active Directory & Identity:\n\nActive directory domain service with improved improved tooling, granular auditing, and Recycle Bin support for recovering accidentally deleted objects.",
+        "answer": "2008 R2 - AD DS"
+      },
+      {
+        "questionText": "Core Features: Active Directory & Identity:\n\nIntroduced attribute-based, file-level permissions, granting access-based on user and device attributes, not just membership. SIgnificantly reduces over-permissioning risk.",
+        "answer": "2012 - Dynamic Access Control"
+      },
+      {
+        "questionText": "Centralized managemetn of users, devices, and group policies across geographically distributed enterprise networks.",
+        "answer": "Enterprise Use Case"
+      },
+      {
+        "questionText": "Core Features: Storage & Files Services:\n\nDistributed File System (DFS) with namespace aggregation and multi-site replication; foundational storage management for enterprise file servers.",
+        "answer": "2008 R2 - DFS & Replication"
+      },
+      {
+        "questionText": "Works like a home address for computers - every device on a network gets its own IP so data reaches the right place.",
+        "answer": "IP Address"
+      },
+      {
+        "questionText": "Identifies which network the device belongs to - like a street name in an address.",
+        "answer": "Network Address"
+      },
+      {
+        "questionText": "Identifies the specific device on that network - like a house number on the street.",
+        "answer": "Host Address"
+      },
+      {
+        "questionText": "The ___________ ____ determines exactly where the split between these two portions happens.",
+        "answer": "Subnet Mask"
+      }
+    ]
+  }
+]
