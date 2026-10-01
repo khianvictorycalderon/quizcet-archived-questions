@@ -1,0 +1,301 @@
+[
+  {
+    "name": "ITELEC303 Midterm Topic 3 - Functions, Collections, etc...",
+    "questions": [
+      {
+        "questionText": "The execution of a defined function by invoking its name followed by parentheses()",
+        "answer": "Function Call"
+      },
+      {
+        "questionText": "Variables listed in the function definition header that accept input values.",
+        "answer": "Parameters"
+      },
+      {
+        "questionText": "The actual values or data passed into the function parameters during execution.",
+        "answer": "Arguments"
+      },
+      {
+        "questionText": "The data sent back to the main caller from a function using the return statement.",
+        "answer": "Return Values"
+      },
+      {
+        "questionText": "Preassigned default parameter values used if no explicit argument is passed during the function call.",
+        "answer": "Default Arguments"
+      },
+      {
+        "questionText": "Created inside a function. They exist only while that function is running and disappear as soon as the function finishes.",
+        "answer": "Local Variables"
+      },
+      {
+        "questionText": "Python's primary sequence type. Think of them as ordered, expandable shopping lists where you can add, remove, or modify items at any time.",
+        "answer": "Lists"
+      },
+      {
+        "questionText": "Lists fundamentals.",
+        "answer": "Ordered, Mutable, Heterogeneous"
+      },
+      {
+        "questionText": "Item maintain their exact insertion sequence.",
+        "answer": "Ordered"
+      },
+      {
+        "questionText": "You can alter elements directly in memory without creating a new list.",
+        "answer": "Mutable"
+      },
+      {
+        "questionText": "A single list can store mixed data types (integers, strings, booleans, or even other lists).",
+        "answer": "Heterogeneous"
+      },
+      {
+        "questionText": "Access a single item using O-based position or negative numbers (counting backward from the end).",
+        "answer": "Indexing"
+      },
+      {
+        "questionText": "Extracts a section. Remember that stop is exclusive (stops right before that index).",
+        "answer": "Slicing"
+      },
+      {
+        "questionText": "Adds item to the end of the list.",
+        "answer": ".append()"
+      },
+      {
+        "questionText": "Unpacks and appends all items from a sequence.",
+        "answer": ".extend()"
+      },
+      {
+        "questionText": "Removes and returns item at index i (defaults to last item).",
+        "answer": ".pop()"
+      },
+      {
+        "questionText": "Sorts elements in-place (modifies original list).",
+        "answer": ".sort()"
+      },
+      {
+        "questionText": "It provides a clean, 1-line shortcut for creating a new list by filtering or transforming an existing iterable.",
+        "answer": "List Comprehensions"
+      },
+      {
+        "questionText": "Python's ordered, immutable sequence type. Think of it as a sealed, read-only record-once created, its contents cannot be added to, removed, or modified.",
+        "answer": "Tuples"
+      },
+      {
+        "questionText": "Initializing immutable sequence with values separated by commas.",
+        "answer": "Tuple Creation"
+      },
+      {
+        "questionText": "Accessing tuple elements via offset indexes.",
+        "answer": "Indexing"
+      },
+      {
+        "questionText": "Assigning elements of a tuple directly into multiple individual variables.",
+        "answer": "Unpacking"
+      },
+      {
+        "questionText": "It is python's collections for storing unique, unordered elements. Think of it as a bag of unique items.",
+        "answer": "Sets"
+      },
+      {
+        "questionText": "Combines all unique elements from both sets into one.",
+        "answer": "Union (|)"
+      },
+      {
+        "questionText": "Finds only the element that exist in both sets.",
+        "answer": "Intersection (&)"
+      },
+      {
+        "questionText": "Returns element present in the first set that are not in the second set.",
+        "answer": "Difference (-)"
+      },
+      {
+        "questionText": "Store data in labeled key-value pairs. Instead of accessing elements using numerical positions, it looks up values using unique descriptive keys.",
+        "answer": "Dictionaries"
+      },
+      {
+        "questionText": "Unique identifiers used to lookup values inside a dictionary.",
+        "answer": "Keys"
+      },
+      {
+        "questionText": "Data stored associated with specific keys.",
+        "answer": "Values"
+      },
+      {
+        "questionText": "Functions manipulating dictionaries.",
+        "answer": "Dictionary Methods"
+      },
+      {
+        "questionText": "Strings in Python are ordered, immutable sequences of characters. Because strings share sequence mechanics with lists, many indexing and slicing techniques apply directly to text.",
+        "answer": "String Processing"
+      },
+      {
+        "questionText": "Retrieves a single character using O-based index or negative offset.",
+        "answer": "Indexing"
+      },
+      {
+        "questionText": "Extracts a substring starting at start up to (excluding) stops.",
+        "answer": "Slicing"
+      },
+      {
+        "questionText": "Individual characters cannot be overwritten in place (text[0] = 'X' raises a TypeError).",
+        "answer": "Immutability"
+      },
+      {
+        "questionText": "Provide code organization by allowing you to break massive scripts into small, manageable, and reusable files.",
+        "answer": "Modules and Packages"
+      },
+      {
+        "questionText": "A _______ is simply a single Python file containing functions, classes, or variables that you want to reuse across different files.",
+        "answer": "Module"
+      },
+      {
+        "questionText": "The ________ statements bring code from an external module into your active script.",
+        "answer": "Import"
+      },
+      {
+        "questionText": "A _________ uses folder structures and dot notation (.) to organize code.",
+        "answer": "Package"
+      },
+      {
+        "questionText": "If a bug occurs in payment processing, you know to look in payment_processor, rather than searching through a 2,000-line single script.",
+        "answer": "Maintainability"
+      },
+      {
+        "questionText": "You can copy math_helpers.py directly into a totally different project without rewriting code.",
+        "answer": "Reusability"
+      },
+      {
+        "questionText": "Team members can work on different .py files simultaneously without breaking each other's code.",
+        "answer": "Collaboration."
+      }
+    ]
+  },
+  {
+    "name": "ITELEC303 Midterm Topic 2 - Object-Oriented Programming",
+    "questions": [
+      {
+        "questionText": "It comebine numerical values using mathematical operators to return a single number (int or float).",
+        "answer": "Arithmetic Operators"
+      },
+      {
+        "questionText": "This operator set or update the value of a variable.",
+        "answer": "Assignment Operators"
+      },
+      {
+        "questionText": "This operator evaluate two values and return a Boolean result (True or False).",
+        "answer": "Comparison Operators"
+      },
+      {
+        "questionText": "This operator combines multiple conditions to direct program execution.",
+        "answer": "Logical Operators"
+      },
+      {
+        "questionText": "This operators test whether a target value or sequence exists inside a collection (such as string, list, tuple, or dictionary).",
+        "answer": "Membership Operators"
+      },
+      {
+        "questionText": "This operator verify if two variables share the exact same location in system memory, not just if their contents look the same.",
+        "answer": "Identity Operators"
+      },
+      {
+        "questionText": "Categories of Operators. (6 items).",
+        "answer": "Arithmetic, Assignment, Comparison, Logical, Membership, Identity"
+      },
+      {
+        "questionText": "Functions are separate from the data they operate on.",
+        "answer": "Procedural Programming"
+      },
+      {
+        "questionText": "Data (Attributes) and functions (Methods) are bound together inside a single entity (Object).",
+        "answer": "Object-Oriented Programming"
+      },
+      {
+        "questionText": "User-defined blueprints, templates, or types used to instantiate objects.",
+        "answer": "Class"
+      },
+      {
+        "questionText": "Concrete instances constructed from a specific class blueprint residing in system memory.",
+        "answer": "Objects"
+      },
+      {
+        "questionText": "A special built-in method automatically executed whenever a new object is created from the class. It sets up the object's initial attributes.",
+        "answer": "Constructor"
+      },
+      {
+        "questionText": "Represents the specific object instance currently calling the method.",
+        "answer": "Parameter"
+      },
+      {
+        "questionText": "Variables belonging to an object instance.",
+        "answer": "Attributes"
+      },
+      {
+        "questionText": "Functions belonging to an object that can view or modify its attributes.",
+        "answer": "Methods"
+      }
+    ]
+  },
+  {
+    "name": "ITELEC303 Midterm Topic 1 - Introduction to Python and OOP",
+    "questions": [
+      {
+        "questionText": "Designed to prioritized developer efficiency and code readability. Instead of requiring complex overhead, Python allows programmers to express concepts in fewer lines of code compared to compiled languages like C++ or Java.",
+        "answer": "Python"
+      },
+      {
+        "questionText": "4 Core Characteristics of Python:\n- ____________ Language\n- ______________\n- ____________-Purpose\n- ___________ Typing",
+        "answer": "High-Level, Interpreted, General, Dynamic"
+      },
+      {
+        "questionText": "Python is designed to prioritize developer efficiency and code readability. Instead of requiring complex overhead, Python allows programmers to express concepts in fewer lines of compared to compiled languages like ____ or _______.",
+        "answer": "C++, Java"
+      },
+      {
+        "questionText": "Who is the creator of Python?",
+        "answer": "Guido Van Rossum"
+      },
+      {
+        "questionText": "Python was conceived in the late 1980s by Guido Van Rossum at ___________ ____________ & _____________ in the Netherlands.",
+        "answer": "Centrum, Wiskunde, Informatica"
+      },
+      {
+        "questionText": "It acts as an intermediary layer between your human-readable Python code (.py files) and the underlying computer hardware.",
+        "answer": "Python Interpreter"
+      },
+      {
+        "questionText": "An _______________________________________ is a centralized application that combines all the software tools required to write, test, debug, and package code into a single interface.",
+        "answer": "Integrated Development Environment"
+      },
+      {
+        "questionText": "A text editing program optimized for writing and modifying source code. Unlike full-fledged Integrated Development Environments (IDEs) like PyCharm, code editors start off minimalist and lightweight, allowing developers to customize their environment through extensions and plugins according to their workflow needs.",
+        "answer": "Code Editor"
+      },
+      {
+        "questionText": "The set of formal rules that dictate how Python code must be written and structured so the interpreter can execute it.",
+        "answer": "Python Syntax"
+      },
+      {
+        "questionText": "Core Rules of Python Syntax:\n1. ___________________________ (Whitespace)\n2. ______________________ (No semicolons needed)\n3. ____________________ & Identifiers\n4. ___________ & Docstrings",
+        "answer": "Significant Indentation, Line Structure, Case Sensitivity, Comments"
+      },
+      {
+        "questionText": "A piece of code that the Python interpreter processes ('evaluates') to reduce down to a single final value (such as a number, a string, a boolean, or an object).",
+        "answer": "Python Expressions"
+      },
+      {
+        "questionText": "Common types of expressions in python.",
+        "answer": "Arithmetic, Relational & Boolean, String & Sequence, Conditional, Comprehensions & Lambda"
+      },
+      {
+        "questionText": "The logical arrangement of code elements such as imports, constants definitions, function declarations, class definitions, and main execution blocks.",
+        "answer": "Python Program Structure"
+      },
+      {
+        "questionText": "Core primitive data types in Python.",
+        "answer": "Integer, Float, String, Boolean"
+      },
+      {
+        "questionText": "2 types of type conversion.",
+        "answer": "Implicit (Automatic), Explicit (Manual Casting)"
+      }
+    ]
+  }
+]
