@@ -1,0 +1,373 @@
+[
+  {
+    "name": "ITPS307 Midterm Topic 1 - Database",
+    "questions": [
+      {
+        "questionText": "An organized collection of structured information, or data, typically stored electronically in a computer system.",
+        "answer": "Database"
+      },
+      {
+        "questionText": "Serves as an interface between the database and its end-users or program.",
+        "answer": "Database Management System"
+      },
+      {
+        "questionText": "A set of one or more computer programs that serves as an intermediary between the user and the DBMS.",
+        "answer": "Database Application"
+      },
+      {
+        "questionText": "They are the ones who interact with the system by using predefined user interfaces.",
+        "answer": "Users"
+      },
+      {
+        "questionText": "Types of users. (3 items).",
+        "answer": "Naive Users, Application Programmers, Sophisticated Users"
+      },
+      {
+        "questionText": "Involves database design with construction on how the databases will operate and function within existing structures and location.",
+        "answer": "Database System Architecture"
+      },
+      {
+        "questionText": "Two types of Database System Architecture.",
+        "answer": "Centralized Database System, Distributed Database System"
+      },
+      {
+        "questionText": "Data that are stored in relational databases.",
+        "answer": "Structured Data"
+      },
+      {
+        "questionText": "Exist in its original (raw) state that can come in all shape and sizes.",
+        "answer": "Unstructured Data"
+      },
+      {
+        "questionText": "Contains semantic tags and no pre-defined schema.",
+        "answer": "Semi-Structured Data"
+      },
+      {
+        "questionText": "Types of structures of data in DBMS. (3 Items).",
+        "answer": "Structured Data, Unstructured Data, Semi-Structured Data"
+      },
+      {
+        "questionText": "Benefits of using DBMS to manage data.",
+        "answer": "Data Sharing, Data Privacy and Security, End-User Productivity"
+      },
+      {
+        "questionText": "Users of the database can share the data among themselves.",
+        "answer": "Data Sharing"
+      },
+      {
+        "questionText": "Only authorized users are allowed to access the database.",
+        "answer": "Data Privacy and Security"
+      },
+      {
+        "questionText": "Reduce a great amount of time to search and retrieve the data by a few clicks.",
+        "answer": "End-User Productivity"
+      },
+      {
+        "questionText": "Built on concepts and principles of SQL and NoSQL systems.",
+        "answer": "Newsql"
+      },
+      {
+        "questionText": "A database that stores object rather than data as individual relations.",
+        "answer": "Object-Oriented"
+      },
+      {
+        "questionText": "A type of DBMS that simplifies data sharing between various systems because of its platform-independent nature.",
+        "answer": "XML"
+      },
+      {
+        "questionText": "Developed by Oracle corporation that features declaration of variables, and creating procedures, functions, and triggers.",
+        "answer": "PL-SQL"
+      },
+      {
+        "questionText": "An extension of SQL, that features declration of variables, transaction control, error and exception handling, and row processing to SQL existing function.",
+        "answer": "T-SQL"
+      },
+      {
+        "questionText": "An open-source object-relational database system that uses and extends the SQL language.",
+        "answer": "PostgreSQL"
+      },
+      {
+        "questionText": "Oracle's open-source SQL relational database management system.",
+        "answer": "MySQL"
+      },
+      {
+        "questionText": "A relational database management system contained in a C programming library.",
+        "answer": "SQLite"
+      },
+      {
+        "questionText": "Used to defined a set of SQL statements that execute together.",
+        "answer": "BEGIN/END"
+      },
+      {
+        "questionText": "Used to declare a variable in SQL server. Variable names have to start at '@'.",
+        "answer": "DECLARE"
+      },
+      {
+        "questionText": "Used to assign a values to a variables.",
+        "answer": "SET/SELECT"
+      },
+      {
+        "questionText": "Converts an expression of one data type to another.",
+        "answer": "CAST"
+      },
+      {
+        "questionText": "Allows user to return a pre-defined message or value.",
+        "answer": "PRINT"
+      },
+      {
+        "questionText": "Consist of a try block followed by one or more catch cluases, which specifcy handlers for different exceptions.",
+        "answer": "TRY/CATCH"
+      }
+    ]
+  },
+  {
+    "name": "ITPS307 Midterm Topic 2 - Advanced Database",
+    "questions": [
+      {
+        "questionText": "Used to specify a temporary named result set.",
+        "answer": "Common Table Expression"
+      },
+      {
+        "questionText": "It can be defined using the WITH operator.",
+        "answer": "Common Table Expression"
+      },
+      {
+        "questionText": "2 Types of Common Table Expression.",
+        "answer": "Non-Recursive, Recursive"
+      },
+      {
+        "questionText": "A type of CTE that is easier to understand as it doesn't use procedural loops.",
+        "answer": "Non-Recursive"
+      },
+      {
+        "questionText": "A type of CTE that is useful when working with hierarchical data.",
+        "answer": "Recursive"
+      },
+      {
+        "questionText": "A query inside another query.",
+        "answer": "Subquery"
+      },
+      {
+        "questionText": "This clause work as part of the row selection process. This type of subqueries is also called nested subqueries.",
+        "answer": "WHERE"
+      },
+      {
+        "questionText": "Subqueries in this clause will return a temporary table. These subqueries are useful in data warehousing application.",
+        "answer": "FROM"
+      },
+      {
+        "questionText": "Subqueries in this operator allows user to match one item from any of those in the list of subqueries.",
+        "answer": "IN"
+      },
+      {
+        "questionText": "Used to select data from a table referenced in the outer query.",
+        "answer": "CORRELATED"
+      },
+      {
+        "questionText": "Returns true if any of the subquery values satisfy the condition.",
+        "answer": "ANY"
+      },
+      {
+        "questionText": "Returns true if all of the subquery values meet the condition.",
+        "answer": "ALL"
+      },
+      {
+        "questionText": "It is constructed from other tables or views. Cannot include ORDER BY clause and a reference to a temporary table.",
+        "answer": "VIEW"
+      },
+      {
+        "questionText": "This operator is used to check whether a subquery procedure any rows or query results.",
+        "answer": "EXISTS"
+      },
+      {
+        "questionText": "Used to speed up searches / queries resulting in high performance.",
+        "answer": "INDEX"
+      },
+      {
+        "questionText": "An index based on two or mroe columns of a table.",
+        "answer": "Composite"
+      }
+    ]
+  },
+  {
+    "name": "ITPS307 Midterm Topic 3 - Transaction and Concurrency Control",
+    "questions": [
+      {
+        "questionText": "A collection of operations that form a single logical unit of work.",
+        "answer": "Transaction"
+      },
+      {
+        "questionText": "The equivalent of single SQL statement in an application program or transaction.",
+        "answer": "Database Request"
+      },
+      {
+        "questionText": "A state that satisfies the constraints specified the schema.",
+        "answer": "Database Consistent State"
+      },
+      {
+        "questionText": "A record that keeps track of all transactions that update the database.",
+        "answer": "Transaction Log"
+      },
+      {
+        "questionText": "4 properties of transaction.",
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+      },
+      {
+        "questionText": "To maintain the integrity of a database, all transactions must obey ACID properties.",
+        "answer": "Transaction Properties"
+      },
+      {
+        "questionText": "Requires that all operations (SQL requests) should be completed.",
+        "answer": "Atomicity"
+      },
+      {
+        "questionText": "It ensures that only valid data following all rules and constraints will be written in the database.",
+        "answer": "Consistency"
+      },
+      {
+        "questionText": "Means that the data used during the execution of a current transaction cannot be used by another transaction.",
+        "answer": "Isolation"
+      },
+      {
+        "questionText": "Ensures that data once transaction changes are done and committed, they cannot be undone or lost.",
+        "answer": "Durability"
+      },
+      {
+        "questionText": "This marks the beginning of transaction execution.",
+        "answer": "BEGIN TRANSACTION"
+      },
+      {
+        "questionText": "This signals a successful end of the transaction.",
+        "answer": "COMMIT"
+      },
+      {
+        "questionText": "This signals that the transaction has ended unsuccessfully.",
+        "answer": "ROLLBACK"
+      },
+      {
+        "questionText": "Is a point in a transaction when you can roll the transaction back to a certain point.",
+        "answer": "SAVE TRANSACTION"
+      },
+      {
+        "questionText": "Returns the number of BEGIN TRANSACTION statements.",
+        "answer": "TRANCOUNT"
+      },
+      {
+        "questionText": "In this state, a transaction stays in this state to perform READ and WRITE operations.",
+        "answer": "ACTIVE STATE"
+      },
+      {
+        "questionText": "Where the final statement in queries, has been executed.",
+        "answer": "PARTIALLY COMMITTED STATE"
+      },
+      {
+        "questionText": "After all the operation has completed.",
+        "answer": "COMMITTED STATE"
+      },
+      {
+        "questionText": "If one of the operations cannot be done or proceed.",
+        "answer": "FAILED STATE"
+      },
+      {
+        "questionText": "Corresponds to the transaction leaving the system and if it is either committed or aborted.",
+        "answer": "TERMINATED"
+      },
+      {
+        "questionText": "SQL transaction commands.",
+        "answer": "BEGIN TRANSACTION, COMMIT, ROLLBACK TRANSACTION, SAVE TRANSACTION, TRANCOUNT"
+      },
+      {
+        "questionText": "It is needed when several transactions execute simultaneously in the database.",
+        "answer": "CONCURRENCY CONTROL"
+      },
+      {
+        "questionText": "Occurs when transaction 1 and 2 are updating the same data element and one of the updates are lost.",
+        "answer": "LOST UPDATE"
+      },
+      {
+        "questionText": "Occurs when two transactions. T1 and T2, are executed currently, and the first transaction (T1) is rolled back after the second transaction (T2) has already accessed the uncommitted data.",
+        "answer": "UNCOMMITTED DATA"
+      },
+      {
+        "questionText": "Occur when a transaction accesses data before and after one or more other transactions finish working with the same data.",
+        "answer": "INCONSISTENT RETRIEVALS"
+      },
+      {
+        "questionText": "It guarantees exclusive use of data item that is currently used by transaction T1.",
+        "answer": "LOCK"
+      },
+      {
+        "questionText": "Prevents access to any row by transaction T2 while transaction T1 is using the table.",
+        "answer": "DATABASE-LEVEL LOCK"
+      },
+      {
+        "questionText": "Allows concurrent transactions to access different rows of the same table even when the rows are located on the same page.",
+        "answer": "ROW-LEVEL LOCK"
+      },
+      {
+        "questionText": "Prevents access to any row by transaction while transaction is using the table.",
+        "answer": "TABLE-LEVEL LOCK"
+      },
+      {
+        "questionText": "Has only two states: locked or unlocked. If an object such as a database, table, or row is locked by a transaction, no other transaction can use that object.",
+        "answer": "BINARY LOCK"
+      },
+      {
+        "questionText": "This lock exists when access is reserved specifically for the transaction that locked the object. This other lock exists when a transaction wants to read data from the database, and no exclusive lock has held that data item.",
+        "answer": "SHARED / EXCLUSIVE LOCK"
+      },
+      {
+        "questionText": "It occurs when two transactions wait indefinitely for each other to unlock data.",
+        "answer": "DEADLOCK"
+      },
+      {
+        "questionText": "A transaction requesting a new lock is aborted when there is the possibility that a deadlock can occur.",
+        "answer": "DEADLOCK PREVENTION"
+      },
+      {
+        "questionText": "The DBMS periodically tests the database for deadlocks.",
+        "answer": "DEADLOCK DETECTION"
+      },
+      {
+        "questionText": "The transaction must obtain all the locks it needs before it can be executed.",
+        "answer": "DEADLOCK AVOIDANCE"
+      },
+      {
+        "questionText": "Issues may occur when many people/users read and write the same data. This common issue can be identified as Read Phenomena.",
+        "answer": "TRANSACTIONAL ISOLATION LEVEL"
+      },
+      {
+        "questionText": "Transaction levels are described by the type of '_____' that a transaction allows or not.",
+        "answer": "Reads"
+      },
+      {
+        "questionText": "A transaction can read data that is not committed yet.",
+        "answer": "DIRTY READ"
+      },
+      {
+        "questionText": "A transaction reads a data twice and yields a different result from each read is a non-repeatable read. The original data may have been updated or deleted by another transaction.",
+        "answer": "NON-REPEATABLE READ"
+      },
+      {
+        "questionText": "A transaction executes a query at a time, and when then it runs the same query at the time, yielding additional rows that satisfy the query.",
+        "answer": "PHANTOM READ"
+      },
+      {
+        "questionText": "Can read modified data values that have not yet been committed by other transactions; these are called 'dirty reads'.",
+        "answer": "READ UNCOMMITTED"
+      },
+      {
+        "questionText": "Prevents dirty reads by specifying that statements cannot read data values that have been modified but not yet been committed by other transactions.",
+        "answer": "READ COMMITTED"
+      },
+      {
+        "questionText": "Ensures that no other transaction can modify or delete data has been read by the current transactions until the current transaction commits.",
+        "answer": "REPEATABLE READ"
+      },
+      {
+        "questionText": "Ensures that the data that one transaction has read, will be prevented from being updated or delete by any other transaction.",
+        "answer": "SERIALIZABLE"
+      }
+    ]
+  }
+]
