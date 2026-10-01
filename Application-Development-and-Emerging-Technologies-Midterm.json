@@ -1,0 +1,596 @@
+[
+  {
+    "name": "ITCS306 Midterm Topic 6 - Software Development Lifecycle",
+    "questions": [
+      {
+        "questionText": "A structured process, a methodology, that is used to design, develop, and test good-quality software.",
+        "answer": "SDLC"
+      },
+      {
+        "questionText": "The goal of SDLC model is to deliver high-quality ___________ __________ that meets the user's requirements.",
+        "answer": "Maintainable Software"
+      },
+      {
+        "questionText": "Phases of SDLCs.",
+        "answer": "Planning and Requirement Analysis, Defining Requirements, Design, Development, Testing, Deployment and Maintenance"
+      },
+      {
+        "questionText": "SDLC phase which is a crucial step in everything, just as in software development. In this same stage, requirement analysis is performed by the developers of the organization. This is attained from customer inputs, and sales department/market surveys.",
+        "answer": "Planning and Requirement Analysis"
+      },
+      {
+        "questionText": "SDLC phase in which all the requirements for the target software are specified. These requirements get approval from customers, market analysts, and stakeholders.",
+        "answer": "Defining Requirements"
+      },
+      {
+        "questionText": "Defining requirements this is fulfilled by utilizing ________________ ______________ ________________. This is a sort of document that specifies all those things that need to be defined and created during the entire project cycle.",
+        "answer": "Software Requirement Specification"
+      },
+      {
+        "questionText": "SDLC phase where SRS is a reference for software designers to come up with the best architecture for the software. Hence, with the requirements defined in SRS, multiple designs for the product architecture are present in the Design Document Specification (DDS).",
+        "answer": "Designing Architecture"
+      },
+      {
+        "questionText": "Designing architecture where SRS is a reference for software designers to come up with the best architecture for the software. Hence, with the requirements defined in SRS, multiple designs for the product architecture are present in the _________ ________________ ____________.",
+        "answer": "Design Document Specification"
+      },
+      {
+        "questionText": "SDLC phase where at this stage, the fundamental development of the product starts. For this, developers use a specific programming language or technology stack.",
+        "answer": "Development"
+      },
+      {
+        "questionText": "SDLC phase where after the development of the product, testing of the software is necessary to ensure its smooth execution.",
+        "answer": "Product Testing and Integration"
+      },
+      {
+        "questionText": "Software documentation is an essential part of the software development life cycle. A well-written documentation acts as a tool and means to information repository necessary to know about software processes, functions, and maintenance. Documentation also provides information about how to use the product.",
+        "answer": "Documentation, Training, and Support"
+      },
+      {
+        "questionText": "SDLC phase where after detailed testing, the conclusive product is released in phases as per the organization's strategy. If it performs well, the organization sends out the product as a whole.",
+        "answer": "Deployment and Maintenance"
+      },
+      {
+        "questionText": "Category of SDLC.",
+        "answer": "Linear, Flexible"
+      },
+      {
+        "questionText": "SDLC model is ideal for projects like software development, where the end result is clearly established before starting, and is best suited for projects that require a lot of predictability.",
+        "answer": "Waterfall Methodology"
+      },
+      {
+        "questionText": "SDLC model that was established in 1970 by Winston w. Royce.",
+        "answer": "Waterfall Methodology"
+      },
+      {
+        "questionText": "Waterfall methodology was established in _____ by ______________________________.",
+        "answer": "1970, Winston W. Royce"
+      },
+      {
+        "questionText": "SDLC model where the process executes sequentially in a V-Shape. It is also known as the Verification and Validation model. It is based on the association of a testing phase for each corresponding development stage.",
+        "answer": "V-Model"
+      },
+      {
+        "questionText": "SDLC model where the next phase starts only after completion of the previous phase i.e. for each development activity, there is a testing activity corresponding to it.",
+        "answer": "V-Model"
+      },
+      {
+        "questionText": "SDLC model best for projects where testing is critical, such as those requiring high reliability and safety compliance. When failure could lead to sever consequences or projects need strict compliance with regulations (e.g., FDA, FAA).",
+        "answer": "V-Model"
+      },
+      {
+        "questionText": "SDLC model that starts from nothing. It is the simplest model in SDLC as it requires almost no planning. However, it requires lots of funds and coding and takes more time.",
+        "answer": "Big Bang Model"
+      },
+      {
+        "questionText": "SDLC model where the product is gradually built as the requirements from the customer come, however, the end product might not meet the actual requirements.",
+        "answer": "Big Bang Model"
+      },
+      {
+        "questionText": "SDLC model best for small experimental projects with minimal planning.",
+        "answer": "Big Bang Model"
+      },
+      {
+        "questionText": "SDLC model where a project management framework that breaks projects down into several dynamic phases, commonly known as sprints.",
+        "answer": "Agile Methodology"
+      },
+      {
+        "questionText": "After every sprint, teams reflect and look back to see if there was anything that could be improved so they can adjust their strategy for the next sprint.",
+        "answer": "Agile Methodology"
+      },
+      {
+        "questionText": "SDLC model best for projects with evolving requirements and high customer involvement.",
+        "answer": "Agile Methodology"
+      },
+      {
+        "questionText": "SDLC model best for large projects that require constant feedback and iterative improvements.",
+        "answer": "Agile Methodology"
+      },
+      {
+        "questionText": "SDLC model that emphasizes collaboration and communication between software developers and IT operations, promoting automation and continuous delivery. It's not just a set of practices it is a cultural mindset that seeks to improve collaboration and efficiency across the entire software development lifecycle.",
+        "answer": "DevOps Methodology"
+      },
+      {
+        "questionText": "SDLC model best for projects needing continuous delivery and fast iterations and requires collaboration between development and operations.",
+        "answer": "DevOps Methodology"
+      },
+      {
+        "questionText": "SDLC model where an agile framework used to streamline and optimize the software development process.",
+        "answer": "Lean Development"
+      },
+      {
+        "questionText": "SDLC model where it may also be referred to as the Minimum Viable Product (MVP) strategy as these ways of thinking are very similar since both indents to speed up development by focusing on new deliverables.",
+        "answer": "Lean Development"
+      },
+      {
+        "questionText": "SDLC model best for projects that require rapid delivery with minimal waste.",
+        "answer": "Lean Development"
+      },
+      {
+        "questionText": "SDLC model where in its diagrammatic representation, looks like a spiral with many loops. This is for continuous risk-analysis. The exact number of loops of the sprial is unknown and can vary from project to project.",
+        "answer": "Spiral Model"
+      },
+      {
+        "questionText": "SDLC model where each of loop of the spiral is called a phase of the software development process.",
+        "answer": "Spiral Model"
+      },
+      {
+        "questionText": "SDLC model best for high-risk projects where early risk identification is crucial.",
+        "answer": "Spiral Model"
+      },
+      {
+        "questionText": "SDLC model is an iterative and incremental model that prioritizes quick development and iteration and cycles.",
+        "answer": "Rapid Application Development"
+      },
+      {
+        "questionText": "SDLC model where it places a strong emphasis on user feedback and involvement throughout the development process.",
+        "answer": "Rapid Application Development"
+      },
+      {
+        "questionText": "SDLC model best for with tight deadlines and high user involvement.",
+        "answer": "Rapid Application Development"
+      },
+      {
+        "questionText": "SDLC model where it is an iterative software development process where the product is designed, implemented and tested incrementally ( alittle more is added each time) until the product is finished. Each iteration represents a small part of the overall system and includes both new features and enhancements to existing ones.",
+        "answer": "Incremental Development"
+      }
+    ]
+  },
+  {
+    "name": "ITCS306 Midterm Topic 7 - User Experience Design",
+    "questions": [
+      {
+        "questionText": "The point of interaction between humans and computers.",
+        "answer": "User Interface"
+      },
+      {
+        "questionText": "The process of designing how these interfaces look and behave.",
+        "answer": "User Interface Design"
+      },
+      {
+        "questionText": "The goal of UI design is to make interfaces ________ __________, ________ __ ___________, and ____________.",
+        "answer": "Visually Appealing, Easy to Navigate, Response"
+      },
+      {
+        "questionText": "Refers to the overall experience a user has while interacting with a product, system, or service.",
+        "answer": "User Experience"
+      },
+      {
+        "questionText": "It focuses on how easy, efficient, and satisfying the interaction is. It aims to enhance usability, accessibility, and user satisfaction by ensuring a smooth and intuitive experience.",
+        "answer": "User Experience"
+      },
+      {
+        "questionText": "A good __ makes an interface functional, user-friendly, and enjoyable, reducing frustration and improving overall engagement.",
+        "answer": "UI"
+      },
+      {
+        "questionText": "UI is a subset of __.",
+        "answer": "UX"
+      },
+      {
+        "questionText": "Key Aspects of UX.",
+        "answer": "Usability, Accessibility, Navigation, Interaction Design, User Research"
+      },
+      {
+        "questionText": "Key aspect of UX that refers to how easy and efficient it is for users to complete tasks.",
+        "answer": "Usability"
+      },
+      {
+        "questionText": "Key aspect of UX where it ensures the product is usable by people of all abilities.",
+        "answer": "Accessbility"
+      },
+      {
+        "questionText": "Key aspect of UX where it is creating a logical and intuitive pathways for users.",
+        "answer": "Navigation"
+      },
+      {
+        "questionText": "Key aspect of UX where it enhances engagement through well-placed buttons, menus, and feedback.",
+        "answer": "Interaction Design"
+      },
+      {
+        "questionText": "Key aspect of UX where it understands what the user needs, behaviors, and pain points to improve the design.",
+        "answer": "User Research"
+      },
+      {
+        "questionText": "Elements of UX design.",
+        "answer": "Strategy, Scope, Structure, Skeleton, Surface"
+      },
+      {
+        "questionText": "Elements of UX design where this is the foundation of UX design, focusing on understanding both the user's needs and the business objectives. It ensures that the design aligns with what users expect while also meeting organizational goals.",
+        "answer": "Strategy"
+      },
+      {
+        "questionText": "As the most abstract and least constrained part of the project, this is where decisions should be made about what objectives the product should be designed to meet.",
+        "answer": "Strategy"
+      },
+      {
+        "questionText": "Elements of UX design where this element defines what the product will include in terms of features and content. It sets clear expectations for functionality and information, ensuring that the product delivers what users need in a structured way.",
+        "answer": "Scope"
+      },
+      {
+        "questionText": "After deciding on the strategy, the scope of the product can be determined and layout in detail.",
+        "answer": "Scope"
+      },
+      {
+        "questionText": "Elements of UX design where this determines how the system is organized, guiding how users interact with it. It involves planning navigation, structuring information, and designing interactions to create a seamless logical experience.",
+        "answer": "Structure"
+      },
+      {
+        "questionText": "Structure involves two key aspects.",
+        "answer": "Interaction Design, Information Architecture"
+      },
+      {
+        "questionText": "Elements of UX design where this focuses on the layout and arrangement of elements to optimize usability. It ensures that users can easily navigate the interface, access important information, and interact smoothly with the system.",
+        "answer": "Skeleton"
+      },
+      {
+        "questionText": "Elements of UX design where the final layer of UX design, this deals with the visual aspects of the product. It includes colors, typography, and overall aesthetics, ensuring that the design is not only visually appealing but also enhances products.",
+        "answer": "Surface"
+      },
+      {
+        "questionText": "Principles of UX design.",
+        "answer": "User-Centricity, Consistency, Hierarchy"
+      },
+      {
+        "questionText": "Principle of UX design where it is putting the user's needs first.",
+        "answer": "User-Centricity"
+      },
+      {
+        "questionText": "It means to create products and services that solve user problems. It also means making decisions based on what you know about them and what they want.",
+        "answer": "User-Centricity"
+      },
+      {
+        "questionText": "Principle of UX design where it maintains uniform design process patterns, typography, colors, and layouts.",
+        "answer": "Consistency"
+      },
+      {
+        "questionText": "Consistency includes?",
+        "answer": "Visual and Functional Consistency, Adhere to Standards, Meeting User Expectations"
+      },
+      {
+        "questionText": "Design elements like buttons, links, and tone should remain uniform across an app, website, or platform.",
+        "answer": "Visual and Functional Consistency"
+      },
+      {
+        "questionText": "Icons, layouts, and interactions should follow consistent styles, improving usability.",
+        "answer": "Adhere to Standards"
+      },
+      {
+        "questionText": "Users expect familiar patterns based on similar products. Aligning with these expectations reduces the learning curve and enhances usability.",
+        "answer": "Meeting User Expectations"
+      },
+      {
+        "questionText": "Principle of UX design where it prioritizes important content and actions",
+        "answer": "Hierarchy"
+      },
+      {
+        "questionText": "The third of the UX principles, an important UX principle as it shapes how the user navigates a product, and how easy or complicated the process is.",
+        "answer": "Hierarchy"
+      },
+      {
+        "questionText": "It relates to information architecture as well as the visual hierarchy of individual pages and screens.",
+        "answer": "Hierarchy"
+      },
+      {
+        "questionText": "Hierarchy consists of?",
+        "answer": "Information Architecture, Visual Hierarchy"
+      },
+      {
+        "questionText": "When designing a solution to a user problem, you can't design in a vacuum. You need to understand who your users are and the this in which they'll use your product(s). It considers the circumstances in which your product will be used and how certain factors might impact the user experience.",
+        "answer": "Context"
+      },
+      {
+        "questionText": "The overall structure of a website or app, including navigation menu, and how pages are linked together. Important items are placed more prominently, making them easier to access.",
+        "answer": "Information Architecture"
+      },
+      {
+        "questionText": "The arrangement of elements on pa page or screen. Important content is emphasized using size, color, and placement to guide user attention.",
+        "answer": "Visual Hierarchy"
+      },
+      {
+        "questionText": "User control refers to allowing users to initiate, manage, and adjust their interactions with a digital product according to their needs. This includes undo/redo options, navigation freedom, and customizable settings. Another important element of UX design principles centers on giving the user the right amount of control over how they interact with a product.",
+        "answer": "User Control"
+      },
+      {
+        "questionText": "________ ________, co-founder of the Nielsen Norman Group, cites user control and freedom as one of the ten most important usability heuristics for web design. As explained on the NNG website.",
+        "answer": "Jakob Nielsen"
+      },
+      {
+        "questionText": "Users often perform actions by mistake. They need a clearly marked '__________ ____' to leave the unwanted action without having to go through an extended process.",
+        "answer": "Emergency Exit"
+      },
+      {
+        "questionText": "It is about ensuring your product service is accessible to and usable for as many people as possible. It includes understanding how different environments or situational factors might impact the user experience.",
+        "answer": "Accessbility"
+      },
+      {
+        "questionText": "It ensures that digital products are usable by people of all abilities, including those with disabilities. It involves designing interfaces that accommodate _________ _____ by removing barriers and providing alternative ways to interact with a product.",
+        "answer": "Diverse Users"
+      },
+      {
+        "questionText": "A measure of how easy a product is to use.",
+        "answer": "Usability"
+      },
+      {
+        "questionText": "It refers to how easily and efficiently a user can interact with a product to achieve their goals. A highly usable design minimizes frustration, reduces errors, and ensures a smooth, intuitive experience.",
+        "answer": "Usability"
+      },
+      {
+        "questionText": "5 components of Usability.",
+        "answer": "Learnability, Efficiency, Memorability, Errors, Satisfaction"
+      },
+      {
+        "questionText": "Component of usability:\n\nHow easy it is for users to get to grips with your product the first time they use it? Things like consistency and information architecture can enhance the learnability of a product.",
+        "answer": "Learnability"
+      },
+      {
+        "questionText": "Component of usability:\n\nDoes the design of the product allow the user to complete their desired tasks quickly and efficiently.",
+        "answer": "Efficiency"
+      },
+      {
+        "questionText": "Component of usability:\n\nWhen user come back to the product after a while of not using it, is it easy for them to re-familiarize themselves with how it works.",
+        "answer": "Memorability"
+      },
+      {
+        "questionText": "Component of usability:\n\nHow many mistakes do users typically make when using the product and how server are those? Is it easy for users to recover from it? This relates to the principle of user control.",
+        "answer": "Errors"
+      },
+      {
+        "questionText": "Component of usability:\n\nIs it pleasant and enjoyable for users to engage with the product? Does it provide a satisfying user experience, or a frustrating one?",
+        "answer": "Satisfaction"
+      }
+    ]
+  },
+  {
+    "name": "ITCS306 Midterm Topic 5 - Stages of Application Development",
+    "questions": [
+      {
+        "questionText": "The process includes understanding the problem domain, such as the opportunity to be seized or problem to be solved. Requirements can include one or more use cases, which define what the application is going to do and who is going to use it.",
+        "answer": "Gather and Analyze Requirements"
+      },
+      {
+        "questionText": "The requirements document is used to build a project plan, which will include a budget, a timeline, the methodology to be used, and a list of resources, such as the skills needed for the development team. It also details the software development platforms and tools needed and where the application will be deployed.",
+        "answer": "Project Planning"
+      },
+      {
+        "questionText": "This is where big questions, such as the modular flow of the application, are answered. The design takes into account all the above considerations as well as the technical factors needed to provide security, compliance reliability, scalability, and usability.",
+        "answer": "Design and Architecture"
+      },
+      {
+        "questionText": "Now, programmers begin actually writing the software using the chosen methodology used, programming languages, and tools. Depending on the methodology used, coding/development and testing may be done as separate stages or in parallel.",
+        "answer": "Coding and Development"
+      },
+      {
+        "questionText": "Every but of code must be tested to ensure that it functions correctly, meets security requirements, and hits performance goals. Some testing is done on a line-by-line basis on the code; other testing, called user testing, is performed by business users who validate that the application does what they want and helps meet the use case.",
+        "answer": "Testing"
+      },
+      {
+        "questionText": "Once the application is complete, or complete enough to be useful, and passes all the necessary tests it is 'thrown over the wall' from a development environment to a production environment, so that it can be used by customers, employees, and partners.",
+        "answer": "Deployment"
+      },
+      {
+        "questionText": "Most software degrades over time, as bugs and security issues are discovered, platforms change, and increasing use slows performance. The development team or a maintenance group addresses those issues and also handles such concerns as data backups or performance tuning. Maintenance also looks for ways to lower the operating costs of the application.",
+        "answer": "Maintenance"
+      },
+      {
+        "questionText": "At some point, the application may no longer be needed or fit for purpose. In this stage, the data, user accounts, and features need to be carefully migrated to the new system, and then the old application archived in case it needs to be examined in the future.",
+        "answer": "Decommissioning"
+      },
+      {
+        "questionText": "8 stages of Application Development (in chronological order).",
+        "answer": "Gather and Analyze Requirements, Project Planning, Design and Architecture, Coding and Development, Testing, Deployment, Maintenance, Decommissioning"
+      }
+    ]
+  },
+  {
+    "name": "ITCS306 Midterm Topic 4 - Application Development Methodologies",
+    "questions": [
+      {
+        "questionText": "A kind of software that performs specific functions for the end user by interacting directly with it.",
+        "answer": "Application"
+      },
+      {
+        "questionText": "Process of creating a computer program or a set of programs to perform the different tasks that a business requires.",
+        "answer": "Application Development"
+      },
+      {
+        "questionText": "The process of designing, creating, testing, and deploying software. Successful application development requires people with various skills.",
+        "answer": "Application Development"
+      },
+      {
+        "questionText": "Application Development always start with a __________.",
+        "answer": "Problem"
+      },
+      {
+        "questionText": "At its core, application development begins with a __________ to solve or an _____________ to seize. Because all software takes resources to create, deploy, and maintain, there must be a good likelihood that the benefit of the user case will be equal to or greater than the cost.",
+        "answer": "Problem, Opportunity"
+      },
+      {
+        "questionText": "Two ways of Application Development.",
+        "answer": "Planned Development, Iterative Development"
+      },
+      {
+        "questionText": "Ways to develop application where the entire application's requirements are mapped out in advanced and approved by all stakeholders.",
+        "answer": "Planned Development"
+      },
+      {
+        "questionText": "Ways to develop application where the software is then architected, designed, tested, and deployed for use by employees or customers.",
+        "answer": "Planned Development"
+      },
+      {
+        "questionText": "This process can be achingly slow for major projects, taking years to complete, and while that's going on, requirements change and the applications aren't as useful as hoped.",
+        "answer": "Planned Development"
+      },
+      {
+        "questionText": "Ways to develop application where a lightweight version of the software is designed, built, and tested. It's then incrementally improved, with new features and functions added in short bursts, often taking only a few weeks.",
+        "answer": "Iterative Development"
+      },
+      {
+        "questionText": "Ways to develop application where deployments happen frequently.",
+        "answer": "Iterative Development"
+      },
+      {
+        "questionText": "This approach is more flexible and can deliver business benefits more quickly while being responsive to changing requirements.",
+        "answer": "Iterative Development"
+      },
+      {
+        "questionText": "Application development extends beyond programming. While coding with languages like Java, Python, or SQL is essential, the broader process involves ensuring the application meets the organization's business needs, such as boosting sales, improving efficiency, or enhancing employee satisfaction.",
+        "answer": "Key Design Criteria for Application Development"
+      },
+      {
+        "questionText": "Key Design Criteria for Application Development.\n\nThese criteria are primarily the responsibility of the application architect but must be understood and embraced by the entire development team to ensure the application's success.",
+        "answer": "Adaptability, Compliance, Extensibility, Interoperability, Performance, Reliability, Scalability, Security, Strong UX/UI Design"
+      },
+      {
+        "questionText": "The ability to adjust to changing business needs.",
+        "answer": "Adaptability"
+      },
+      {
+        "questionText": "Meeting internal or external legal policy requirements, such as protecting customer privacy.",
+        "answer": "Compliance"
+      },
+      {
+        "questionText": "Allowing new features to be added with minimal redesign.",
+        "answer": "Extensibility"
+      },
+      {
+        "questionText": "Seamlessly sharing data and functionality with other applications.",
+        "answer": "Interoperability"
+      },
+      {
+        "questionText": "Ensuring quick and effective functionality.",
+        "answer": "Performance"
+      },
+      {
+        "questionText": "Preventing data loss or corrpution, even during system crashes.",
+        "answer": "Reliability"
+      },
+      {
+        "questionText": "Handling increased workloads or users without performance issues.",
+        "answer": "Scalability"
+      },
+      {
+        "questionText": "Protecting against vulnerabilities and malicious attacks.",
+        "answer": "Security"
+      },
+      {
+        "questionText": "Creating intuitive interfaces that minimize the need for training.",
+        "answer": "Strong UX/UI Design"
+      },
+      {
+        "questionText": "Types of Application Development.",
+        "answer": "Low-Code/No-Code Development, Mobile Development, Database App Development, Cross-Platform Development"
+      },
+      {
+        "questionText": "Types of application development that allows non-technical users to create applications using visual tools, reducing the need for professional developers. These apps run on the cloud, are accessible via web browsers or mobile devices, and are ideal for quick solutions to business problems.",
+        "answer": "Low-Code/No-Code Development"
+      },
+      {
+        "questionText": "Types of application development where it allows developers to applications that run seamlessly on multiple platforms with a single codebase.",
+        "answer": "Cross-Platform Development"
+      },
+      {
+        "questionText": "The application performs its required functions accurately according to its specifications.",
+        "answer": "Functional Correctness"
+      },
+      {
+        "questionText": "The application provides functions that are suitable and useful for accomplishing the user’s intended tasks.",
+        "answer": "Functional Appropriateness"
+      }
+    ]
+  },
+  {
+    "name": "ITCS306 Midterm Topic 3 - Application Development",
+    "questions": []
+  },
+  {
+    "name": "ITCS306 Midterm Topic 2 - Functions of Applications",
+    "questions": [
+      {
+        "questionText": "Throughout data processing, application software converts raw data into a meaningful format that can be used for analysis and further for decision-making.",
+        "answer": "Data Processing"
+      },
+      {
+        "questionText": "Application software provides interfaces through which users can interact with the system.",
+        "answer": "User Interface"
+      },
+      {
+        "questionText": "It has to store data and retrieve it.",
+        "answer": "Data Storage and Retrieval"
+      },
+      {
+        "questionText": "Function of application that protects computer system.",
+        "answer": "Security"
+      },
+      {
+        "questionText": "These software systems expose APIs, which are sets of rules and protocols that allow different software applications to communicate with each other.",
+        "answer": "Integration"
+      }
+    ]
+  },
+  {
+    "name": "ITCS306 Midterm Topic 1 - Introduction to Applications",
+    "questions": [
+      {
+        "questionText": "A kind of software that performs a specific function for the end user by interacting directly with it. The sole purpose of this is to aid the user in doing specific task.",
+        "answer": "Application Software"
+      },
+      {
+        "questionText": "A software application developed specifically for use on small, wireless computing devices, such as smartphones and tablets, rather than desktop or laptop computers.",
+        "answer": "Mobile Application"
+      },
+      {
+        "questionText": "Software programs run locally on computer devices. Unlike web-based apps, they aren't accessible from a browser and require deployment on a personal computer or laptop. These are often preferred implementation choice for enterprise organizations.",
+        "answer": "Desktop Application"
+      },
+      {
+        "questionText": "Like a special computer program that you can use on the internet without having to download it onto your computer. It can be accessed directly through web browsers, offering a convenient and user-friendly experience without installation.",
+        "answer": "Web Application"
+      },
+      {
+        "questionText": "A collection of related web pages that contains images, text, audio, video, etc... It can be consists of one page, two pages, and number of pages.",
+        "answer": "Website"
+      },
+      {
+        "questionText": "Is the combination of web apps and native apps which needs to be downloaded inside your devices but the programs that are used to build the hybrid application are written in HTML, CSS, and JavaScript.",
+        "answer": "Hybrid Application"
+      },
+      {
+        "questionText": "The face of a web application, where users interact and engage. It is the bridge between the user and the application's inner workings.",
+        "answer": "Frontend"
+      },
+      {
+        "questionText": "Behind the scenes, it is the engine that powers a web application. It's the realm of servers, business logic, and data processing.",
+        "answer": "Backend"
+      },
+      {
+        "questionText": "In essence, it is the brain of the operation, making decisions and handling the heavy lifting so the frontend can shine.",
+        "answer": "Backend"
+      },
+      {
+        "questionText": "Is the repository of truth, where data finds its home.",
+        "answer": "Database Layer"
+      }
+    ]
+  }
+]
